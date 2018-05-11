@@ -186,4 +186,6 @@ BRD_RST
 Wire Wire Line
 	1800 3260 1800 3360
 Connection ~ 1800 3360
+Text Notes 750  4130 0    99   ~ 20
+Reset-Switch
 $EndSCHEMATC
