@@ -1,4 +1,4 @@
-update=Sa 12 Mai 2018 17:23:52 CEST
+update=Sat 12 May 2018 05:35:30 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../../freeDSP/freeDSP-smd_aio/LIBRARY/Symbol
+LibDir=../LIBRARY
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,14 +58,14 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=fdsp_amplifier
-LibName31=fdsp_connector
-LibName32=fdsp_converter
-LibName33=fdsp_device
-LibName34=fdsp_digital
-LibName35=fdsp_dsp
-LibName36=fdsp_mechanical
-LibName37=fdsp_pinhead
-LibName38=fdsp_power
-LibName39=fdsp_regulator
-LibName40=fdsp_transistor
+LibName30=Symbol/fdsp_amplifier
+LibName31=Symbol/fdsp_connector
+LibName32=Symbol/fdsp_converter
+LibName33=Symbol/fdsp_device
+LibName34=Symbol/fdsp_digital
+LibName35=Symbol/fdsp_dsp
+LibName36=Symbol/fdsp_mechanical
+LibName37=Symbol/fdsp_pinhead
+LibName38=Symbol/fdsp_power
+LibName39=Symbol/fdsp_regulator
+LibName40=Symbol/fdsp_transistor
