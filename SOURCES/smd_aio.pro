@@ -1,4 +1,4 @@
-update=Fri 11 May 2018 12:04:57 PM CEST
+update=Sa 12 Mai 2018 17:23:52 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=freeDSP-KiCadLibrary;/home/tdr/freedsp/SMD-AIO/freeDSP-KiCadLibrary
+LibDir=../../../../../freeDSP/freeDSP-smd_aio/LIBRARY/Symbol
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,16 +58,14 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=freeDSP-KiCadLibrary/Symbol/fdsp_amplifier
-LibName31=freeDSP-KiCadLibrary/Symbol/fdsp_connector
-LibName32=freeDSP-KiCadLibrary/Symbol/fdsp_converter
-LibName33=freeDSP-KiCadLibrary/Symbol/fdsp_device
-LibName34=freeDSP-KiCadLibrary/Symbol/fdsp_digital
-LibName35=freeDSP-KiCadLibrary/Symbol/fdsp_dsp
-LibName36=freeDSP-KiCadLibrary/Symbol/fdsp_mechanical
-LibName37=freeDSP-KiCadLibrary/Symbol/fdsp_pinhead
-LibName38=freeDSP-KiCadLibrary/Symbol/fdsp_power
-LibName39=freeDSP-KiCadLibrary/Symbol/fdsp_regulator
-LibName40=freeDSP-KiCadLibrary/Symbol/fdsp_transistor
-[general]
-version=1
+LibName30=fdsp_amplifier
+LibName31=fdsp_connector
+LibName32=fdsp_converter
+LibName33=fdsp_device
+LibName34=fdsp_digital
+LibName35=fdsp_dsp
+LibName36=fdsp_mechanical
+LibName37=fdsp_pinhead
+LibName38=fdsp_power
+LibName39=fdsp_regulator
+LibName40=fdsp_transistor
