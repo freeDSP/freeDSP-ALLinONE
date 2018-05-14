@@ -1,4 +1,4 @@
-update=Mon 14 May 2018 04:13:38 PM CEST
+update=Mon 14 May 2018 08:26:48 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../LIBRARY
@@ -40,3 +38,8 @@ LibName8=Symbol/fdsp_pinhead
 LibName9=Symbol/fdsp_power
 LibName10=Symbol/fdsp_regulator
 LibName11=Symbol/fdsp_transistor
+LibName12=Library_AMPx2/MyLibrary
+LibName13=Library_AMPx2/Polarized_Cap
+LibName14=Library_AMPx2/tas5760mdcar
+[general]
+version=1

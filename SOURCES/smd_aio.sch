@@ -10,12 +10,15 @@ LIBS:fdsp_pinhead
 LIBS:fdsp_power
 LIBS:fdsp_regulator
 LIBS:fdsp_transistor
+LIBS:MyLibrary
+LIBS:Polarized_Cap
+LIBS:tas5760mdcar
 LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -97,7 +100,7 @@ U 1 1 5AF5894F
 P 1440 4400
 F 0 "C1" H 1465 4500 50  0000 L CNN
 F 1 "100n" H 1465 4300 50  0000 L CNN
-F 2 "" H 1478 4250 50  0001 C CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 1478 4250 50  0001 C CNN
 F 3 "" H 1440 4400 50  0001 C CNN
 	1    1440 4400
 	1    0    0    -1  
@@ -1354,4 +1357,10 @@ Wire Wire Line
 	6420 7060 6530 7060
 Wire Wire Line
 	6530 7060 6530 7100
+$Sheet
+S 11020 1810 1870 1660
+U 5AF9FF80
+F0 "AMPx2" 60
+F1 "I2S-Amp.sch" 60
+$EndSheet
 $EndSCHEMATC
