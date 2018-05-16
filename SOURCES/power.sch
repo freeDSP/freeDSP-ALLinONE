@@ -18,7 +18,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -28,4 +28,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L +12V #PWR?
+U 1 1 5AFC3129
+P 4110 2290
+F 0 "#PWR?" H 4110 2140 50  0001 C CNN
+F 1 "+12V" H 4110 2430 50  0000 C CNN
+F 2 "" H 4110 2290 60  0000 C CNN
+F 3 "" H 4110 2290 60  0000 C CNN
+	1    4110 2290
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
