@@ -18,7 +18,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -1360,8 +1360,8 @@ Wire Wire Line
 $Sheet
 S 9380 1320 1880 1600
 U 5AF9FF80
-F0 "AMPx2" 60
-F1 "I2S-Amp.sch" 60
+F0 "AMPx2_1" 60
+F1 "I2S-Amp1.sch" 60
 $EndSheet
 $Sheet
 S 11570 1320 1870 1600
@@ -1386,5 +1386,11 @@ S 11560 3440 1880 1670
 U 5AFACF57
 F0 "Clock" 60
 F1 "clock.sch" 60
+$EndSheet
+$Sheet
+S 13760 3440 1830 1670
+U 5B04B659
+F0 "AMPx2_2" 44
+F1 "I2S-Amp2.sch" 44
 $EndSheet
 $EndSCHEMATC

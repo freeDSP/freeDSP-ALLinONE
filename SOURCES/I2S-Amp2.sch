@@ -18,7 +18,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -712,18 +712,6 @@ F 3 "" H 3150 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X08 P1
-U 1 1 5752C822
-P 4650 4450
-F 0 "P1" H 4650 4900 50  0000 C CNN
-F 1 "CONN_02X08" V 4650 4450 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_16pins" H 4650 3250 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/445/6120xx21621-265830.pdf" H 4650 3250 50  0001 C CNN
-F 4 "61201621621" H 4650 4450 60  0001 C CNN "Mfr.Nr."
-	1    4650 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R6
 U 1 1 5752F884
 P 5000 5950
@@ -757,17 +745,6 @@ F 2 "Resistors_SMD:R_0603" V 1780 2850 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdfhttp://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 1850 2850 50  0001 C CNN
 F 4 "CRCW0603100KFKEA" V 1850 2850 60  0001 C CNN "Mfr.Nr."
 	1    1850 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR030
-U 1 1 575366A3
-P 4950 4900
-F 0 "#PWR030" H 4950 4650 50  0001 C CNN
-F 1 "GND" H 4950 4750 50  0000 C CNN
-F 2 "" H 4950 4900 50  0000 C CNN
-F 3 "" H 4950 4900 50  0000 C CNN
-	1    4950 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1057,39 +1034,6 @@ Wire Wire Line
 Wire Wire Line
 	10600 3650 10600 3450
 Wire Wire Line
-	4050 4800 4400 4800
-Wire Wire Line
-	4150 4400 4400 4400
-Wire Wire Line
-	4250 4300 4400 4300
-Wire Wire Line
-	4350 4500 4400 4500
-Wire Wire Line
-	4900 4100 4950 4100
-Wire Wire Line
-	4950 4100 4950 4900
-Wire Wire Line
-	4900 4200 4950 4200
-Connection ~ 4950 4200
-Wire Wire Line
-	4900 4300 4950 4300
-Connection ~ 4950 4300
-Wire Wire Line
-	4900 4400 4950 4400
-Connection ~ 4950 4400
-Wire Wire Line
-	4900 4500 4950 4500
-Connection ~ 4950 4500
-Wire Wire Line
-	4900 4600 4950 4600
-Connection ~ 4950 4600
-Wire Wire Line
-	4900 4700 4950 4700
-Connection ~ 4950 4700
-Wire Wire Line
-	4900 4800 4950 4800
-Connection ~ 4950 4800
-Wire Wire Line
 	4450 5320 4450 5700
 Connection ~ 7600 1800
 Connection ~ 7050 1800
@@ -1209,14 +1153,6 @@ Wire Wire Line
 	4250 3300 4250 3550
 Wire Wire Line
 	4350 3400 4350 3550
-Wire Wire Line
-	4350 3950 4350 4500
-Wire Wire Line
-	4250 3950 4250 4300
-Wire Wire Line
-	4150 3950 4150 4400
-Wire Wire Line
-	4050 3950 4050 4800
 $Comp
 L FILTER FB1
 U 1 1 575C732E
@@ -1386,4 +1322,42 @@ F 3 "" H 4450 5320 60  0000 C CNN
 	1    4450 5320
 	1    0    0    -1  
 $EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5B04DB98
+P 3350 2550
+F 0 "#PWR?" H 3350 2400 50  0001 C CNN
+F 1 "+3V3" H 3350 2690 50  0000 C CNN
+F 2 "" H 3350 2550 60  0000 C CNN
+F 3 "" H 3350 2550 60  0000 C CNN
+	1    3350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5B0433C1
+P 3750 2600
+F 0 "#PWR?" H 3750 2450 50  0001 C CNN
+F 1 "+3V3" H 3750 2740 50  0000 C CNN
+F 2 "" H 3750 2600 60  0000 C CNN
+F 3 "" H 3750 2600 60  0000 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 4030 3    44   Input ~ 0
+MP10
+Text GLabel 4250 4030 3    44   Input ~ 0
+MP7
+Text GLabel 4150 4030 3    44   Input ~ 0
+MP11
+Text GLabel 4050 4030 3    44   Input ~ 0
+MCLK2
+Wire Wire Line
+	4050 4030 4050 3950
+Wire Wire Line
+	4150 3950 4150 4030
+Wire Wire Line
+	4250 3950 4250 4030
+Wire Wire Line
+	4350 3950 4350 4030
 $EndSCHEMATC
