@@ -13,6 +13,8 @@ LIBS:fdsp_transistor
 LIBS:MyLibrary
 LIBS:Polarized_Cap
 LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
 LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
@@ -414,11 +416,11 @@ $EndComp
 Text GLabel 5300 3270 2    51   Output ~ 0
 VOUT3
 Text GLabel 5300 3370 2    51   Output ~ 0
-VOUT3
+VOUT2
 Text GLabel 5300 3470 2    51   Output ~ 0
-VOUT3
+VOUT1
 Text GLabel 5300 3570 2    51   Output ~ 0
-VOUT3
+VOUT0
 $Comp
 L C C12
 U 1 1 5AF643A3
@@ -488,7 +490,7 @@ $EndComp
 Text GLabel 5270 3970 2    55   Input ~ 0
 ADC0
 Text GLabel 5270 4070 2    55   Input ~ 0
-ADC0
+ADC1
 $Comp
 L R R8
 U 1 1 5AF66F49
@@ -1469,4 +1471,35 @@ Connection ~ 8410 5880
 Connection ~ 8410 5980
 Text Notes 7520 4970 0    80   ~ 16
 Extension Header
+Text Notes 8690 7070 0    76   ~ 15
+Analog Out
+Text GLabel 8940 7260 0    51   Input ~ 0
+VOUT0
+Text GLabel 8940 7460 0    51   Input ~ 0
+VOUT2
+Text GLabel 8940 7360 0    51   Input ~ 0
+VOUT1
+Text GLabel 8940 7560 0    51   Input ~ 0
+VOUT3
+Text GLabel 8370 7740 0    55   Input ~ 0
+ADC1
+$Comp
+L CONN_01X04 P5
+U 1 1 5B050B23
+P 9180 7410
+F 0 "P5" H 9180 7660 50  0000 C CNN
+F 1 "CONN_01X04" V 9280 7410 50  0000 C CNN
+F 2 "fdsp_pinheader:Pin_Header_Angled_1x04" H 9180 7410 60  0001 C CNN
+F 3 "" H 9180 7410 60  0000 C CNN
+	1    9180 7410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8940 7260 8980 7260
+Wire Wire Line
+	8940 7360 8980 7360
+Wire Wire Line
+	8940 7460 8980 7460
+Wire Wire Line
+	8940 7560 8980 7560
 $EndSCHEMATC

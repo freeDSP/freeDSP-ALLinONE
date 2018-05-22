@@ -13,6 +13,8 @@ LIBS:fdsp_transistor
 LIBS:MyLibrary
 LIBS:Polarized_Cap
 LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
 LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
