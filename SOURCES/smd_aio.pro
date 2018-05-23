@@ -1,4 +1,4 @@
-update=Tue 22 May 2018 10:08:21 PM CEST
+update=Wed 23 May 2018 07:46:24 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -45,3 +45,9 @@ LibName13=Library_AMPx2/Polarized_Cap
 LibName14=Library_AMPx2/tas5760mdcar
 LibName15=Library_SPDIF/CS8422-CNZ/KiCAD/KiCAD/symbols-CS8422-CNZ
 LibName16=Library_SPDIF/CS8406-CZZ/KiCAD/KiCAD/symbols_CS8406-CZZ
+LibName17=Library_clock/smd_aio-lib
+LibName18=Library_smdb_new/lib/Symbol/fdsp_device_new
+LibName19=Library_smdb_new/lib/Symbol/fdsp_digital_new
+LibName20=Library_smdb_new/lib/Symbol/fdsp_linear_new
+LibName21=Library_smdb_new/lib/Symbol/fdsp_oscillator_new
+LibName22=Library_smdb_new/lib/Symbol/fdsp_transistor_new

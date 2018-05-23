@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAS40-00
+D Schottky Diode
+$ENDCMP
+#
+$CMP IDT2305-1
+D Zero Delay Clock Buffer
+$ENDCMP
+#
+$CMP IDT2305NZ
+D Zero Delay Clock Buffer
+$ENDCMP
+#
+#End Doc Library

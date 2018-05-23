@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSH103,215
+D Nexperia MOSFET N-CH 30V 0.85A, SOT-23
+K N-Channel MOSFET Logic Level
+F http://assets.nexperia.com/documents/data-sheet/BSH103.pdf
+$ENDCMP
+#
+$CMP MMBF5434
+D 30V Vgs, 0.01A Id, N-Cannel FET Transistor, SOT-23
+K N-Channel FET Transistor Low Voltage
+F http://www.mouser.com/ds/2/149/MMBF5434-889720.pdf
+$ENDCMP
+#
+#End Doc Library

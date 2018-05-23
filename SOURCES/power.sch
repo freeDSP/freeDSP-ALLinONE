@@ -15,6 +15,12 @@ LIBS:Polarized_Cap
 LIBS:tas5760mdcar
 LIBS:symbols-CS8422-CNZ
 LIBS:symbols_CS8406-CZZ
+LIBS:smd_aio-lib
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_transistor_new
 LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END

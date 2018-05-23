@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AC14
+D Hex Inverter schmitt trigger
+K HCTMOS not inv schmitt trigger
+$ENDCMP
+#
+$CMP SN74LVC3G14
+D Triple Schmitt Inverter
+F http://www.ti.com/lit/ds/symlink/sn74lvc3g14.pdf
+$ENDCMP
+#
+#End Doc Library
