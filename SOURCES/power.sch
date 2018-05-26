@@ -21,6 +21,7 @@ LIBS:fdsp_digital_new
 LIBS:fdsp_linear_new
 LIBS:fdsp_oscillator_new
 LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
@@ -37,14 +38,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +12V #PWR72
-U 1 1 5AFC3129
-P 4110 2290
-F 0 "#PWR72" H 4110 2140 50  0001 C CNN
-F 1 "+12V" H 4110 2430 50  0000 C CNN
-F 2 "" H 4110 2290 60  0000 C CNN
-F 3 "" H 4110 2290 60  0000 C CNN
-	1    4110 2290
+L LM2738XMYNOPB U?
+U 1 1 5B09DA97
+P 4690 3650
+F 0 "U?" H 5790 4050 60  0000 C CNN
+F 1 "LM2738XMYNOPB" H 5790 3950 60  0000 C CNN
+F 2 "MUY08A" H 5790 3890 60  0001 C CNN
+F 3 "" H 4690 3650 60  0000 C CNN
+	1    4690 3650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

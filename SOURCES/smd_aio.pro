@@ -1,4 +1,4 @@
-update=Wed 23 May 2018 07:46:24 PM CEST
+update=Sat 26 May 2018 11:12:06 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -51,3 +51,4 @@ LibName19=Library_smdb_new/lib/Symbol/fdsp_digital_new
 LibName20=Library_smdb_new/lib/Symbol/fdsp_linear_new
 LibName21=Library_smdb_new/lib/Symbol/fdsp_oscillator_new
 LibName22=Library_smdb_new/lib/Symbol/fdsp_transistor_new
+LibName23=Library_power/LM2738XMY&slash_NOPB/KiCAD/KiCAD/LM2738XMY&slash_NOPB-symbols

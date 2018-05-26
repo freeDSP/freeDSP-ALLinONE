@@ -21,6 +21,7 @@ LIBS:fdsp_digital_new
 LIBS:fdsp_linear_new
 LIBS:fdsp_oscillator_new
 LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
