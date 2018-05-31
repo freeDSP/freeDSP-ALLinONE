@@ -1809,4 +1809,21 @@ Wire Wire Line
 Connection ~ 13010 8120
 Text Notes 10280 5990 0    76   ~ 15
 Input
+$Comp
+L CONN_01X02 P?
+U 1 1 5B102BB9
+P 4180 8790
+F 0 "P?" H 4180 8940 50  0000 C CNN
+F 1 "CONN_01X02" V 4280 8790 50  0000 C CNN
+F 2 "" H 4180 8790 60  0000 C CNN
+F 3 "" H 4180 8790 60  0000 C CNN
+	1    4180 8790
+	1    0    0    -1  
+$EndComp
+Text GLabel 3980 8740 0    52   BiDi ~ 0
+MP2
+Text GLabel 3980 8840 0    52   BiDi ~ 0
+MP3
+Text Notes 3810 8480 0    76   ~ 15
+MPs_IN
 $EndSCHEMATC
