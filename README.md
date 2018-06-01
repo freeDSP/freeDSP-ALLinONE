@@ -14,12 +14,13 @@ http://freedsp.cc
 
 The freeDSP is an open-source digital signal processor family for the do-it-yourself community. The applications range from active loudspeaker concepts (digital crossovers, bass enhancement, ...) and room equalization over advanced musical effect processors to car audio signal processing. 
 
-This _freeDSP Classic SMD-AiO_ is an updated SMD version of the original _freeDSP Classic_ with a few improvements/changes.
+The _freeDSP Classic-AiO_ is an all-in-one version of the original _freeDSP Classic SMD-B_ with a few improvements and changes.
+It features four amplified analog outputs as well as S/PDIF in- and output.
 This board has been designed using the Cross-Platform Open Source Tool [KiCad](http://kicad-pcb.org/).
 
 More informations kann be found on the [freeDSP website](http://freedsp.cc)
 
-You can find a PDF version of the schematic in the SOURCES folder (freeDSP_Classic_SMD.pdf)
+You can find a PDF version of the schematic in the SOURCES folder (LINK)
 
 ## Links
 
@@ -27,7 +28,8 @@ You can find a PDF version of the schematic in the SOURCES folder (freeDSP_Class
 [http://freedsp.cc/](http://freedsp.cc)
 
 #### Documentation
-[Google Doc] https://docs.google.com/document/d/1h2pqF7efGB_c3KVZbfWFLUePMKDgzORsNoycl28Z_8Y/edit?usp=sharing
+[Google Doc](https://docs.google.com/document/d/1h2pqF7efGB_c3KVZbfWFLUePMKDgzORsNoycl28Z_8Y/edit?usp=sharing)
+(non official)
 
 #### FreeDSP Guidelines
 https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines
@@ -39,8 +41,8 @@ https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines
 #### How to setup local repository
 - Change to your FreeDSP directory
 - Clone the repository (including submodule)  
- `git clone --recursive https://github.com/freeDSP/freeDSP-CLASSIC-SMD-B.git` 
-- Change to the newly created Classic SMD-AiO directory
+ `git clone --recursive https://github.com/freeDSP/freeDSP-CLASSIC-AiO.git` 
+- Change to the newly created Classic-AiO directory
 - Checkout a branch for the library submodule, if you want to modify it as well
   `git submodule foreach 'git checkout 'master''`
 - Open the project file in KiCad
