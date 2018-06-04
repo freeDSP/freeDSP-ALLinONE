@@ -28,8 +28,7 @@ You can find a PDF version of the schematic in the SOURCES folder (LINK)
 [http://freedsp.cc/](http://freedsp.cc)
 
 #### Documentation
-[Google Doc](https://docs.google.com/document/d/1h2pqF7efGB_c3KVZbfWFLUePMKDgzORsNoycl28Z_8Y/edit?usp=sharing)
-(non official)
+[Google Doc](https://docs.google.com/document/d/1258PKKEvrk1GpFIaAHhm8G6f0HHNBfSL8KVq2VGgUKc/edit?usp=sharing)
 
 #### FreeDSP Guidelines
 https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines
