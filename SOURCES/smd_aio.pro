@@ -1,4 +1,4 @@
-update=Tue 15 May 2018 08:48:01 AM CEST
+update=Sat 26 May 2018 11:12:06 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../LIBRARY
+LibDir=../LIBRARY;Library_SPDIF;Library_AMPx2
 [eeschema/libraries]
 LibName1=Symbol/fdsp_amplifier
 LibName2=Symbol/fdsp_connector
@@ -43,3 +43,12 @@ LibName11=Symbol/fdsp_transistor
 LibName12=Library_AMPx2/MyLibrary
 LibName13=Library_AMPx2/Polarized_Cap
 LibName14=Library_AMPx2/tas5760mdcar
+LibName15=Library_SPDIF/CS8422-CNZ/KiCAD/KiCAD/symbols-CS8422-CNZ
+LibName16=Library_SPDIF/CS8406-CZZ/KiCAD/KiCAD/symbols_CS8406-CZZ
+LibName17=Library_clock/smd_aio-lib
+LibName18=Library_smdb_new/lib/Symbol/fdsp_device_new
+LibName19=Library_smdb_new/lib/Symbol/fdsp_digital_new
+LibName20=Library_smdb_new/lib/Symbol/fdsp_linear_new
+LibName21=Library_smdb_new/lib/Symbol/fdsp_oscillator_new
+LibName22=Library_smdb_new/lib/Symbol/fdsp_transistor_new
+LibName23=Library_power/LM2738XMY&slash_NOPB/KiCAD/KiCAD/LM2738XMY&slash_NOPB-symbols

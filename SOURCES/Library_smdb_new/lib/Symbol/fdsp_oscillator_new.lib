@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Crystal_Oszillator
+#
+DEF Crystal_Oszillator X 0 40 Y Y 1 F N
+F0 "X" 0 450 60 H V C CNN
+F1 "Crystal_Oszillator" 0 -450 60 H V C CNN
+F2 "" -100 -100 60 H V C CNN
+F3 "" -100 -100 60 H V C CNN
+DRAW
+S -350 350 350 -350 0 1 0 N
+S -100 0 -150 0 0 1 0 N
+S -100 50 -100 -50 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+S 100 0 150 0 0 1 0 N
+S 100 50 100 -50 0 1 0 N
+X Control 1 -550 250 200 R 50 50 1 1 I
+X GND 2 -550 -250 200 R 50 50 1 1 I
+X Output 3 550 -250 200 L 50 50 1 1 O
+X Vcc 4 550 250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

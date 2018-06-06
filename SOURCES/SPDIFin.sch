@@ -13,12 +13,21 @@ LIBS:fdsp_transistor
 LIBS:MyLibrary
 LIBS:Polarized_Cap
 LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
+LIBS:smd_aio-lib
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -28,4 +37,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CS8422-CNZ U6
+U 1 1 5B04A0D3
+P 4290 3150
+F 0 "U6" H 5790 3550 60  0000 C CNN
+F 1 "CS8422-CNZ" H 5790 3450 60  0000 C CNN
+F 2 "CIR-QFN-32_5X5" H 5790 3390 60  0001 C CNN
+F 3 "" H 4290 3150 60  0000 C CNN
+	1    4290 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
