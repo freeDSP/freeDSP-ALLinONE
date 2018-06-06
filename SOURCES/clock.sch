@@ -96,7 +96,7 @@ Text GLabel 7460 2740 2    60   Output ~ 0
 MCLK0
 Text GLabel 7460 2840 2    60   Output ~ 0
 MCLK1
-Text GLabel 7460 3040 2    60   Output ~ 0
+Text GLabel 8150 3040 2    60   Output ~ 0
 MCLK3
 Text GLabel 7460 2940 2    60   Output ~ 0
 MCLK2
@@ -188,4 +188,19 @@ Connection ~ 6430 2840
 Wire Wire Line
 	6020 3430 6020 2940
 Connection ~ 6020 2940
+$Comp
+L R R?
+U 1 1 5B1890A3
+P 7910 3040
+F 0 "R?" V 7990 3040 50  0000 C CNN
+F 1 "24" V 7910 3040 50  0000 C CNN
+F 2 "" V 7840 3040 30  0000 C CNN
+F 3 "" H 7910 3040 30  0000 C CNN
+	1    7910 3040
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7460 3040 7760 3040
+Wire Wire Line
+	8060 3040 8150 3040
 $EndSCHEMATC
