@@ -22,6 +22,7 @@ LIBS:fdsp_linear_new
 LIBS:fdsp_oscillator_new
 LIBS:fdsp_transistor_new
 LIBS:LM2738XMY&slash_NOPB-symbols
+LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,18 +37,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L TAS5760MDCAR U4
-U 1 1 574C04F8
-P 5750 3050
-F 0 "U4" H 5750 4250 60  0000 C CNN
-F 1 "TAS5760MDCAR" H 5750 4350 60  0000 C CNN
-F 2 "MyFootprints:HTSSOP-48" H 5650 2950 60  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/405/tas5760m-480127.pdf" H 5750 3050 60  0001 C CNN
-F 4 "TAS5760MDCA" H 5750 3050 60  0001 C CNN "Mfr.Nr."
-	1    5750 3050
-	1    0    0    -1  
-$EndComp
 $Comp
 L POT RV1
 U 1 1 574C1518
@@ -1016,4 +1005,32 @@ Text GLabel 4150 3630 3    44   Input ~ 0
 MP11
 Text GLabel 4050 3630 3    44   Input ~ 0
 MCLK1
+NoConn ~ 5050 3600
+NoConn ~ 5050 3700
+NoConn ~ 5050 3800
+NoConn ~ 5050 3900
+NoConn ~ 5050 4000
+NoConn ~ 5050 4100
+NoConn ~ 5050 4200
+NoConn ~ 6450 3700
+NoConn ~ 6450 3800
+NoConn ~ 6450 3900
+NoConn ~ 6450 4000
+NoConn ~ 6450 4100
+NoConn ~ 6450 4200
+NoConn ~ 3050 2750
+NoConn ~ 3050 2950
+NoConn ~ 3050 3150
+$Comp
+L TAS5760MDCAR U4
+U 1 1 5B18AD92
+P 5750 3050
+F 0 "U4" H 5950 1750 60  0000 C TNN
+F 1 "TAS5760MDCAR" H 5750 4350 60  0000 C CNN
+F 2 "" H 5850 2950 60  0000 C CNN
+F 3 "" H 5750 3050 60  0000 C CNN
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 3600
 $EndSCHEMATC

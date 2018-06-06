@@ -22,6 +22,7 @@ LIBS:fdsp_linear_new
 LIBS:fdsp_oscillator_new
 LIBS:fdsp_transistor_new
 LIBS:LM2738XMY&slash_NOPB-symbols
+LIBS:smd_aio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -952,8 +953,6 @@ F 3 "" H 5920 7640 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4010 4540 4010 4465
-Wire Wire Line
 	3370 4540 4380 4540
 Wire Wire Line
 	3370 4470 3370 4540
@@ -1024,7 +1023,7 @@ Wire Wire Line
 	3840 1860 3840 1500
 Connection ~ 3840 1860
 Wire Wire Line
-	4410 1200 4410 1940
+	4410 1100 4410 1940
 Wire Wire Line
 	4410 1570 4420 1570
 Connection ~ 4410 1300
@@ -1033,10 +1032,6 @@ Wire Wire Line
 Connection ~ 4720 1570
 Wire Wire Line
 	4720 1300 4720 1750
-Wire Wire Line
-	4080 1010 4080 1550
-Wire Wire Line
-	4040 1200 4410 1200
 Wire Wire Line
 	4410 1940 3920 1940
 Wire Wire Line
@@ -1212,10 +1207,6 @@ Wire Wire Line
 Connection ~ 2910 6410
 Wire Wire Line
 	2430 5770 2430 6130
-Wire Wire Line
-	1990 6240 1990 5960
-Wire Wire Line
-	1990 5960 2430 5960
 Connection ~ 2430 5960
 Wire Wire Line
 	2190 6510 3340 6510
@@ -1833,4 +1824,24 @@ Wire Wire Line
 	2650 2810 2720 2810
 Wire Wire Line
 	2720 2310 2650 2310
+Wire Wire Line
+	1990 6210 1990 5960
+Wire Wire Line
+	1990 5960 2430 5960
+Wire Wire Line
+	4010 4470 4010 4540
+Wire Wire Line
+	3390 1470 3520 1470
+Connection ~ 3520 1470
+Wire Wire Line
+	3390 1760 3520 1760
+Connection ~ 3520 1760
+Wire Wire Line
+	4080 1010 4080 1550
+Wire Wire Line
+	4040 1200 4080 1200
+Connection ~ 4080 1200
+Wire Wire Line
+	4080 1100 4410 1100
+Connection ~ 4080 1100
 $EndSCHEMATC
