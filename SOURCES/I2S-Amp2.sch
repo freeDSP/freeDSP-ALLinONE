@@ -1017,4 +1017,21 @@ Text GLabel 4150 3630 3    44   Input ~ 0
 MP11
 Text GLabel 4050 3630 3    44   Input ~ 0
 MCLK2
+NoConn ~ 6450 3600
+NoConn ~ 6450 3700
+NoConn ~ 6450 3800
+NoConn ~ 6450 3900
+NoConn ~ 6450 4000
+NoConn ~ 6450 4100
+NoConn ~ 6450 4200
+NoConn ~ 5050 3600
+NoConn ~ 5050 3700
+NoConn ~ 5050 3800
+NoConn ~ 5050 3900
+NoConn ~ 5050 4000
+NoConn ~ 5050 4100
+NoConn ~ 5050 4200
+NoConn ~ 3050 2950
+NoConn ~ 3050 2750
+NoConn ~ 3050 3150
 $EndSCHEMATC

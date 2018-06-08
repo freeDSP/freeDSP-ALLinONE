@@ -609,4 +609,5 @@ F 3 "" H 8250 2650 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8200 2650 8250 2650
+NoConn ~ -450 5300
 $EndSCHEMATC
