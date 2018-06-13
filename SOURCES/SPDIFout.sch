@@ -465,12 +465,12 @@ $EndComp
 $Comp
 L C C55
 U 1 1 5B205970
-P 8350 2650
-F 0 "C55" H 8375 2750 50  0000 L CNN
-F 1 "30p" H 8375 2550 50  0000 L CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" H 8388 2500 30  0001 C CNN
-F 3 "" H 8350 2650 60  0000 C CNN
-	1    8350 2650
+P 8350 2700
+F 0 "C55" H 8375 2800 50  0000 L CNN
+F 1 "30p" H 8375 2600 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 8388 2550 30  0001 C CNN
+F 3 "" H 8350 2700 60  0000 C CNN
+	1    8350 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -486,9 +486,9 @@ F 3 "" H 8350 2900 60  0000 C CNN
 $EndComp
 Connection ~ 8350 2850
 Wire Wire Line
-	8350 2800 8350 2900
-Wire Wire Line
 	8200 2850 8350 2850
+Wire Wire Line
+	8350 2850 8350 2900
 Wire Wire Line
 	8200 2650 8200 2850
 Connection ~ 7200 2300
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6500 5100 6500
 Wire Wire Line
-	2350 6500 1380 6500
+	1380 6500 2350 6500
 Wire Wire Line
 	4950 6800 5150 6800
 Wire Wire Line
@@ -672,4 +672,21 @@ Wire Wire Line
 Connection ~ 7500 1850
 Wire Wire Line
 	4250 2500 6100 2500
+$Comp
+L TST P19
+U 1 1 5B219145
+P 1500 6450
+F 0 "P19" H 1500 6750 50  0000 C BNN
+F 1 "TST" H 1500 6700 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 1500 6450 50  0001 C CNN
+F 3 "" H 1500 6450 50  0000 C CNN
+	1    1500 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6450 1500 6500
+Connection ~ 1500 6500
+Wire Wire Line
+	8350 2550 8350 2500
+Connection ~ 8350 2500
 $EndSCHEMATC

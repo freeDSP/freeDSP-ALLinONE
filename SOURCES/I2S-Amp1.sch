@@ -1033,4 +1033,18 @@ F 3 "" H 5750 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6450 3600
+$Comp
+L TST P17
+U 1 1 5B216FDF
+P 4035 3520
+F 0 "P17" H 4035 3820 50  0000 C BNN
+F 1 "TST" H 4035 3770 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4035 3520 50  0001 C CNN
+F 3 "" H 4035 3520 50  0000 C CNN
+	1    4035 3520
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4035 3520 4050 3520
+Connection ~ 4050 3520
 $EndSCHEMATC

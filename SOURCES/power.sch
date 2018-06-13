@@ -339,7 +339,7 @@ Wire Wire Line
 	8930 3030 8930 3170
 Connection ~ 8930 3070
 Wire Wire Line
-	9270 3070 9270 3170
+	9270 2980 9270 3170
 Wire Wire Line
 	9270 3830 9270 3470
 Wire Wire Line
@@ -472,4 +472,15 @@ Wire Wire Line
 Connection ~ 9270 3830
 Wire Wire Line
 	9635 3385 9635 3420
+$Comp
+L TST P20
+U 1 1 5B2196E9
+P 9270 2980
+F 0 "P20" H 9270 3280 50  0000 C BNN
+F 1 "TST" H 9270 3230 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 9270 2980 50  0001 C CNN
+F 3 "" H 9270 2980 50  0000 C CNN
+	1    9270 2980
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
