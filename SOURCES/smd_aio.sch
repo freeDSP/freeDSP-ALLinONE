@@ -1870,4 +1870,18 @@ Wire Wire Line
 	3645 8655 3645 8640
 Wire Wire Line
 	3645 8640 3980 8640
+$Comp
+L TST P16
+U 1 1 5B217DC8
+P 5250 2525
+F 0 "P16" H 5250 2825 50  0000 C BNN
+F 1 "TST" H 5250 2775 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 5250 2525 50  0001 C CNN
+F 3 "" H 5250 2525 50  0000 C CNN
+	1    5250 2525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 2525 5250 2520
+Connection ~ 5250 2520
 $EndSCHEMATC

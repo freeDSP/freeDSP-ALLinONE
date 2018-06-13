@@ -1034,4 +1034,18 @@ NoConn ~ 5050 4200
 NoConn ~ 3050 2950
 NoConn ~ 3050 2750
 NoConn ~ 3050 3150
+$Comp
+L TST P21
+U 1 1 5B2185A9
+P 4000 3550
+F 0 "P21" H 4000 3850 50  0000 C BNN
+F 1 "TST" H 4000 3800 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4000 3550 50  0001 C CNN
+F 3 "" H 4000 3550 50  0000 C CNN
+	1    4000 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 3550 4050 3550
+Connection ~ 4050 3550
 $EndSCHEMATC

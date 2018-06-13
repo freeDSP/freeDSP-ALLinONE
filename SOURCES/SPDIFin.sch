@@ -572,4 +572,18 @@ Wire Wire Line
 	7300 3150 7620 3150
 Wire Wire Line
 	7620 3150 7620 3155
+$Comp
+L TST P18
+U 1 1 5B21909E
+P 1950 3900
+F 0 "P18" H 1950 4200 50  0000 C BNN
+F 1 "TST" H 1950 4150 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 1950 3900 50  0001 C CNN
+F 3 "" H 1950 3900 50  0000 C CNN
+	1    1950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3900 1950 3950
+Connection ~ 1950 3950
 $EndSCHEMATC

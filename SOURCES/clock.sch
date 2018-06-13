@@ -282,4 +282,18 @@ Wire Wire Line
 	7815 3340 8160 3340
 Wire Wire Line
 	8160 3340 8160 3335
+$Comp
+L TST P22
+U 1 1 5B219E4B
+P 5405 3550
+F 0 "P22" H 5405 3850 50  0000 C BNN
+F 1 "TST" H 5405 3800 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 5405 3550 50  0001 C CNN
+F 3 "" H 5405 3550 50  0000 C CNN
+	1    5405 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5405 3550 5405 3650
+Connection ~ 5405 3650
 $EndSCHEMATC
