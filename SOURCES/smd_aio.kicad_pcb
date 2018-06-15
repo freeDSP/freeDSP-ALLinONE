@@ -2,7 +2,7 @@
 
   (general
     (links 529)
-    (no_connects 326)
+    (no_connects 332)
     (area 99.975999 49.937999 180.186001 149.960001)
     (thickness 1.6)
     (drawings 4)
@@ -4365,7 +4365,7 @@
   )
 
   (module "AMPx2 _footprints:1D10ASeries" (layer F.Cu) (tedit 575BFE8F) (tstamp 5B23D190)
-    (at 148.5011 105.0036)
+    (at 148.082 117.856)
     (path /5B04B659/574CB247)
     (fp_text reference L6 (at 0 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4384,7 +4384,7 @@
   )
 
   (module "AMPx2 _footprints:1D10ASeries" (layer F.Cu) (tedit 575BFE8F) (tstamp 5B23D196)
-    (at 148.5011 105.0036)
+    (at 121.412 158.496)
     (path /5B04B659/574CB60B)
     (fp_text reference L7 (at 0 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4403,7 +4403,7 @@
   )
 
   (module "AMPx2 _footprints:1D10ASeries" (layer F.Cu) (tedit 575BFE8F) (tstamp 5B23D19C)
-    (at 148.5011 105.0036)
+    (at 135.128 159.004)
     (path /5B04B659/574CB690)
     (fp_text reference L8 (at 0 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4422,7 +4422,7 @@
   )
 
   (module "AMPx2 _footprints:1D10ASeries" (layer F.Cu) (tedit 575BFE8F) (tstamp 5B23D1A2)
-    (at 148.5011 105.0036)
+    (at 150.368 156.464)
     (path /5B04B659/574CB6F0)
     (fp_text reference L9 (at 0 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4901,7 +4901,7 @@
   )
 
   (module fdsp_connector:RIACON101-2 (layer F.Cu) (tedit 5835D93D) (tstamp 5B23D223)
-    (at 148.5011 105.0036)
+    (at 116.586 54.61)
     (path /5AFACF29/5B11EBC4)
     (fp_text reference P13 (at 0 -5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4925,12 +4925,12 @@
   )
 
   (module fdsp_connector:RIACON101-2 (layer F.Cu) (tedit 5835D93D) (tstamp 5B23D229)
-    (at 148.5011 105.0036)
+    (at 88.646 99.568 270)
     (path /5B04B659/57584668)
-    (fp_text reference P14 (at 0 -5.08) (layer F.SilkS)
+    (fp_text reference P14 (at 0 -5.08 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CONN_01X02 (at 0 5.08) (layer F.Fab)
+    (fp_text value CONN_01X02 (at 0 5.08 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5.08 -4) (end 5.08 -4) (layer F.CrtYd) (width 0.1))
@@ -4942,14 +4942,14 @@
     (fp_line (start -5.08 4.05) (end 5.08 4.05) (layer F.SilkS) (width 0.15))
     (fp_line (start 5.08 4) (end 5.08 -4) (layer F.CrtYd) (width 0.1))
     (fp_line (start -5.08 4.05) (end 5.08 4.05) (layer F.CrtYd) (width 0.1))
-    (pad 1 thru_hole rect (at -2.54 0) (size 2.54 2.54) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at -2.54 0 270) (size 2.54 2.54) (drill 1.3) (layers *.Cu *.Mask)
       (net 65 "Net-(C85-Pad1)"))
-    (pad 2 thru_hole circle (at 2.54 0) (size 2.54 2.54) (drill 1.3) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 2.54 0 270) (size 2.54 2.54) (drill 1.3) (layers *.Cu *.Mask)
       (net 66 "Net-(C86-Pad1)"))
   )
 
   (module fdsp_connector:RIACON101-2 (layer F.Cu) (tedit 5835D93D) (tstamp 5B23D22F)
-    (at 148.5011 105.0036)
+    (at 163.068 157.988)
     (path /5B04B659/5B067D34)
     (fp_text reference P15 (at 0 -5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7149,7 +7149,7 @@
   )
 
   (module fdsp_housing_new:LQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 54130A77) (tstamp 5B23D410)
-    (at 148.5011 105.0036)
+    (at 160.274 95.25)
     (descr "48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)")
     (tags "QFP 0.5")
     (path /5AF566F0)
