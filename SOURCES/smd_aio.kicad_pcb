@@ -2,8 +2,8 @@
 
   (general
     (links 529)
-    (no_connects 332)
-    (area 99.975999 49.937999 180.186001 149.960001)
+    (no_connects 344)
+    (area 82.591 48.555 189.158572 165.159)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -7863,7 +7863,7 @@
   )
 
   (module footprints_CS8406-CZZ:CS8406-CZZ (layer F.Cu) (tedit 0) (tstamp 5B23D4A8)
-    (at 148.5011 105.0036)
+    (at 150.749 171.196)
     (path /5AFACEFB/5B0AF816)
     (fp_text reference U6 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
