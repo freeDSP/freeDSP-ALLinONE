@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/smd_aio.sch</source>
-    <date>Freitag, 15. Juni 2018 'u48' 10:48:04</date>
+    <date>Freitag, 15. Juni 2018 'u07' 11:07:10</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1056,14 +1056,14 @@
       <tstamp>5B0AFDEA</tstamp>
     </comp>
     <comp ref="T1">
-      <value>Transformer_1P_1S_DA101MC</value>
+      <value>Transformer_1P_1S_DA101JC</value>
       <footprint>DA101JC:DA101JC</footprint>
       <libsource lib="fdsp_device" part="Transformer_1P_1S_DA101MC"/>
       <sheetpath names="/SPDIFout/" tstamps="/5AFACEFB/"/>
       <tstamp>5B179D9A</tstamp>
     </comp>
     <comp ref="T2">
-      <value>Transformer_1P_1S_DA101MC</value>
+      <value>Transformer_1P_1S_DA101JC</value>
       <footprint>DA101JC:DA101JC</footprint>
       <libsource lib="fdsp_device" part="Transformer_1P_1S_DA101MC"/>
       <sheetpath names="/SPDIFout/" tstamps="/5AFACEFB/"/>
@@ -2512,35 +2512,35 @@
     <library logical="fdsp_dsp">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_dsp.lib</uri>
     </library>
-    <library logical="fdsp_transistor">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_transistor.lib</uri>
-    </library>
-    <library logical="fdsp_device">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_device.lib</uri>
-    </library>
-    <library logical="fdsp_regulator">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_regulator.lib</uri>
+    <library logical="fdsp_mechanical">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_mechanical.lib</uri>
     </library>
     <library logical="fdsp_pinhead">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_pinhead.lib</uri>
     </library>
+    <library logical="fdsp_device">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_device.lib</uri>
+    </library>
     <library logical="fdsp_connector">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_connector.lib</uri>
     </library>
-    <library logical="fdsp_mechanical">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_mechanical.lib</uri>
+    <library logical="fdsp_regulator">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_regulator.lib</uri>
     </library>
-    <library logical="MyLibrary">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_AMPx2/MyLibrary.lib</uri>
+    <library logical="fdsp_transistor">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_transistor.lib</uri>
     </library>
     <library logical="symbols-CS8422-CNZ">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_SPDIF/CS8422-CNZ/KiCAD/KiCAD/symbols-CS8422-CNZ.lib</uri>
     </library>
-    <library logical="symbols_CS8406-CZZ">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_SPDIF/CS8406-CZZ/KiCAD/KiCAD/symbols_CS8406-CZZ.lib</uri>
+    <library logical="MyLibrary">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_AMPx2/MyLibrary.lib</uri>
     </library>
     <library logical="smd_aio-lib">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_clock/smd_aio-lib.lib</uri>
+    </library>
+    <library logical="symbols_CS8406-CZZ">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_SPDIF/CS8406-CZZ/KiCAD/KiCAD/symbols_CS8406-CZZ.lib</uri>
     </library>
   </libraries>
   <nets>
