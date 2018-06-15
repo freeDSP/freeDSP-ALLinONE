@@ -946,11 +946,11 @@ Wire Wire Line
 Wire Wire Line
 	4050 3100 4050 3630
 Wire Wire Line
-	4150 3200 4150 3630
+	4150 3200 4150 4110
 Wire Wire Line
-	4250 3300 4250 3630
+	4250 3300 4250 4555
 Wire Wire Line
-	4350 3400 4350 3630
+	4350 3400 4350 3765
 $Comp
 L +3V3 #PWR063
 U 1 1 5B067D4A
@@ -997,11 +997,11 @@ F 3 "" H 3750 2600 60  0000 C CNN
 	1    3750 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 3630 3    44   Input ~ 0
+Text GLabel 4350 3765 3    44   Input ~ 0
 MP10
-Text GLabel 4250 3630 3    44   Input ~ 0
+Text GLabel 4250 4555 3    44   Input ~ 0
 MP6
-Text GLabel 4150 3630 3    44   Input ~ 0
+Text GLabel 4150 4110 3    44   Input ~ 0
 MP11
 Text GLabel 4050 3630 3    44   Input ~ 0
 MCLK1
@@ -1047,4 +1047,48 @@ $EndComp
 Wire Wire Line
 	4035 3520 4050 3520
 Connection ~ 4050 3520
+$Comp
+L TST P24
+U 1 1 5B23E70D
+P 4130 4010
+F 0 "P24" H 4130 4310 50  0000 C BNN
+F 1 "TST" H 4130 4260 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4130 4010 50  0001 C CNN
+F 3 "" H 4130 4010 50  0000 C CNN
+	1    4130 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4130 4010 4150 4010
+Connection ~ 4150 4010
+$Comp
+L TST P25
+U 1 1 5B23EE58
+P 4215 4465
+F 0 "P25" H 4215 4765 50  0000 C BNN
+F 1 "TST" H 4215 4715 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4215 4465 50  0001 C CNN
+F 3 "" H 4215 4465 50  0000 C CNN
+	1    4215 4465
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4215 4465 4250 4465
+Wire Wire Line
+	4250 4465 4250 4460
+Connection ~ 4250 4460
+$Comp
+L TST P26
+U 1 1 5B23F295
+P 4395 3690
+F 0 "P26" H 4395 3990 50  0000 C BNN
+F 1 "TST" H 4395 3940 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4395 3690 50  0001 C CNN
+F 3 "" H 4395 3690 50  0000 C CNN
+	1    4395 3690
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4395 3690 4350 3690
+Connection ~ 4350 3690
 $EndSCHEMATC

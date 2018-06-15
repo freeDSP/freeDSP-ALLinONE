@@ -558,7 +558,7 @@ Text GLabel 2650 2510 0    52   Input ~ 0
 MP2
 Text GLabel 2650 2410 0    52   Input ~ 0
 MP1
-Text GLabel 2650 2310 0    52   Input ~ 0
+Text GLabel 2075 2310 0    52   Input ~ 0
 MP0
 $Comp
 L NMOS_GSD Q1
@@ -1071,7 +1071,7 @@ Connection ~ 5470 1420
 Wire Wire Line
 	5200 2320 5300 2320
 Wire Wire Line
-	5300 2520 5200 2520
+	5200 2520 5300 2520
 Wire Wire Line
 	7360 1920 7360 2050
 Wire Wire Line
@@ -1812,7 +1812,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2810 2720 2810
 Wire Wire Line
-	2720 2310 2650 2310
+	2720 2310 2075 2310
 Wire Wire Line
 	1990 6210 1990 5960
 Wire Wire Line
@@ -1884,4 +1884,18 @@ $EndComp
 Wire Wire Line
 	5250 2525 5250 2520
 Connection ~ 5250 2520
+$Comp
+L TST P23
+U 1 1 5B240D5A
+P 2170 2270
+F 0 "P23" H 2170 2570 50  0000 C BNN
+F 1 "TST" H 2170 2520 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 2170 2270 50  0001 C CNN
+F 3 "" H 2170 2270 50  0000 C CNN
+	1    2170 2270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2170 2270 2170 2310
+Connection ~ 2170 2310
 $EndSCHEMATC
