@@ -8,9 +8,9 @@
     </head>
     <body>
     <h1>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/smd_aio.sch</h1>
-    <p>Freitag, 15. Juni 2018 'u07' 11:07:10</p>
+    <p>Samstag, 16. Juni 2018 'u18' 09:18:26</p>
     <p>Eeschema 4.0.7</p>
-    <p><b>Component Count:</b>206</p>
+    <p><b>Component Count:</b>214</p>
     <table>
     <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
     <tr><td>C1, C3, C4, C6, C8, C9, C10, C12, C14, C16, C17, C42, C43, C47, C48, C54, C56, C60, C64, C66, C90</td><td>21</td><td>100n</td><td>fdsp_device:C</td><td>fdsp_capacitor:C_1206_HandSoldering</td><td>Unpolarized capacitor</td><td></td></tr>
@@ -50,11 +50,11 @@
     <tr><td>P9, P10, P13, P14, P15</td><td>5</td><td>CONN_01X02</td><td>fdsp_pinhead:CONN_01X02</td><td>fdsp_connector:RIACON101-2</td><td></td><td></td></tr>
     <tr><td>P11</td><td>1</td><td>FCR684205T</td><td>smd_aio-lib:FCR684205T</td><td>FCR684205:FC684205_R_T</td><td></td><td></td></tr>
     <tr><td>P12</td><td>1</td><td>FCR684205R</td><td>smd_aio-lib:FCR684205R</td><td>FCR684205:FC684205_R_T</td><td></td><td></td></tr>
-    <tr><td>P16, P17, P18, P19, P20, P21, P22</td><td>7</td><td>TST</td><td>fdsp_device:TST</td><td>fdsp_misc:Measurement_Point_Round-SMD-Pad_Small</td><td></td><td></td></tr>
+    <tr><td>P16, P17, P18, P19, P20, P21, P22, P23, P24, P25, P26, P27, P28, P29, P30</td><td>15</td><td>TST</td><td>fdsp_device:TST</td><td>fdsp_misc:Measurement_Point_Round-SMD-Pad_Small</td><td></td><td></td></tr>
     <tr><td>Q1, Q2, Q3, Q4</td><td>4</td><td>BSS123</td><td>fdsp_transistor:NMOS_GSD</td><td>fdsp_housing_new:SOT-23_Handsoldering</td><td>Transistor N-MOSFET (general)</td><td></td></tr>
     <tr><td>Q5</td><td>1</td><td>FZT751TA</td><td>fdsp_device:Q_PNP_BCE</td><td>fdsp_housing_new:SOT-223</td><td>Transistor PNP (general)</td><td></td></tr>
     <tr><td>R1, R2, R3, R4, R5, R7, R9, R11</td><td>8</td><td>10K</td><td>fdsp_device:R</td><td>fdsp_resistor:R_1206_HandSoldering</td><td>Resistor</td><td></td></tr>
-    <tr><td>R6</td><td>1</td><td>1K</td><td>fdsp_device:R</td><td>fdsp_resistor:R_1206_HandSoldering</td><td>Resistor</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>1K 1%</td><td>fdsp_device:R</td><td>fdsp_resistor:R_1206_HandSoldering</td><td>Resistor</td><td></td></tr>
     <tr><td>R8</td><td>1</td><td>18K 1%</td><td>fdsp_device:R</td><td>fdsp_resistor:R_1206_HandSoldering</td><td>Resistor</td><td></td></tr>
     <tr><td>R10</td><td>1</td><td>475, <10%</td><td>fdsp_device:R</td><td>fdsp_resistor:R_1206_HandSoldering</td><td>Resistor</td><td></td></tr>
     <tr><td>R12, R13</td><td>2</td><td>49k9</td><td>fdsp_device:R</td><td>fdsp_resistor:R_1206_HandSoldering</td><td>Resistor</td><td></td></tr>
