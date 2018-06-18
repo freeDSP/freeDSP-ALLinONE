@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.6+dfsg1-1)
 
   (general
     (links 529)
     (no_connects 529)
-    (area 9.356 10.668 344.250762 145.0685)
+    (area 9.356 10.668 302.575762 145.0685)
     (thickness 1.6)
     (drawings 9)
     (tracks 0)
@@ -24,8 +24,8 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user hide)
-    (41 Cmts.User user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user hide)
     (42 Eco1.User user)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
@@ -61,8 +61,8 @@
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 0 0)
-    (grid_origin 100.076 50.038)
+    (aux_axis_origin 112.376 144.263)
+    (grid_origin 142.651 140.613)
     (visible_elements FFFEF77F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
@@ -507,7 +507,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CEE2)
-    (at 180.281001 52.893)
+    (at 69.931001 166.143)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF5894F)
@@ -540,7 +540,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 0) (tstamp 5B23CEE8)
-    (at 152.921001 65.043)
+    (at 42.571001 178.293)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5AF5E40D)
@@ -595,7 +595,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CEEE)
-    (at 167.871001 67.243)
+    (at 57.521001 180.493)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF5E174)
@@ -628,7 +628,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CEF4)
-    (at 174.921001 60.593)
+    (at 64.571001 173.843)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF5E0B9)
@@ -661,7 +661,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 0) (tstamp 5B23CEFA)
-    (at 193.671001 26.193)
+    (at 83.321001 139.443)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5AF5E6A0)
@@ -716,7 +716,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF00)
-    (at 215.321001 20.993)
+    (at 104.971001 134.243)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF5E703)
@@ -749,7 +749,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 0) (tstamp 5B23CF06)
-    (at 175.061001 44.743)
+    (at 64.711001 157.993)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5AF5FB7C)
@@ -804,7 +804,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF0C)
-    (at 187.331001 51.343)
+    (at 76.981001 164.593)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF5F9EF)
@@ -837,7 +837,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF12)
-    (at 200.381001 37.993)
+    (at 90.031001 151.243)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF5FA66)
@@ -870,7 +870,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF18)
-    (at 201.221001 31.343)
+    (at 90.871001 144.593)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF5FAF2)
@@ -903,7 +903,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF1E)
-    (at 208.271001 22.993)
+    (at 97.921001 136.243)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF643A3)
@@ -936,7 +936,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF24)
-    (at 167.871001 60.593)
+    (at 57.521001 173.843)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF6488A)
@@ -969,7 +969,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 0) (tstamp 5B23CF2A)
-    (at 169.011001 44.743)
+    (at 58.661001 157.993)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5AF628EF)
@@ -1024,7 +1024,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF30)
-    (at 193.331001 34.343)
+    (at 82.981001 147.593)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFC3209)
@@ -1057,7 +1057,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF36)
-    (at 201.221001 24.693)
+    (at 90.871001 137.943)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF65154)
@@ -1090,7 +1090,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF3C)
-    (at 203.121001 57.943)
+    (at 92.771001 171.193)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF6284E)
@@ -1123,7 +1123,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF42)
-    (at 196.071001 64.643)
+    (at 85.721001 177.893)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF65217)
@@ -1156,7 +1156,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23CF48)
-    (at 220.207466 66.4264)
+    (at 109.857466 179.6764)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF616C9)
@@ -1222,7 +1222,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 0) (tstamp 5B23CF54)
-    (at 146.871001 69.283)
+    (at 36.521001 182.533)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5B0604C0)
@@ -1277,7 +1277,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 0) (tstamp 5B23CF5A)
-    (at 184.431001 29.493)
+    (at 74.081001 142.743)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5B06B303)
@@ -1332,7 +1332,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B266171) (tstamp 5B23CF60)
-    (at 64.8716 37.4396 270)
+    (at 64.451 37.238 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AF9FF80/5751357E)
@@ -1992,7 +1992,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B2768A2) (tstamp 5B23CFD8)
-    (at 179.726 108.738 90)
+    (at 140.126 57.288 90)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACECD/5B0ADBB9)
@@ -2025,7 +2025,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B276C07) (tstamp 5B23CFDE)
-    (at 185.135999 126.048 270)
+    (at 145.535999 74.598 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACECD/5B0AC50B)
@@ -2058,7 +2058,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 5B276928) (tstamp 5B23CFE4)
-    (at 184.176 110.238 90)
+    (at 144.576 58.788 90)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5AFACECD/5B0ADBBF)
@@ -2113,7 +2113,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 5B275C5C) (tstamp 5B23CFEA)
-    (at 185.313 131.450999 270)
+    (at 145.713 80.000999 270)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5AFACECD/5B0AC538)
@@ -2168,7 +2168,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B27586D) (tstamp 5B23CFF0)
-    (at 188.476 108.738 90)
+    (at 148.876 57.288 90)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACECD/5B0AB301)
@@ -2201,7 +2201,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B276BF6) (tstamp 5B23CFF6)
-    (at 188.551 126.063 90)
+    (at 148.951 74.613 90)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACECD/5B0AD7AE)
@@ -2234,7 +2234,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B275792) (tstamp 5B23CFFC)
-    (at 182.1605 125.868501 270)
+    (at 142.5605 74.418501 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACECD/5B0AC750)
@@ -2267,7 +2267,7 @@
   )
 
   (module fdsp_capacitor:C_Radial_D5_L11_P2 (layer F.Cu) (tedit 5B275A46) (tstamp 5B23D002)
-    (at 178.7855 131.468501 270)
+    (at 139.1855 80.018501 270)
     (descr "Radial Electrolytic Capacitor 5mm x Length 11mm, Pitch 2mm")
     (tags "Electrolytic Capacitor")
     (path /5AFACECD/5B0AC756)
@@ -2487,7 +2487,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B276648) (tstamp 5B23D026)
-    (at 197.451 113.163)
+    (at 157.851 61.713)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACEFB/5B205970)
@@ -2520,7 +2520,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23D02C)
-    (at 202.601 111.888 270)
+    (at 163.001 60.438 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACEFB/5B17A329)
@@ -2553,7 +2553,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B276415) (tstamp 5B23D032)
-    (at 204.926 125.538 270)
+    (at 165.326 74.088 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACEFB/5B17A38A)
@@ -2586,7 +2586,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B27664D) (tstamp 5B23D038)
-    (at 192.101 108.713 270)
+    (at 152.501 57.263 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACEFB/5B17AC4C)
@@ -2619,7 +2619,7 @@
   )
 
   (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B276D1D) (tstamp 5B23D03E)
-    (at 191.726 118.538 90)
+    (at 152.126 67.088 90)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5AFACEFB/5B17A390)
@@ -3697,7 +3697,7 @@
   )
 
   (module fdsp_diode:SMA (layer F.Cu) (tedit 5839DA31) (tstamp 5B23D0FE)
-    (at 173.031001 53.343)
+    (at 62.681001 166.593)
     (descr "Diode SMA")
     (tags "Diode SMA")
     (path /5AFA0A91)
@@ -3733,7 +3733,7 @@
   )
 
   (module fdsp_diode:SMA (layer F.Cu) (tedit 5839DA31) (tstamp 5B23D104)
-    (at 165.581001 53.343)
+    (at 55.231001 166.593)
     (descr "Diode SMA")
     (tags "Diode SMA")
     (path /5AFB9AC0)
@@ -3802,7 +3802,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B276AFB) (tstamp 5B23D110)
-    (at 191.851 126.063 90)
+    (at 152.251 74.613 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B0AD170)
@@ -3835,7 +3835,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B275CAF) (tstamp 5B23D116)
-    (at 175.651499 117.3985 180)
+    (at 136.051499 65.9485 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B178F6E)
@@ -4174,7 +4174,7 @@
   )
 
   (module fdsp_connector:RCA_RCJ-01x (layer F.Cu) (tedit 592D6708) (tstamp 5B23D154)
-    (at 144.1196 87.9094 270)
+    (at 171.676 88.238 270)
     (path /5B05A031)
     (fp_text reference J1 (at -2 -2 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4197,7 +4197,7 @@
   )
 
   (module fdsp_connector:RCA_RCJ-01x (layer F.Cu) (tedit 592D6708) (tstamp 5B23D15C)
-    (at 144.2466 102.0064 270)
+    (at 171.676 102.263 270)
     (path /5B06B2FD)
     (fp_text reference J2 (at -2 -2 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4220,7 +4220,7 @@
   )
 
   (module fdsp_connector:RCA_RCJ-01x (layer F.Cu) (tedit 592D6708) (tstamp 5B23D164)
-    (at 294.709 103.191 270)
+    (at 171.776 46.538 270)
     (path /5AFACEFB/5B2053FF)
     (fp_text reference J3 (at -2 -2 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4243,7 +4243,7 @@
   )
 
   (module fdsp_connector:RCA_RCJ-01x (layer F.Cu) (tedit 592D6708) (tstamp 5B23D16C)
-    (at 211.314 125.566 270)
+    (at 171.714 74.116 270)
     (path /5AFACEFB/5B205387)
     (fp_text reference J4 (at -2 -2 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4441,7 +4441,7 @@
   )
 
   (module fdsp_pinheader:Pin_Header_Straight_1x06 (layer F.Cu) (tedit 0) (tstamp 5B23D1AC)
-    (at 165.609333 16.743)
+    (at 43.476 137.763)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5AFA08E5)
@@ -4482,7 +4482,7 @@
   )
 
   (module fdsp_pinheader:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 5B23D1B4)
-    (at 136.709333 41.283)
+    (at 99.484333 187.058)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5B1EB9BC)
@@ -4519,7 +4519,7 @@
   )
 
   (module fdsp_pinheader:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 0) (tstamp 5B23D1BB)
-    (at 156.829333 53.193)
+    (at 46.479333 166.443)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5AFBEB41)
@@ -4670,7 +4670,7 @@
   )
 
   (module fdsp_pinheader:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 5B23D1E5)
-    (at 146.769333 41.283)
+    (at 36.419333 154.533)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5B050B23)
@@ -4707,7 +4707,7 @@
   )
 
   (module fdsp_pinheader:Pin_Header_Straight_2x04 (layer F.Cu) (tedit 0) (tstamp 5B23D1F1)
-    (at 175.669333 16.743)
+    (at 53.426 135.313)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5B060734)
@@ -4753,7 +4753,7 @@
   )
 
   (module fdsp_pinheader:Pin_Header_Straight_2x04 (layer F.Cu) (tedit 0) (tstamp 5B23D1FD)
-    (at 161.959333 37.493)
+    (at 51.609333 150.743)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5B06B315)
@@ -4847,7 +4847,7 @@
   )
 
   (module FCR684205:FC684205_R_T (layer F.Cu) (tedit 5B214C43) (tstamp 5B23D213)
-    (at 248.804 127.001001 90)
+    (at 176.751 32.163 90)
     (path /5AFACEFB/5B2052D5)
     (fp_text reference P11 (at 0 4.31 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4874,7 +4874,7 @@
   )
 
   (module FCR684205:FC684205_R_T (layer F.Cu) (tedit 5B214C43) (tstamp 5B23D21D)
-    (at 216.451 112.013 90)
+    (at 176.851 60.563 90)
     (path /5AFACEFB/5B20525A)
     (fp_text reference P12 (at 0 4.31 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4973,7 +4973,7 @@
   )
 
   (module fdsp_misc:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 56C35ED0) (tstamp 5B23D234)
-    (at 129.378381 53.883)
+    (at 64.753381 149.233)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5B217DC8)
@@ -5007,7 +5007,7 @@
   )
 
   (module fdsp_misc:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5B27582D) (tstamp 5B23D23E)
-    (at 167.4605 119.170881 270)
+    (at 127.8605 67.720881 270)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5AFACECD/5B21909E)
@@ -5092,7 +5092,7 @@
   )
 
   (module fdsp_misc:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 56C35ED0) (tstamp 5B23D257)
-    (at 129.378381 47.833)
+    (at 64.753381 143.183)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5B240D5A)
@@ -5228,7 +5228,7 @@
   )
 
   (module fdsp_housing_new:SOT-23_Handsoldering (layer F.Cu) (tedit 58CE4E7E) (tstamp 5B23D281)
-    (at 213.546952 14.143)
+    (at 133.821952 124.318)
     (descr "SOT-23, Handsoldering")
     (tags SOT-23)
     (path /5AF9C40D)
@@ -5269,7 +5269,7 @@
   )
 
   (module fdsp_housing_new:SOT-23_Handsoldering (layer F.Cu) (tedit 58CE4E7E) (tstamp 5B23D288)
-    (at 182.166952 44.493)
+    (at 71.816952 157.743)
     (descr "SOT-23, Handsoldering")
     (tags SOT-23)
     (path /5AF9C80E)
@@ -5310,7 +5310,7 @@
   )
 
   (module fdsp_housing_new:SOT-23_Handsoldering (layer F.Cu) (tedit 58CE4E7E) (tstamp 5B23D28F)
-    (at 160.026952 70.393)
+    (at 49.676952 183.643)
     (descr "SOT-23, Handsoldering")
     (tags SOT-23)
     (path /5AF9C91F)
@@ -5351,7 +5351,7 @@
   )
 
   (module fdsp_housing_new:SOT-23_Handsoldering (layer F.Cu) (tedit 58CE4E7E) (tstamp 5B23D296)
-    (at 188.326952 44.493)
+    (at 77.976952 157.743)
     (descr "SOT-23, Handsoldering")
     (tags SOT-23)
     (path /5AF9CA27)
@@ -5392,7 +5392,7 @@
   )
 
   (module fdsp_housing_new:SOT-223 (layer F.Cu) (tedit 5992D256) (tstamp 5B23D29E)
-    (at 140.031001 68.8195)
+    (at 29.681001 182.0695)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /5AF5E48C)
@@ -5435,7 +5435,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2A4)
-    (at 208.271001 29.643)
+    (at 97.921001 142.893)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AF5896A)
@@ -5468,7 +5468,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2AA)
-    (at 174.921001 67.243)
+    (at 64.571001 180.493)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFA118C)
@@ -5501,7 +5501,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2B0)
-    (at 189.021001 71.293)
+    (at 78.671001 184.543)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFA13F4)
@@ -5534,7 +5534,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2B6)
-    (at 209.031001 49.593)
+    (at 98.681001 162.843)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFA0812)
@@ -5567,7 +5567,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2BC)
-    (at 216.081001 40.943)
+    (at 105.731001 154.193)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFA0DF6)
@@ -5600,7 +5600,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2C2)
-    (at 196.071001 57.993)
+    (at 85.721001 171.243)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AF5E631)
@@ -5633,7 +5633,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2C8)
-    (at 189.021001 64.643)
+    (at 78.671001 177.893)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFBED2A)
@@ -5666,7 +5666,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2CE)
-    (at 209.031001 42.943)
+    (at 98.681001 156.193)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AF66F49)
@@ -5699,7 +5699,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2D4)
-    (at 201.431001 51.293)
+    (at 91.081001 164.543)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFC7165)
@@ -5732,7 +5732,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2DA)
-    (at 211.451276 66.4264)
+    (at 101.101276 179.6764)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AF61654)
@@ -5765,7 +5765,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2E0)
-    (at 215.321001 34.293)
+    (at 104.971001 147.543)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFCD09C)
@@ -5798,7 +5798,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2E6)
-    (at 181.971001 66.193)
+    (at 71.621001 179.443)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B0605AD)
@@ -5831,7 +5831,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2EC)
-    (at 189.021001 57.993)
+    (at 78.671001 171.243)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B06B309)
@@ -5864,7 +5864,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2F2)
-    (at 201.981001 44.643)
+    (at 91.631001 157.893)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B060E0D)
@@ -5897,7 +5897,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2F8)
-    (at 194.381001 51.343)
+    (at 84.031001 164.593)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B0661A6)
@@ -5930,7 +5930,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D2FE)
-    (at 194.931001 44.643)
+    (at 84.581001 157.893)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B06B31B)
@@ -5963,7 +5963,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D304)
-    (at 215.321001 27.643)
+    (at 104.971001 140.893)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B06B337)
@@ -5996,7 +5996,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D30A)
-    (at 208.271001 36.293)
+    (at 97.921001 149.543)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B0660AB)
@@ -6029,7 +6029,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D310)
-    (at 186.106 37.643)
+    (at 75.756 150.893)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B06628A)
@@ -6062,7 +6062,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D316)
-    (at 181.971001 59.543)
+    (at 71.621001 172.793)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B06B331)
@@ -6095,7 +6095,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 58307C0D) (tstamp 5B23D31C)
-    (at 160.646 63.543)
+    (at 50.296 176.793)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5B06B33D)
@@ -6227,7 +6227,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B2758F1) (tstamp 5B23D334)
-    (at 176.701 108.763 270)
+    (at 137.101 57.313 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B0ADE1F)
@@ -6260,7 +6260,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B275CD6) (tstamp 5B23D33A)
-    (at 173.601 108.763 270)
+    (at 134.001 57.313 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B0ADF07)
@@ -6293,7 +6293,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B276979) (tstamp 5B23D340)
-    (at 178.2605 125.918501 90)
+    (at 138.6605 74.468501 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B0AD987)
@@ -6326,7 +6326,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B275CB4) (tstamp 5B23D346)
-    (at 175.740501 120.4935)
+    (at 136.140501 69.0435)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B0AE799)
@@ -6359,7 +6359,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B276CFC) (tstamp 5B23D34C)
-    (at 188.676 118.538 90)
+    (at 149.076 67.088 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B0AD1B9)
@@ -6392,7 +6392,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B275CB9) (tstamp 5B23D352)
-    (at 175.631501 114.2035)
+    (at 136.031501 62.7535)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACECD/5B178F74)
@@ -6491,7 +6491,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B27641C) (tstamp 5B23D364)
-    (at 208.026 125.613 270)
+    (at 168.426 74.163 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACEFB/5B17A77A)
@@ -6524,7 +6524,7 @@
   )
 
   (module fdsp_resistor:R_1206_HandSoldering (layer F.Cu) (tedit 5B276640) (tstamp 5B23D36A)
-    (at 197.276 109.888 180)
+    (at 157.676 58.438 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /5AFACEFB/5B17A774)
@@ -7096,7 +7096,7 @@
   )
 
   (module DA101JC:DA101JC (layer F.Cu) (tedit 5B2191DD) (tstamp 5B23D3DC)
-    (at 198.326 124.738 90)
+    (at 158.726 73.288 90)
     (descr DA101JC)
     (path /5AFACEFB/5B179F77)
     (fp_text reference T2 (at 0 -5.715 90) (layer F.SilkS)
@@ -7149,7 +7149,7 @@
   )
 
   (module fdsp_housing_new:LQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 54130A77) (tstamp 5B23D410)
-    (at 69.723 94.615)
+    (at 81.926 100.138)
     (descr "48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)")
     (tags "QFP 0.5")
     (path /5AF566F0)
@@ -7285,7 +7285,7 @@
   )
 
   (module fdsp_housing_new:SOIC-8_3.9x4.9mm_Pitch1.27mm (layer F.Cu) (tedit 58CD0CDA) (tstamp 5B23D41C)
-    (at 206.034095 15.143)
+    (at 126.309095 125.318)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5AFC1452)
@@ -7638,7 +7638,7 @@
   )
 
   (module footprints_CS8422-CNZ:CS8422-CNZ (layer F.Cu) (tedit 5B276824) (tstamp 5B23D488)
-    (at 183.0538 117.4435 270)
+    (at 143.4538 65.9935 270)
     (path /5AFACECD/5B04A0D3)
     (fp_text reference U5 (at 3.7445 3.2778 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8506,7 +8506,7 @@
   )
 
   (module fdsp_drillhole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B23DFFA)
-    (at 95.624571 113.658)
+    (at 175.501 113.788)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
     (fp_text reference REF** (at 0 -3.8) (layer F.SilkS)
@@ -8536,7 +8536,7 @@
   )
 
   (module fdsp_drillhole:MountingHole_3.2mm_M3_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5B23E132)
-    (at 95.659571 20.173)
+    (at 175.401 20.413)
     (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
     (tags "mounting hole 3.2mm no annular m3 din965")
     (fp_text reference REF** (at 0 -3.8) (layer F.SilkS)
@@ -8566,7 +8566,7 @@
   )
 
   (module fdsp_fiducial:FIDUCIAL_1MM_DOT (layer F.Cu) (tedit 55BB8FCC) (tstamp 5B23E175)
-    (at 228.798419 59.1764)
+    (at 118.448419 172.4264)
     (fp_text reference REF** (at 0.1 2.9) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -8578,7 +8578,7 @@
   )
 
   (module fdsp_fiducial:FIDUCIAL_1MM_DOT (layer F.Cu) (tedit 55BB8FCC) (tstamp 5B23E1D8)
-    (at 214.308419 59.1764)
+    (at 103.958419 172.4264)
     (fp_text reference REF** (at 0.1 2.9) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -8589,18 +8589,16 @@
       (solder_mask_margin 1.5) (solder_paste_margin 1.5) (clearance 1.5) (zone_connect 0))
   )
 
+  (gr_line (start 18.776 117.013) (end 18.776 17.013) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 178.801 117.013) (end 18.776 117.013) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 178.801 17.038) (end 178.801 117.013) (angle 90) (layer Margin) (width 0.2))
+  (gr_line (start 98.876 17.038) (end 178.801 17.038) (angle 90) (layer Margin) (width 0.2))
   (gr_text + (at 134.5946 107.3404) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 20.701 95.25) (end 20.701 96.139) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 20.066 107.696) (end 21.082 107.696) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 20.574 107.188) (end 20.574 108.204) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text "restlichen Bauteile von SPDiF" (at 61.001 128.988) (layer F.Cu)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_line (start 98.806 17.018) (end 18.796 17.018) (angle 90) (layer Margin) (width 0.2))
-  (gr_line (start 98.806 116.84) (end 98.806 17.018) (angle 90) (layer Margin) (width 0.2))
-  (gr_line (start 18.796 116.84) (end 98.806 116.84) (angle 90) (layer Margin) (width 0.2))
-  (gr_line (start 18.796 17.018) (end 18.796 116.84) (angle 90) (layer Margin) (width 0.2))
 
 )
