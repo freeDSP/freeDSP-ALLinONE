@@ -216,7 +216,7 @@ U 1 1 5B067D0D
 P 7150 2400
 F 0 "C33" V 7200 2500 50  0000 L CNN
 F 1 "0u22/25V" V 7200 2350 50  0000 R CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" V 6850 2540 50  0001 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" V 6850 2540 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6850 2540 50  0001 C CNN
 F 4 "GRM188R71E223KA01J" V 7150 2400 60  0001 C CNN "Mfr.Nr."
 F 5 "X7R" V 7150 2400 60  0001 C CNN "Dielectric"
@@ -264,7 +264,7 @@ U 1 1 5B067D11
 P 7000 2800
 F 0 "C29" V 7050 2900 50  0000 L CNN
 F 1 "0u22/25V" V 7050 2750 50  0000 R CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" V 6700 2940 50  0001 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" V 6700 2940 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6700 2940 50  0001 C CNN
 F 4 "GRM188R71E223KA01J" V 7000 2800 60  0001 C CNN "Mfr.Nr."
 F 5 "X7R" V 7000 2800 60  0001 C CNN "Dielectric"
@@ -277,7 +277,7 @@ U 1 1 5B067D12
 P 7300 2900
 F 0 "C35" V 7350 3000 50  0000 L CNN
 F 1 "0u22/25V" V 7350 2850 50  0000 R CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" V 7000 3040 50  0001 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" V 7000 3040 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 7000 3040 50  0001 C CNN
 F 4 "GRM188R71E223KA01J" V 7300 2900 60  0001 C CNN "Mfr.Nr."
 F 5 "X7R" V 7300 2900 60  0001 C CNN "Dielectric"
@@ -290,7 +290,7 @@ U 1 1 5B067D13
 P 7150 3300
 F 0 "C34" V 7200 3400 50  0000 L CNN
 F 1 "0u22/25V" V 7200 3250 50  0000 R CNN
-F 2 "fdsp_capacitor:C_1206_HandSoldering" V 6850 3440 50  0001 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" V 6850 3440 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6850 3440 50  0001 C CNN
 F 4 "GRM188R71E223KA01J" V 7150 3300 60  0001 C CNN "Mfr.Nr."
 F 5 "X7R" V 7150 3300 60  0001 C CNN "Dielectric"

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tdr/freedsp/freeDSP-CLASSIC-SMD-AIO/freeDSP-CLASSIC-AiO/SOURCES/smd_aio.sch)
-    (date "Tue 19 Jun 2018 09:20:32 AM CEST")
+    (date "Tue 19 Jun 2018 01:26:59 PM CEST")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -539,7 +539,7 @@
       (tstamp 574C26C6))
     (comp (ref C33)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
@@ -567,7 +567,7 @@
       (tstamp 574C7506))
     (comp (ref C29)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
@@ -577,7 +577,7 @@
       (tstamp 5B067D11))
     (comp (ref C35)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
@@ -587,7 +587,7 @@
       (tstamp 5B067D12))
     (comp (ref C34)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
@@ -1254,7 +1254,7 @@
       (tstamp 5B067D03))
     (comp (ref C80)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
@@ -1282,7 +1282,7 @@
       (tstamp 5B067D0F))
     (comp (ref C76)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
@@ -1292,7 +1292,7 @@
       (tstamp 574C8400))
     (comp (ref C82)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
@@ -1302,7 +1302,7 @@
       (tstamp 574C84A7))
     (comp (ref C81)
       (value 0u22/25V)
-      (footprint fdsp_capacitor:C_1206_HandSoldering)
+      (footprint fdsp_capacitor:C_0805_HandSoldering)
       (datasheet http://www.murata.com/products/catalog/pdf/c02e.pdf)
       (fields
         (field (name Mfr.Nr.) GRM188R71E223KA01J)
