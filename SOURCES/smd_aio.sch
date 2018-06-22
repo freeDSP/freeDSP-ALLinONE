@@ -1437,7 +1437,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 5880 7810 5880
 Text GLabel 7700 5980 0    52   Input ~ 0
-MCLK3
+MCLK1
 Wire Wire Line
 	7700 5980 7810 5980
 $Comp

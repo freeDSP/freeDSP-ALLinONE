@@ -1004,7 +1004,7 @@ MP6
 Text GLabel 4150 4110 3    44   Input ~ 0
 MP11
 Text GLabel 4050 3630 3    44   Input ~ 0
-MCLK1
+MCLK4
 NoConn ~ 5050 3600
 NoConn ~ 5050 3700
 NoConn ~ 5050 3800

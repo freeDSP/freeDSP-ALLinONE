@@ -123,7 +123,7 @@ MP10
 Text GLabel 5150 6700 2    60   Input ~ 0
 MP11
 Text GLabel 1380 6500 0    60   Input ~ 0
-MCLK5
+MCLK3
 $Comp
 L GND #PWR092
 U 1 1 5B0AFC8B

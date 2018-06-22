@@ -203,7 +203,7 @@ F 3 "" H 3050 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1805 3950 0    60   Input ~ 0
-MCLK4
+MCLK2
 Text GLabel 7750 3650 2    60   Output ~ 0
 MP0
 Text GLabel 7750 3550 2    60   Output ~ 0
