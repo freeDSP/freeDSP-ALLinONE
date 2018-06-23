@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6+dfsg1-1)
 
   (general
-    (links 670)
+    (links 705)
     (no_connects 1)
     (area 9.256 -5.262 188.229572 118.763)
     (thickness 1.6)
     (drawings 26)
     (tracks 2370)
     (zones 0)
-    (modules 365)
+    (modules 400)
     (nets 203)
   )
 
@@ -539,6 +539,426 @@
     (add_net "Net-(D6-Pad1)")
     (add_net VCC)
     (add_net VIN)
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B66)
+    (at 38.37 77.41)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B56)
+    (at 38.3 76.04)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B3A)
+    (at 34.67 76.84)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B31)
+    (at 33.43 78.55)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B2C)
+    (at 29.71 78.55)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B1C)
+    (at 34.17 19.94)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B17)
+    (at 32.79 19.97)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B12)
+    (at 31.43 19.94)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B05)
+    (at 38.66 37.93)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7B00)
+    (at 37.22 37.93)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7AF9)
+    (at 35.94 37.93)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7AEC)
+    (at 39.41 44.85)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7AE6)
+    (at 35.48 44.83)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7ADC)
+    (at 34.89 53.71)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7AD7)
+    (at 33.38 53.79)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7AD0)
+    (at 31.99 53.77)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7AC3)
+    (at 31.05 64.44)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7ABE)
+    (at 32.57 64.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7AB9)
+    (at 34.01 64.35)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A9B)
+    (at 36.61 60.49)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A96)
+    (at 38.17 60.49)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A91)
+    (at 39.74 60.55)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A79)
+    (at 49.87 71.52)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A70)
+    (at 59.47 72.58)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A69)
+    (at 56.29 72.98)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A54)
+    (at 59.32 65.46)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A40)
+    (at 53.95 65.42)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A39)
+    (at 56.48 65.44)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A29)
+    (at 60.17 30.67)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A23)
+    (at 56.73 30.5)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A13)
+    (at 60.3 43.01)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7A0C)
+    (at 56.81 43.05)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E79E0)
+    (at 59.51 62.26)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E79D9)
+    (at 56.63 62.24)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E79D1)
+    (at 54.02 62.26)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B2E7952)
@@ -5053,13 +5473,13 @@
     )
   )
 
-  (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B2E7672) (tstamp 5B23D0DA)
+  (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B2E7B69) (tstamp 5B23D0DA)
     (at 36.376 79.013 90)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5B04B659/5B067D18)
     (attr smd)
-    (fp_text reference C85 (at 0.053 2.154 90) (layer F.SilkS)
+    (fp_text reference C85 (at -0.487 1.864 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0u68/50V (at 0 2.3 90) (layer F.Fab)
@@ -5086,13 +5506,13 @@
     )
   )
 
-  (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 541A9C03) (tstamp 5B23D0E0)
+  (module fdsp_capacitor:C_1206_HandSoldering (layer F.Cu) (tedit 5B2E7B3C) (tstamp 5B23D0E0)
     (at 31.571 75.993 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /5B04B659/574CDE5F)
     (attr smd)
-    (fp_text reference C86 (at 0 -2.3 270) (layer F.SilkS)
+    (fp_text reference C86 (at -0.003 -1.909 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0u68/50V (at 0 2.3 270) (layer F.Fab)
