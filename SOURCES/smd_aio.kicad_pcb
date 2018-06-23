@@ -1,14 +1,14 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.6+dfsg1-1)
 
   (general
-    (links 529)
-    (no_connects 184)
+    (links 532)
+    (no_connects 187)
     (area 9.256 -5.262 188.229572 118.763)
     (thickness 1.6)
     (drawings 26)
     (tracks 2118)
     (zones 0)
-    (modules 222)
+    (modules 225)
     (nets 203)
   )
 
@@ -58,12 +58,12 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 0.8 0.8)
+    (pad_drill 0.3)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 112.376 144.263)
     (grid_origin 142.651 140.613)
-    (visible_elements FFFEFF6F)
+    (visible_elements FFFEF76F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -540,6 +540,30 @@
     (add_net "Net-(D6-Pad1)")
     (add_net VCC)
     (add_net VIN)
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35E846)
+    (at 78.326 38.988)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35E838)
+    (at 76.901 38.988)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (module fdsp_housing_new:LQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 54130A77) (tstamp 5B23D410)
@@ -8790,6 +8814,18 @@
       (solder_mask_margin 1.5) (solder_paste_margin 1.5) (clearance 1.5) (zone_connect 0))
   )
 
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35E829)
+    (at 75.526 38.988)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
   (gr_text + (at 100.001 55.663) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -11012,17 +11048,17 @@
     (polygon
       (pts
         (xy 64.941 32.573) (xy 67.151 34.453) (xy 71.431 34.393) (xy 72.000191 34.923602) (xy 66.141 35.093)
-        (xy 60.701 35.503) (xy 59.62262 35.521124) (xy 59.621 35.543) (xy 59.60041 35.521497) (xy 59.511 35.523)
-        (xy 59.512546 35.429737) (xy 57.591 33.423) (xy 58.903857 33.399021) (xy 59.591 31.583)
+        (xy 66.151 35.163) (xy 60.701 35.503) (xy 59.62262 35.521124) (xy 59.621 35.543) (xy 59.60041 35.521497)
+        (xy 59.511 35.523) (xy 59.512546 35.429737) (xy 57.591 33.423) (xy 58.903857 33.399021) (xy 59.591 31.583)
       )
     )
     (filled_polygon
       (pts
         (xy 64.884543 32.691709) (xy 67.068711 34.549734) (xy 67.112829 34.574128) (xy 67.15278 34.579988) (xy 71.381741 34.520704)
-        (xy 71.68735 34.805594) (xy 66.13733 34.966053) (xy 66.131455 34.966359) (xy 65.791242 34.992) (xy 64.164464 34.992)
+        (xy 71.68735 34.805594) (xy 66.13733 34.966053) (xy 66.088229 34.977483) (xy 66.068247 34.992) (xy 64.164464 34.992)
         (xy 64.164464 34.013) (xy 64.137897 33.87181) (xy 64.054454 33.742135) (xy 63.927134 33.655141) (xy 63.776 33.624536)
         (xy 62.276 33.624536) (xy 62.13481 33.651103) (xy 62.005135 33.734546) (xy 61.918141 33.861866) (xy 61.887536 34.013)
-        (xy 61.887536 35.263) (xy 61.891843 35.285888) (xy 60.695151 35.37608) (xy 59.632505 35.39394) (xy 59.630343 35.382273)
+        (xy 61.887536 35.263) (xy 61.894739 35.301281) (xy 60.695965 35.376067) (xy 59.632505 35.39394) (xy 59.630343 35.382273)
         (xy 59.604275 35.341903) (xy 57.88335 33.544682) (xy 58.906176 33.526) (xy 58.955395 33.515093) (xy 58.996494 33.485897)
         (xy 59.022638 33.443965) (xy 59.672229 31.727187)
       )
@@ -11047,16 +11083,16 @@
     (polygon
       (pts
         (xy 71.931 36.573) (xy 71.381 37.113) (xy 67.771 37.093) (xy 64.001 38.013) (xy 59.451 39.253)
-        (xy 58.201 37.683) (xy 59.681 35.893) (xy 61.101 35.923) (xy 64.391 36.313) (xy 68.241 36.443)
-        (xy 71.921 36.403)
+        (xy 58.201 37.683) (xy 59.681 35.893) (xy 61.101 35.923) (xy 64.391 36.313) (xy 68.101 36.363)
+        (xy 68.241 36.443) (xy 71.921 36.403)
       )
     )
     (filled_polygon
       (pts
         (xy 61.092167 36.049842) (xy 61.915682 36.147462) (xy 61.912536 36.163) (xy 61.912536 37.413) (xy 61.939103 37.55419)
         (xy 62.022546 37.683865) (xy 62.149866 37.770859) (xy 62.301 37.801464) (xy 63.801 37.801464) (xy 63.94219 37.774897)
-        (xy 64.071865 37.691454) (xy 64.158859 37.564134) (xy 64.189464 37.413) (xy 64.189464 36.534) (xy 67.172692 36.534)
-        (xy 68.236714 36.569928) (xy 68.24238 36.569992) (xy 71.553623 36.534) (xy 71.789446 36.534) (xy 71.33315 36.982)
+        (xy 64.071865 37.691454) (xy 64.158859 37.564134) (xy 64.189464 37.413) (xy 64.189464 36.534) (xy 68.144273 36.534)
+        (xy 68.17799 36.553267) (xy 68.24238 36.569992) (xy 71.553623 36.534) (xy 71.789446 36.534) (xy 71.33315 36.982)
         (xy 70.659351 36.982) (xy 67.771704 36.966002) (xy 67.740891 36.969621) (xy 63.970891 37.889621) (xy 63.967607 37.890469)
         (xy 59.498276 39.108484) (xy 58.364539 37.68451) (xy 59.739733 36.02127)
       )
@@ -11325,18 +11361,6 @@
       )
     )
   )
-  (zone (net 5) (net_name +3V3) (layer F.Cu) (tstamp 5B2D05D4) (hatch edge 0.508)
-    (priority 3)
-    (connect_pads thru_hole_only (clearance 0.25))
-    (min_thickness 0.25)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 98.126 95.538) (xy 98.126 97.688) (xy 98.276 98.063) (xy 97.301 98.063) (xy 97.301 98.038)
-        (xy 97.476 97.713) (xy 97.476 95.613) (xy 97.576 95.463) (xy 98.026 95.463)
-      )
-    )
-  )
   (zone (net 5) (net_name +3V3) (layer F.Cu) (tstamp 5B2D0648) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25)
@@ -11353,17 +11377,6 @@
       )
     )
   )
-  (zone (net 5) (net_name +3V3) (layer F.Cu) (tstamp 5B2D06C3) (hatch edge 0.508)
-    (priority 3)
-    (connect_pads thru_hole_only (clearance 0.25))
-    (min_thickness 0.25)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 115.976 97.913) (xy 115.851 98.838) (xy 120.051 98.713) (xy 120.101 97.763) (xy 116.851 97.913)
-      )
-    )
-  )
   (zone (net 5) (net_name +3V3) (layer F.Cu) (tstamp 5B2D0708) (hatch edge 0.508)
     (priority 3)
     (connect_pads thru_hole_only (clearance 0.25))
@@ -11372,17 +11385,6 @@
     (polygon
       (pts
         (xy 109.976 103.138) (xy 110.776 103.963) (xy 111.276 103.963) (xy 112.151 103.113)
-      )
-    )
-  )
-  (zone (net 5) (net_name +3V3) (layer F.Cu) (tstamp 5B2D0758) (hatch edge 0.508)
-    (priority 3)
-    (connect_pads thru_hole_only (clearance 0.25))
-    (min_thickness 0.25)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 105.351 112.788) (xy 104.826 112.813) (xy 104.276 112.038) (xy 105.951 112.038)
       )
     )
   )
@@ -11422,6 +11424,24 @@
     (polygon
       (pts
         (xy 154.076 28.688) (xy 154.326 28.888) (xy 155.101 28.888) (xy 155.301 28.663) (xy 154.026 28.688)
+      )
+    )
+  )
+  (zone (net 5) (net_name +3V3) (layer F.Cu) (tstamp 5B35E86D) (hatch edge 0.508)
+    (priority 4)
+    (connect_pads yes (clearance 0.25))
+    (min_thickness 0.25)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 106.176 111.513) (xy 106.176 112.238) (xy 105.376 113.238) (xy 104.826 113.238) (xy 104.301 112.113)
+        (xy 104.301 111.563) (xy 104.451 111.163) (xy 105.776 111.163)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 106.051 111.569721) (xy 106.051 112.194152) (xy 105.315921 113.113) (xy 104.905608 113.113) (xy 104.426 112.085268)
+        (xy 104.426 111.585666) (xy 104.537625 111.288) (xy 105.729033 111.288)
       )
     )
   )
