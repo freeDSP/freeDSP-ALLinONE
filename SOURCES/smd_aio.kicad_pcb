@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6+dfsg1-1)
 
   (general
-    (links 532)
-    (no_connects 187)
+    (links 652)
+    (no_connects 274)
     (area 9.256 -5.262 188.229572 118.763)
     (thickness 1.6)
     (drawings 26)
-    (tracks 2118)
+    (tracks 2133)
     (zones 0)
-    (modules 225)
+    (modules 347)
     (nets 203)
   )
 
@@ -62,7 +62,6 @@
     (pad_drill 0.3)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 112.376 144.263)
-    (grid_origin 142.651 140.613)
     (visible_elements FFFEF76F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
@@ -542,8 +541,8 @@
     (add_net VIN)
   )
 
-  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35E846)
-    (at 78.326 38.988)
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED3A)
+    (at 78.325 60.675)
     (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -554,8 +553,8 @@
       (net 2 GND) (zone_connect 2))
   )
 
-  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35E838)
-    (at 76.901 38.988)
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED36)
+    (at 79.55 60.675)
     (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -564,6 +563,1478 @@
     )
     (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
       (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED32)
+    (at 80.775 60.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED2E)
+    (at 82 60.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED2A)
+    (at 77.1 60.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED20)
+    (at 77.1 73.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED1C)
+    (at 82 73.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED18)
+    (at 80.775 73.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED14)
+    (at 79.55 73.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED10)
+    (at 78.325 73.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED0C)
+    (at 77.1 72)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED08)
+    (at 82 72)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED04)
+    (at 80.775 72)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ED00)
+    (at 79.55 72)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECFC)
+    (at 78.325 72)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECF8)
+    (at 77.1 70.775)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECF4)
+    (at 82 70.775)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECF0)
+    (at 80.775 70.775)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECEC)
+    (at 79.55 70.775)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECE8)
+    (at 78.325 70.775)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECE4)
+    (at 77.1 69.525)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECE0)
+    (at 82 69.525)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECDC)
+    (at 80.775 69.525)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECD8)
+    (at 79.55 69.525)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECD4)
+    (at 78.325 69.525)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECCE)
+    (at 77.1 68.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECCA)
+    (at 82 68.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECC6)
+    (at 80.775 68.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECC2)
+    (at 79.55 68.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECBE)
+    (at 78.325 68.275)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECBA)
+    (at 77.1 67.05)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECB6)
+    (at 82 67.05)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECB2)
+    (at 80.775 67.05)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECAE)
+    (at 79.55 67.05)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECAA)
+    (at 78.325 67.05)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECA6)
+    (at 77.1 65.825)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35ECA2)
+    (at 82 65.825)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC9E)
+    (at 80.775 65.825)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC9A)
+    (at 79.55 65.825)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC96)
+    (at 78.325 65.825)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC92)
+    (at 77.1 64.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC8E)
+    (at 82 64.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC8A)
+    (at 80.775 64.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC86)
+    (at 79.55 64.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC82)
+    (at 78.325 64.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC7E)
+    (at 77.1 63.375)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC7A)
+    (at 82 63.375)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC76)
+    (at 80.775 63.375)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC72)
+    (at 79.55 63.375)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC6E)
+    (at 78.325 63.375)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC6A)
+    (at 77.125 62.15)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC66)
+    (at 82.025 62.15)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC62)
+    (at 80.8 62.15)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC5E)
+    (at 79.575 62.15)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC5A)
+    (at 78.35 62.15)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC56)
+    (at 78.3 74.875)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC52)
+    (at 79.525 74.875)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC4E)
+    (at 80.75 74.875)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC46)
+    (at 77.075 74.875)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC29)
+    (at 75.675 27.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC25)
+    (at 76.9 27.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC21)
+    (at 78.125 27.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC1D)
+    (at 79.35 27.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC19)
+    (at 74.45 27.575)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC08)
+    (at 75.675 30.375)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC04)
+    (at 76.9 30.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EC00)
+    (at 78.125 30.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBFC)
+    (at 79.35 30.375)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBF8)
+    (at 74.475 30.35)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBF4)
+    (at 75.675 31.725)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBF0)
+    (at 76.9 31.725)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBEC)
+    (at 78.125 31.725)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBE8)
+    (at 79.35 31.725)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBE4)
+    (at 74.45 31.725)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBE0)
+    (at 75.725 32.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBDC)
+    (at 76.95 32.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBD8)
+    (at 78.175 32.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBD4)
+    (at 79.4 32.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBD0)
+    (at 74.5 32.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBCC)
+    (at 74.375 23.425)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBC8)
+    (at 79.275 23.425)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBC4)
+    (at 78.05 23.425)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBC0)
+    (at 76.825 23.425)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBBC)
+    (at 75.6 23.425)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBB8)
+    (at 74.45 34.225)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBB4)
+    (at 79.35 34.225)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBB0)
+    (at 78.125 34.225)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBAC)
+    (at 76.9 34.225)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBA8)
+    (at 75.675 34.225)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBA4)
+    (at 74.45 35.45)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EBA0)
+    (at 79.35 35.45)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB9C)
+    (at 78.125 35.45)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB98)
+    (at 76.9 35.45)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB94)
+    (at 75.675 35.45)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB90)
+    (at 74.45 36.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB8C)
+    (at 79.35 36.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB88)
+    (at 78.125 36.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB84)
+    (at 76.9 36.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB80)
+    (at 75.675 36.675)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB7C)
+    (at 74.45 37.9)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB78)
+    (at 79.35 37.9)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB74)
+    (at 78.125 37.9)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB70)
+    (at 76.9 37.9)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB6C)
+    (at 75.675 37.9)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB67)
+    (at 74.45 39.125)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB63)
+    (at 79.35 39.125)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB5F)
+    (at 78.125 39.125)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB5B)
+    (at 76.9 39.125)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB57)
+    (at 75.675 39.125)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB53)
+    (at 74.475 40.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB4F)
+    (at 79.375 40.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB4B)
+    (at 78.15 40.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB47)
+    (at 76.925 40.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EB43)
+    (at 75.7 40.4)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EAF8)
+    (at 74.425 28.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EAF4)
+    (at 79.325 28.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EAF0)
+    (at 78.1 28.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EAEC)
+    (at 76.875 28.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EAE8)
+    (at 75.65 28.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EAC4)
+    (at 75.3 41.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EAC0)
+    (at 76.525 41.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EABC)
+    (at 77.75 41.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35EA89)
+    (at 78.975 41.975)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2E05ED) (tstamp 5B35EA81)
+    (at 76.975 40.475)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2E05E3) (tstamp 5B35EA7D)
+    (at 75.75 40.475)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
   )
 
   (module fdsp_housing_new:LQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 54130A77) (tstamp 5B23D410)
@@ -4963,7 +6434,7 @@
   )
 
   (module fdsp_misc:Measurement_Point_Round-SMD-Pad_Small (layer F.Cu) (tedit 5B2A3FD2) (tstamp 5B23D261)
-    (at 84.121 27.883 90)
+    (at 84.051 28.163 90)
     (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
     (tags "Mesurement Point Round SMD Pad 1.5mm")
     (path /5AF9FF80/5B23EE58)
@@ -8814,18 +10285,6 @@
       (solder_mask_margin 1.5) (solder_paste_margin 1.5) (clearance 1.5) (zone_connect 0))
   )
 
-  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B35E829)
-    (at 75.526 38.988)
-    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
-      (net 2 GND) (zone_connect 2))
-  )
-
   (gr_text + (at 100.001 55.663) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -9418,10 +10877,11 @@
   (segment (start 84.731 43.283) (end 85.011 43.563) (width 0.28) (layer F.Cu) (net 17) (tstamp 5B2A8769))
   (segment (start 85.011 43.563) (end 88.881 43.563) (width 0.28) (layer F.Cu) (net 17) (tstamp 5B2A876A))
   (segment (start 88.881 43.563) (end 90.576 41.868) (width 0.28) (layer F.Cu) (net 17) (tstamp 5B2A876B))
-  (segment (start 86.576 41.868) (end 86.576 41.328) (width 0.25) (layer F.Cu) (net 18))
-  (segment (start 86.576 41.328) (end 87.781 40.123) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B2A87E7))
-  (segment (start 87.781 40.123) (end 89.021 40.123) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B2A87EA))
-  (segment (start 89.021 40.123) (end 90.551 38.593) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B2A87EC))
+  (segment (start 90.551 39.713) (end 90.551 38.593) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B35E889))
+  (segment (start 89.851 40.413) (end 90.551 39.713) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B35E888))
+  (segment (start 88.501 40.413) (end 89.851 40.413) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B35E886))
+  (segment (start 87.046 41.868) (end 88.501 40.413) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B35E885))
+  (segment (start 86.576 41.868) (end 87.046 41.868) (width 0.28) (layer F.Cu) (net 18))
   (segment (start 80.676 39.513) (end 84.381 39.513) (width 0.28) (layer F.Cu) (net 18))
   (segment (start 84.381 39.513) (end 85.491 40.623) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B2A87CF))
   (segment (start 85.491 40.623) (end 85.491 41.463) (width 0.28) (layer F.Cu) (net 18) (tstamp 5B2A87D3))
@@ -10179,15 +11639,37 @@
   (segment (start 97.726 101.538) (end 97.726 105.488) (width 0.2) (layer B.Cu) (net 97) (tstamp 5B2D2BA5))
   (segment (start 97.576 101.388) (end 97.726 101.538) (width 0.2) (layer B.Cu) (net 97) (tstamp 5B2D2BA4))
   (via (at 97.576 101.388) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 97))
-  (segment (start 84.026 80.368124) (end 84.026 80.863098) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 84.026 76.963) (end 84.026 80.368124) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 82.626 67.163) (end 82.301 67.488) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 82.301 75.238) (end 84.026 76.963) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 83.326 67.163) (end 82.626 67.163) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 82.301 67.488) (end 82.301 75.238) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 84.076 80.913098) (end 84.026 80.863098) (width 0.2) (layer B.Cu) (net 98))
-  (via (at 84.026 80.863098) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
-  (segment (start 84.076 84.738) (end 84.076 80.913098) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.925999 35.150001) (end 87.026 35.250002) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 87.026 35.250002) (end 87.026 64.563) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.520663 33.557663) (end 86.925999 33.962999) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.925999 33.962999) (end 86.925999 35.150001) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.520663 33.538) (end 86.520663 33.557663) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 85.607651 32.000986) (end 85.607651 32.624988) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 85.607651 32.624988) (end 86.520663 33.538) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.426 28.682974) (end 86.426 31.182637) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.426 31.182637) (end 85.607651 32.000986) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.451 28.163) (end 86.451 28.657974) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 86.451 28.657974) (end 86.426 28.682974) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 83.326 67.163) (end 85.701 67.163) (width 0.2) (layer F.Cu) (net 98))
+  (via (at 84.076 84.738) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
+  (segment (start 84.076 84.738) (end 85.001 85.563) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D15EC))
+  (segment (start 85.001 85.563) (end 85.376 85.563) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D15ED))
+  (segment (start 84.076 80.988) (end 84.076 84.738) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B35E910))
+  (segment (start 84.151 80.913) (end 84.076 80.988) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B35E90F))
+  (via (at 84.151 80.913) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
+  (segment (start 84.151 77.538) (end 84.151 80.913) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E90C))
+  (segment (start 82.901 76.288) (end 84.151 77.538) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E90B))
+  (via (at 82.901 76.288) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
+  (segment (start 87.176 72.013) (end 82.901 76.288) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B35E908))
+  (segment (start 87.176 64.713) (end 87.176 72.013) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B35E907))
+  (segment (start 87.026 64.563) (end 87.176 64.713) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B35E906))
+  (via (at 87.026 64.563) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
+  (segment (start 87.026 65.438) (end 87.026 64.563) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E902))
+  (segment (start 86.976 65.488) (end 87.026 65.438) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E901))
+  (segment (start 86.676 65.488) (end 86.976 65.488) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E900))
+  (segment (start 85.851 66.313) (end 86.676 65.488) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E8FF))
+  (segment (start 85.851 67.013) (end 85.851 66.313) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E8FE))
+  (segment (start 85.701 67.163) (end 85.851 67.013) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B35E8FD))
   (segment (start 107.451 31.713) (end 90.001 31.713) (width 0.2) (layer B.Cu) (net 98))
   (segment (start 90.001 31.713) (end 86.800999 28.512999) (width 0.2) (layer B.Cu) (net 98))
   (segment (start 86.800999 28.512999) (end 86.451 28.163) (width 0.2) (layer B.Cu) (net 98))
@@ -10211,6 +11693,16 @@
   (segment (start 148.556382 30.013501) (end 148.556382 30.937401) (width 0.2) (layer F.Cu) (net 98))
   (segment (start 148.556382 30.937401) (end 148.551 30.942783) (width 0.2) (layer F.Cu) (net 98))
   (segment (start 96.876 98.863) (end 96.876 100.563) (width 0.2) (layer B.Cu) (net 98))
+  (segment (start 94.001 89.888) (end 94.626 89.888) (width 0.2) (layer F.Cu) (net 98))
+  (segment (start 87.151 85.563) (end 88.501 86.913) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1625))
+  (segment (start 88.501 86.913) (end 88.501 89.488) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1627))
+  (segment (start 88.501 89.488) (end 88.901 89.888) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1629))
+  (segment (start 88.901 89.888) (end 94.001 89.888) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D162A))
+  (via (at 94.651 89.913) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
+  (segment (start 85.376 85.563) (end 87.151 85.563) (width 0.2) (layer F.Cu) (net 98))
+  (segment (start 94.626 89.888) (end 94.651 89.913) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D17BC))
+  (segment (start 94.651 89.913) (end 96.876 93.313) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1633))
+  (segment (start 96.876 93.313) (end 96.876 98.863) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1634))
   (segment (start 96.876 100.563) (end 96.876 101.388) (width 0.2) (layer B.Cu) (net 98))
   (segment (start 97.263999 100.737999) (end 97.050999 100.737999) (width 0.2) (layer B.Cu) (net 98))
   (segment (start 97.050999 100.737999) (end 96.876 100.563) (width 0.2) (layer B.Cu) (net 98))
@@ -10236,67 +11728,65 @@
   (segment (start 97.888001 100.737999) (end 98.226001 101.075999) (width 0.2) (layer B.Cu) (net 98))
   (segment (start 98.226001 101.075999) (end 98.226001 102.537999) (width 0.2) (layer B.Cu) (net 98))
   (segment (start 96.901 101.413) (end 96.901 102.813) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1653))
-  (segment (start 96.876 93.313) (end 96.876 98.863) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1634))
-  (segment (start 94.651 89.913) (end 96.876 93.313) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1633))
   (segment (start 96.876 101.388) (end 96.901 101.413) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1652))
-  (segment (start 85.651 61.363) (end 85.651 61.588) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 85.676 61.613) (end 85.651 61.613) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1B0D))
-  (segment (start 85.651 61.588) (end 85.676 61.613) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1B0B))
-  (segment (start 80.676 34.013) (end 79.926 34.013) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 79.926 34.013) (end 79.701 34.238) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AD1))
-  (segment (start 79.701 34.238) (end 79.701 41.838) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AD3))
-  (segment (start 79.701 41.838) (end 81.076 43.213) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AD5))
-  (segment (start 81.076 43.213) (end 81.076 46.913) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1ADA))
-  (segment (start 81.076 46.913) (end 85.226 51.063) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1ADE))
-  (segment (start 85.226 51.063) (end 85.226 52.188) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AEF))
-  (via (at 85.226 52.188) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
-  (segment (start 85.226 52.188) (end 85.251 52.213) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1AF2))
-  (segment (start 85.251 52.213) (end 85.251 54.688) (width 0.2) (layer B.Cu) (net 98) (tstamp 5B2D1AF3))
-  (via (at 85.251 54.688) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
-  (segment (start 85.251 54.688) (end 85.651 55.088) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AF5))
-  (segment (start 85.651 55.088) (end 85.651 61.363) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AF6))
-  (segment (start 85.651 61.363) (end 85.651 61.438) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1B09))
-  (segment (start 83.326 67.163) (end 84.626 67.163) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 84.626 67.163) (end 85.651 66.138) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AC0))
-  (segment (start 85.651 66.138) (end 85.651 61.613) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1AC2))
-  (segment (start 85.651 61.613) (end 85.651 61.513) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1B0E))
-  (segment (start 94.626 89.888) (end 94.651 89.913) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D17BC))
-  (segment (start 85.376 85.563) (end 87.151 85.563) (width 0.2) (layer F.Cu) (net 98))
   (segment (start 96.026 103.388) (end 96.026 104.263) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D165B))
   (segment (start 96.126 103.288) (end 96.026 103.388) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1659))
   (segment (start 96.426 103.288) (end 96.126 103.288) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1658))
   (segment (start 96.901 102.813) (end 96.426 103.288) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1657))
   (via (at 96.901 102.813) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
-  (via (at 94.651 89.913) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
-  (segment (start 88.901 89.888) (end 94.001 89.888) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D162A))
-  (segment (start 88.501 89.488) (end 88.901 89.888) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1629))
-  (segment (start 88.501 86.913) (end 88.501 89.488) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1627))
-  (segment (start 87.151 85.563) (end 88.501 86.913) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1625))
-  (segment (start 94.001 89.888) (end 94.626 89.888) (width 0.2) (layer F.Cu) (net 98))
-  (segment (start 85.001 85.563) (end 85.376 85.563) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D15ED))
   (segment (start 85.376 85.563) (end 85.401 85.563) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D1623))
-  (segment (start 84.076 84.738) (end 85.001 85.563) (width 0.2) (layer F.Cu) (net 98) (tstamp 5B2D15EC))
-  (via (at 84.076 84.738) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 98))
   (segment (start 80.676 34.013) (end 82.661 34.013) (width 0.25) (layer F.Cu) (net 98))
   (segment (start 85.001 29.953) (end 85.871 29.953) (width 0.25) (layer F.Cu) (net 98) (tstamp 5B2A8923))
   (segment (start 83.511 31.443) (end 85.001 29.953) (width 0.25) (layer F.Cu) (net 98) (tstamp 5B2A8921))
   (segment (start 83.511 33.163) (end 83.511 31.443) (width 0.25) (layer F.Cu) (net 98) (tstamp 5B2A891D))
   (segment (start 82.661 34.013) (end 83.511 33.163) (width 0.25) (layer F.Cu) (net 98) (tstamp 5B2A891C))
-  (segment (start 79.201 80.913098) (end 79.151 80.863098) (width 0.2) (layer B.Cu) (net 99))
-  (segment (start 82.126 64.013) (end 81.776 63.663) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 82.126 65.663) (end 82.126 64.013) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 82.626 66.163) (end 82.126 65.663) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 83.326 66.163) (end 82.626 66.163) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 77.601 63.663) (end 77.101 64.163) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 77.101 64.163) (end 77.101 71.413) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 79.151 80.368124) (end 79.151 80.863098) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 79.201 85.163) (end 79.201 80.913098) (width 0.2) (layer B.Cu) (net 99))
-  (via (at 79.151 80.863098) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
-  (segment (start 79.151 73.463) (end 79.151 80.368124) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 77.101 71.413) (end 79.151 73.463) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 81.776 63.663) (end 77.601 63.663) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 83.826 24.888) (end 84.226 24.888) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 84.226 24.888) (end 86.201 26.863) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 83.010999 25.703001) (end 83.826 24.888) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 82.051 26.453) (end 82.800999 25.703001) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 82.800999 25.703001) (end 83.010999 25.703001) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 86.201 26.863) (end 85.800999 27.263001) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.800999 27.263001) (end 85.800999 30.287999) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.525989 34.158349) (end 86.525989 35.31569) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.800999 30.287999) (end 86.026 30.513) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.62599 61.58801) (end 85.676 62.538) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.026 30.513) (end 86.026 31.016939) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.62599 35.415691) (end 86.62599 61.58801) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.026 31.016939) (end 85.207643 31.835296) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.207643 31.835296) (end 85.207643 32.840003) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.207643 32.840003) (end 86.525989 34.158349) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.525989 35.31569) (end 86.62599 35.415691) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.181026 62.538) (end 85.676 62.538) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 84.951 62.963) (end 84.951 62.863) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 84.951 62.863) (end 84.951 62.768026) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 84.951 62.768026) (end 85.181026 62.538) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 84.951 65.738) (end 84.951 63.263) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 84.951 63.263) (end 84.951 62.963) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 82.351 84.913) (end 82.951 85.513) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 82.951 85.513) (end 84.326 85.513) (width 0.2) (layer F.Cu) (net 99))
+  (via (at 82.351 84.913) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
+  (segment (start 82.351 80.923) (end 82.351 84.913) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 81.501 76.363) (end 81.501 76.857974) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 81.501 76.857974) (end 82.351 77.707974) (width 0.2) (layer F.Cu) (net 99))
+  (via (at 82.351 80.923) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
+  (segment (start 82.351 77.707974) (end 82.351 80.923) (width 0.2) (layer F.Cu) (net 99))
+  (segment (start 86.35099 71.672312) (end 84.979686 71.672312) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 84.979686 71.672312) (end 81.350999 75.300999) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 81.350999 75.300999) (end 81.350999 76.212999) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 81.350999 76.212999) (end 81.501 76.363) (width 0.2) (layer B.Cu) (net 99))
+  (via (at 81.501 76.363) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
+  (segment (start 86.35099 66.56299) (end 86.35099 71.672312) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.201 65.913) (end 86.201 66.413) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.201 66.413) (end 86.35099 66.56299) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.95099 64.73799) (end 85.95099 65.66299) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.95099 65.66299) (end 86.201 65.913) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 86.201 65.913) (end 86.326 65.913) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.676 62.538) (end 85.676 63.450998) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.676 63.450998) (end 85.525999 63.600999) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.525999 63.600999) (end 85.525999 64.312999) (width 0.2) (layer B.Cu) (net 99))
+  (segment (start 85.525999 64.312999) (end 85.95099 64.73799) (width 0.2) (layer B.Cu) (net 99))
+  (via (at 85.676 62.538) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
   (segment (start 86.201 26.863) (end 85.791 26.453) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 85.791 26.453) (end 82.051 26.453) (width 0.2) (layer F.Cu) (net 99))
   (segment (start 90.351 31.063) (end 86.201 26.913) (width 0.2) (layer B.Cu) (net 99))
   (segment (start 86.201 26.913) (end 86.201 26.863) (width 0.2) (layer B.Cu) (net 99))
   (via (at 86.201 26.863) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
@@ -10339,30 +11829,13 @@
   (segment (start 96.151 93.238) (end 96.401 93.488) (width 0.2) (layer B.Cu) (net 99) (tstamp 5B2D1994))
   (segment (start 95.576 102.938) (end 95.201 102.938) (width 0.2) (layer B.Cu) (net 99) (tstamp 5B2D1848))
   (segment (start 95.201 102.938) (end 95.076 102.813) (width 0.2) (layer B.Cu) (net 99) (tstamp 5B2D184B))
-  (segment (start 80.676 33.013) (end 80.001 33.013) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 84.951 56.513) (end 84.951 61.613) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B3E))
-  (segment (start 76.201 47.763) (end 84.951 56.513) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B3D))
-  (via (at 76.201 47.763) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
-  (segment (start 76.201 42.488) (end 76.201 47.763) (width 0.2) (layer B.Cu) (net 99) (tstamp 5B2D1B3B))
-  (segment (start 76.051 42.338) (end 76.201 42.488) (width 0.2) (layer B.Cu) (net 99) (tstamp 5B2D1B3A))
-  (via (at 76.051 42.338) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
-  (segment (start 74.576 40.863) (end 76.051 42.338) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B30))
-  (segment (start 74.576 30.688) (end 74.576 40.863) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B2C))
-  (segment (start 75.251 30.013) (end 74.576 30.688) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B2A))
-  (segment (start 78.976 30.013) (end 75.251 30.013) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B29))
-  (segment (start 79.576 30.613) (end 78.976 30.013) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B28))
-  (segment (start 79.576 32.588) (end 79.576 30.613) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B27))
-  (segment (start 80.001 33.013) (end 79.576 32.588) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B15))
   (segment (start 83.326 66.163) (end 84.526 66.163) (width 0.2) (layer F.Cu) (net 99))
-  (segment (start 84.951 65.738) (end 84.951 61.688) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1ABD))
-  (segment (start 84.951 61.688) (end 84.951 61.613) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1B45))
   (segment (start 84.526 66.163) (end 84.951 65.738) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1ABC))
   (segment (start 94.276 91.288) (end 94.451 91.463) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1805))
   (via (at 94.451 91.463) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
   (via (at 95.076 102.813) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
   (segment (start 95.076 102.813) (end 94.551 103.338) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D184F))
   (segment (start 94.551 104.238) (end 94.551 103.338) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1850))
-  (segment (start 84.326 85.513) (end 79.976 85.513) (width 0.2) (layer F.Cu) (net 99))
   (segment (start 93.826 90.363) (end 94.276 90.813) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1765))
   (segment (start 88.701 90.363) (end 93.826 90.363) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1762))
   (segment (start 88.051 89.713) (end 88.701 90.363) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D175E))
@@ -10372,10 +11845,6 @@
   (segment (start 84.326 85.513) (end 84.851 86.038) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1753))
   (segment (start 94.276 90.813) (end 94.276 91.288) (width 0.2) (layer F.Cu) (net 99))
   (segment (start 94.551 104.238) (end 94.526 104.263) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1852))
-  (via (at 79.201 85.163) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 99))
-  (segment (start 79.201 85.163) (end 79.551 85.513) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D16E6))
-  (segment (start 79.551 85.513) (end 79.976 85.513) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D16E7))
-  (segment (start 79.976 85.513) (end 80.051 85.513) (width 0.2) (layer F.Cu) (net 99) (tstamp 5B2D1751))
   (segment (start 80.676 33.013) (end 81.981 33.013) (width 0.25) (layer F.Cu) (net 99))
   (segment (start 82.051 27.633) (end 82.051 26.453) (width 0.25) (layer F.Cu) (net 99) (tstamp 5B2A8936))
   (segment (start 82.421 28.003) (end 82.051 27.633) (width 0.25) (layer F.Cu) (net 99) (tstamp 5B2A8934))
@@ -10628,58 +12097,48 @@
   (segment (start 89.901 102.163) (end 88.301 103.763) (width 0.25) (layer B.Cu) (net 119) (tstamp 5B2AB522))
   (via (at 89.901 102.163) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 119))
   (segment (start 87.401 104.613) (end 87.401 105.063) (width 0.25) (layer F.Cu) (net 119) (tstamp 5B2AB52D))
-  (segment (start 78.101 84.768026) (end 78.101 80.863098) (width 0.2) (layer B.Cu) (net 120))
-  (segment (start 78.450999 80.513099) (end 78.101 80.863098) (width 0.2) (layer F.Cu) (net 120))
-  (segment (start 76.700998 71.687998) (end 78.450999 73.437999) (width 0.2) (layer F.Cu) (net 120))
-  (segment (start 78.450999 73.437999) (end 78.450999 80.513099) (width 0.2) (layer F.Cu) (net 120))
-  (segment (start 83.601001 57.087999) (end 83.376001 57.087999) (width 0.2) (layer F.Cu) (net 120))
-  (segment (start 83.376001 57.087999) (end 76.700998 63.763002) (width 0.2) (layer F.Cu) (net 120))
-  (segment (start 78.101 85.263) (end 78.101 84.768026) (width 0.2) (layer B.Cu) (net 120))
-  (segment (start 76.700998 63.763002) (end 76.700998 71.687998) (width 0.2) (layer F.Cu) (net 120))
-  (segment (start 83.951 56.738) (end 83.601001 57.087999) (width 0.2) (layer F.Cu) (net 120))
-  (via (at 78.101 80.863098) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
-  (segment (start 95.976 94.313) (end 95.976 100.638) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DAC))
-  (segment (start 95.701 94.038) (end 95.976 94.313) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DA2))
-  (segment (start 94.651 92.288) (end 95.701 93.338) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20CF))
-  (segment (start 94.301 92.288) (end 94.651 92.288) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20CE))
-  (segment (start 94.001 92.063) (end 94.076 92.063) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20C9))
-  (segment (start 93.326 91.038) (end 93.776 91.488) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D97))
-  (segment (start 95.701 93.338) (end 95.701 93.763) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20D4))
-  (segment (start 88.651 91.038) (end 93.326 91.038) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D95))
-  (segment (start 87.626 90.013) (end 88.651 91.038) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D78))
-  (segment (start 94.076 92.063) (end 94.301 92.288) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20CB))
-  (segment (start 87.626 87.488) (end 87.626 90.013) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D72))
-  (segment (start 87.051 86.913) (end 87.626 87.488) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D66))
-  (segment (start 82.126 86.913) (end 87.051 86.913) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D5F))
-  (segment (start 81.651 86.438) (end 82.126 86.913) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D5E))
-  (segment (start 94.001 102.613) (end 94.001 102.813) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DB8))
-  (segment (start 95.701 93.763) (end 95.701 94.038) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D9F))
-  (segment (start 93.776 91.488) (end 93.776 91.838) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D99))
-  (segment (start 95.976 100.638) (end 94.001 102.613) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DB3))
-  (segment (start 93.776 91.838) (end 94.001 92.063) (width 0.2) (layer B.Cu) (net 120))
-  (segment (start 79.751 33.513) (end 79.276 33.988) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1C9A))
-  (segment (start 79.276 33.988) (end 79.276 42.038) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1C9C))
-  (segment (start 79.276 42.038) (end 80.626 43.388) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1CA2))
-  (segment (start 80.626 43.388) (end 80.626 47.138) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1CA7))
-  (segment (start 80.626 47.138) (end 84.226 50.738) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1CAE))
-  (segment (start 84.226 50.738) (end 84.226 52.713) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1CB9))
-  (via (at 84.226 52.713) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
-  (segment (start 84.226 52.713) (end 83.951 52.988) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1CC0))
-  (segment (start 83.951 52.988) (end 83.951 56.738) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1CC1))
-  (via (at 83.951 56.738) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
-  (via (at 78.101 85.263) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
-  (segment (start 78.101 85.263) (end 78.426 85.588) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D4D))
-  (segment (start 78.426 85.588) (end 78.401 85.463) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D4E))
-  (segment (start 78.401 85.463) (end 79.376 86.438) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D4F))
-  (segment (start 79.376 86.438) (end 81.651 86.438) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D51))
-  (via (at 81.651 86.438) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
-  (via (at 94.001 102.813) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
-  (segment (start 94.001 102.813) (end 94.026 102.838) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1DC1))
+  (segment (start 72.676 85.313) (end 73.170974 85.313) (width 0.2) (layer F.Cu) (net 120))
+  (segment (start 73.170974 85.313) (end 73.220974 85.263) (width 0.2) (layer F.Cu) (net 120))
+  (segment (start 73.220974 85.263) (end 78.101 85.263) (width 0.2) (layer F.Cu) (net 120))
+  (segment (start 71.126 27.938) (end 71.126 83.763) (width 0.2) (layer B.Cu) (net 120))
+  (segment (start 71.126 83.763) (end 72.676 85.313) (width 0.2) (layer B.Cu) (net 120))
+  (via (at 72.676 85.313) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
+  (segment (start 72.551 26.513) (end 71.126 27.938) (width 0.2) (layer B.Cu) (net 120))
+  (segment (start 84.026 26.513) (end 72.551 26.513) (width 0.2) (layer B.Cu) (net 120))
+  (segment (start 84.051 28.163) (end 84.051 26.538) (width 0.2) (layer F.Cu) (net 120))
+  (segment (start 84.051 26.538) (end 84.026 26.513) (width 0.2) (layer F.Cu) (net 120))
+  (via (at 84.026 26.513) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
+  (segment (start 83.031 30.903) (end 83.031 30.24366) (width 0.2) (layer F.Cu) (net 120))
+  (segment (start 83.031 30.24366) (end 84.051 29.22366) (width 0.2) (layer F.Cu) (net 120))
+  (segment (start 84.051 29.22366) (end 84.051 28.163) (width 0.2) (layer F.Cu) (net 120))
   (segment (start 94.026 104.263) (end 94.026 102.838) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1DC2))
-  (segment (start 79.751 33.513) (end 80.676 33.513) (width 0.2) (layer F.Cu) (net 120))
+  (segment (start 94.001 102.813) (end 94.026 102.838) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1DC1))
+  (via (at 94.001 102.813) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
+  (via (at 81.651 86.438) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 120))
+  (segment (start 79.376 86.438) (end 81.651 86.438) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D51))
+  (segment (start 78.401 85.463) (end 79.376 86.438) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D4F))
+  (segment (start 78.426 85.588) (end 78.401 85.463) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D4E))
+  (segment (start 78.101 85.263) (end 78.426 85.588) (width 0.2) (layer F.Cu) (net 120) (tstamp 5B2D1D4D))
+  (segment (start 93.776 91.838) (end 94.001 92.063) (width 0.2) (layer B.Cu) (net 120))
+  (segment (start 95.976 100.638) (end 94.001 102.613) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DB3))
+  (segment (start 93.776 91.488) (end 93.776 91.838) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D99))
+  (segment (start 95.701 93.763) (end 95.701 94.038) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D9F))
+  (segment (start 94.001 102.613) (end 94.001 102.813) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DB8))
+  (segment (start 81.651 86.438) (end 82.126 86.913) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D5E))
+  (segment (start 82.126 86.913) (end 87.051 86.913) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D5F))
+  (segment (start 87.051 86.913) (end 87.626 87.488) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D66))
+  (segment (start 87.626 87.488) (end 87.626 90.013) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D72))
+  (segment (start 94.076 92.063) (end 94.301 92.288) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20CB))
+  (segment (start 87.626 90.013) (end 88.651 91.038) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D78))
+  (segment (start 88.651 91.038) (end 93.326 91.038) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D95))
+  (segment (start 95.701 93.338) (end 95.701 93.763) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20D4))
+  (segment (start 93.326 91.038) (end 93.776 91.488) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1D97))
+  (segment (start 94.001 92.063) (end 94.076 92.063) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20C9))
+  (segment (start 94.301 92.288) (end 94.651 92.288) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20CE))
+  (segment (start 94.651 92.288) (end 95.701 93.338) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D20CF))
+  (segment (start 95.701 94.038) (end 95.976 94.313) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DA2))
+  (segment (start 95.976 94.313) (end 95.976 100.638) (width 0.2) (layer B.Cu) (net 120) (tstamp 5B2D1DAC))
   (segment (start 80.676 33.513) (end 82.450998 33.513) (width 0.25) (layer F.Cu) (net 120))
-  (segment (start 84.121 29.813) (end 84.121 27.883) (width 0.25) (layer F.Cu) (net 120) (tstamp 5B2A892C))
-  (segment (start 83.031 30.903) (end 84.121 29.813) (width 0.25) (layer F.Cu) (net 120) (tstamp 5B2A892B))
   (segment (start 83.031 32.932998) (end 83.031 30.903) (width 0.25) (layer F.Cu) (net 120) (tstamp 5B2A892A))
   (segment (start 82.450998 33.513) (end 83.031 32.932998) (width 0.25) (layer F.Cu) (net 120) (tstamp 5B2A8927))
   (segment (start 141.301 90.1973) (end 141.301 100.913) (width 0.2) (layer F.Cu) (net 121))
@@ -10967,34 +12426,49 @@
   (segment (start 92.488998 101.163) (end 92.638999 101.012999) (width 0.2) (layer F.Cu) (net 152))
   (segment (start 92.638999 101.012999) (end 93.900999 101.012999) (width 0.2) (layer F.Cu) (net 152))
   (via (at 93.951 101.063) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 152))
-  (segment (start 81.801 75.363) (end 83.076 76.638) (width 0.2) (layer F.Cu) (net 153))
-  (segment (start 81.801 67.138) (end 81.801 75.363) (width 0.2) (layer F.Cu) (net 153))
-  (segment (start 83.101 80.888098) (end 83.076 80.863098) (width 0.2) (layer B.Cu) (net 153))
-  (segment (start 83.076 80.368124) (end 83.076 80.863098) (width 0.2) (layer F.Cu) (net 153))
-  (segment (start 83.326 66.663) (end 82.276 66.663) (width 0.2) (layer F.Cu) (net 153))
-  (segment (start 83.101 86.213) (end 83.101 80.888098) (width 0.2) (layer B.Cu) (net 153))
-  (segment (start 83.076 76.638) (end 83.076 80.368124) (width 0.2) (layer F.Cu) (net 153))
-  (segment (start 82.276 66.663) (end 81.801 67.138) (width 0.2) (layer F.Cu) (net 153))
-  (via (at 83.076 80.863098) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
-  (segment (start 84.876 105.038) (end 85.101 105.263) (width 0.2) (layer B.Cu) (net 153))
-  (segment (start 85.101 105.263) (end 88.301 105.263) (width 0.2) (layer B.Cu) (net 153))
-  (segment (start 88.301 105.263) (end 88.926 105.888) (width 0.2) (layer B.Cu) (net 153))
-  (segment (start 93.526 105.488) (end 93.526 104.263) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C85))
-  (segment (start 93.301 105.713) (end 93.526 105.488) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C84))
-  (segment (start 89.101 105.713) (end 93.301 105.713) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C81))
-  (segment (start 88.926 105.888) (end 89.101 105.713) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C80))
-  (via (at 88.926 105.888) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
-  (segment (start 84.876 96.513) (end 84.876 105.038) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C54))
-  (segment (start 84.526 96.163) (end 84.876 96.513) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C51))
-  (segment (start 84.126 96.163) (end 84.526 96.163) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C50))
-  (segment (start 83.976 96.013) (end 84.126 96.163) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C4F))
-  (via (at 83.976 96.013) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
-  (segment (start 84.001 95.988) (end 83.976 96.013) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C47))
-  (segment (start 84.001 90.463) (end 84.001 95.988) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C3B))
-  (segment (start 83.951 90.413) (end 84.001 90.463) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C2C))
-  (segment (start 83.951 87.063) (end 83.951 90.413) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C2A))
-  (segment (start 83.101 86.213) (end 83.951 87.063) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C29))
+  (segment (start 83.251 80.888) (end 83.251 86.063) (width 0.2) (layer B.Cu) (net 153))
+  (segment (start 83.251 86.063) (end 83.101 86.213) (width 0.2) (layer B.Cu) (net 153))
+  (segment (start 83.75099 77.71299) (end 83.75099 80.38801) (width 0.2) (layer F.Cu) (net 153))
+  (segment (start 83.75099 80.38801) (end 83.251 80.888) (width 0.2) (layer F.Cu) (net 153))
+  (via (at 83.251 80.888) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
+  (segment (start 82.588999 76.938001) (end 82.976001 76.938001) (width 0.2) (layer F.Cu) (net 153))
+  (segment (start 82.976001 76.938001) (end 83.75099 77.71299) (width 0.2) (layer F.Cu) (net 153))
+  (segment (start 82.226 76.613) (end 82.551001 76.938001) (width 0.2) (layer F.Cu) (net 153))
+  (segment (start 82.551001 76.938001) (end 82.588999 76.938001) (width 0.2) (layer F.Cu) (net 153))
+  (segment (start 83.326 66.663) (end 84.776 66.663) (width 0.2) (layer F.Cu) (net 153))
+  (segment (start 82.201 76.638) (end 82.201 76.713) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B35E926))
+  (segment (start 82.226 76.613) (end 82.201 76.638) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B35E925))
+  (segment (start 82.226 75.838) (end 82.226 76.613) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B35E924))
+  (segment (start 82.001 75.613) (end 82.226 75.838) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B35E923))
+  (via (at 82.001 75.613) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
+  (segment (start 82.976 75.613) (end 82.001 75.613) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B35E91F))
+  (segment (start 86.751 71.838) (end 82.976 75.613) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B35E91E))
+  (segment (start 86.751 65.763) (end 86.751 71.838) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B35E91D))
+  (segment (start 86.351 65.363) (end 86.751 65.763) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B35E91C))
+  (segment (start 86.351 64.088) (end 86.351 65.363) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B35E91B))
+  (segment (start 86.176 63.913) (end 86.351 64.088) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B35E91A))
+  (via (at 86.176 63.913) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
+  (segment (start 86.176 65.263) (end 86.176 63.913) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B35E916))
+  (segment (start 84.776 66.663) (end 86.176 65.263) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B35E913))
   (via (at 83.101 86.213) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
+  (segment (start 83.101 86.213) (end 83.951 87.063) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C29))
+  (segment (start 83.951 87.063) (end 83.951 90.413) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C2A))
+  (segment (start 83.951 90.413) (end 84.001 90.463) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C2C))
+  (segment (start 84.001 90.463) (end 84.001 95.988) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C3B))
+  (segment (start 84.001 95.988) (end 83.976 96.013) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C47))
+  (via (at 83.976 96.013) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
+  (segment (start 83.976 96.013) (end 84.126 96.163) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C4F))
+  (segment (start 84.126 96.163) (end 84.526 96.163) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C50))
+  (segment (start 84.526 96.163) (end 84.876 96.513) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C51))
+  (segment (start 84.876 96.513) (end 84.876 105.038) (width 0.2) (layer B.Cu) (net 153) (tstamp 5B2D1C54))
+  (via (at 88.926 105.888) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 153))
+  (segment (start 88.926 105.888) (end 89.101 105.713) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C80))
+  (segment (start 89.101 105.713) (end 93.301 105.713) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C81))
+  (segment (start 93.301 105.713) (end 93.526 105.488) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C84))
+  (segment (start 93.526 105.488) (end 93.526 104.263) (width 0.2) (layer F.Cu) (net 153) (tstamp 5B2D1C85))
+  (segment (start 88.301 105.263) (end 88.926 105.888) (width 0.2) (layer B.Cu) (net 153))
+  (segment (start 85.101 105.263) (end 88.301 105.263) (width 0.2) (layer B.Cu) (net 153))
+  (segment (start 84.876 105.038) (end 85.101 105.263) (width 0.2) (layer B.Cu) (net 153))
   (segment (start 103.026 31.508) (end 103.026 32.778) (width 0.25) (layer F.Cu) (net 156))
   (segment (start 87.641001 31.976601) (end 86.114602 33.503) (width 0.28) (layer F.Cu) (net 157))
   (segment (start 88.071 24.663) (end 87.641001 25.092999) (width 0.28) (layer F.Cu) (net 157))
