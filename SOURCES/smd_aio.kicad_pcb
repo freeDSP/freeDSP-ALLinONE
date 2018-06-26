@@ -1,21 +1,21 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6+dfsg1-1)
 
   (general
-    (links 734)
+    (links 736)
     (no_connects 0)
     (area 9.256 15.338 188.229572 118.763)
     (thickness 1.6)
     (drawings 35)
-    (tracks 2457)
+    (tracks 2462)
     (zones 0)
-    (modules 429)
+    (modules 431)
     (nets 203)
   )
 
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -539,6 +539,18 @@
     (add_net "Net-(D6-Pad1)")
     (add_net VCC)
     (add_net VIN)
+  )
+
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B31F7C8) (tstamp 5B31F88D)
+    (at 46.22 94.64)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B2DF791) (tstamp 5B312A7E)
@@ -5176,7 +5188,7 @@
     (tags "capacitor 1206")
     (path /5AFACF29/5B11F65D)
     (attr smd)
-    (fp_text reference C60 (at -4.318 0.127 180) (layer F.SilkS)
+    (fp_text reference C60 (at -0.07 -1.755 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 2.3 90) (layer F.Fab)
@@ -5209,7 +5221,7 @@
     (tags "capacitor 1206")
     (path /5AFACF29/5B11F680)
     (attr smd)
-    (fp_text reference C61 (at 0 -2.3 90) (layer F.SilkS)
+    (fp_text reference C61 (at 0.29 1.885 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10u (at 0 2.3 90) (layer F.Fab)
@@ -11268,6 +11280,18 @@
       (net 5 +3V3))
   )
 
+  (module "AMPx2 _footprints:Via" (layer F.Cu) (tedit 5B31F7BB) (tstamp 5B31F884)
+    (at 45.08 94.09)
+    (fp_text reference "" (at -3.81 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at -5.08 -2.54) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
   (gr_line (start 58.8375 113.0375) (end 58.8375 113.1375) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_text MP3 (at 132.43 99.99) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
@@ -11429,6 +11453,11 @@
   (segment (start 25.935 92.837) (end 25.935 92.847) (width 0.2) (layer F.Cu) (net 1))
   (via (at 71.826 115.888) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 25.935 92.837) (end 25.935 86.337) (width 0.2) (layer F.Cu) (net 1))
+  (segment (start 49.5 111.65) (end 49.994974 111.65) (width 0.2) (layer B.Cu) (net 2))
+  (segment (start 49.994974 111.65) (end 50.074974 111.73) (width 0.2) (layer B.Cu) (net 2))
+  (segment (start 48.85 108.025) (end 48.85 111) (width 0.2) (layer F.Cu) (net 2))
+  (segment (start 48.85 111) (end 49.5 111.65) (width 0.2) (layer F.Cu) (net 2))
+  (via (at 49.5 111.65) (size 0.7) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 79.862 32.513) (end 79.4 32.975) (width 0.2) (layer F.Cu) (net 2) (tstamp 5B31F5BE))
   (segment (start 80.676 32.513) (end 79.862 32.513) (width 0.2) (layer F.Cu) (net 2))
   (segment (start 156.356381 36.856381) (end 156.44 36.94) (width 0.2) (layer F.Cu) (net 2) (tstamp 5B31F5AB))
