@@ -1465,19 +1465,6 @@ Text GLabel 8940 7360 0    51   Input ~ 0
 VOUT1
 Text GLabel 8940 7560 0    51   Input ~ 0
 VOUT3
-Text GLabel 8370 7740 0    55   Input ~ 0
-ADC1
-$Comp
-L CONN_01X04 P6
-U 1 1 5B050B23
-P 9180 7410
-F 0 "P6" H 9180 7660 50  0000 C CNN
-F 1 "CONN_01X04" V 9280 7410 50  0000 C CNN
-F 2 "fdsp_pinheader:Pin_Header_Straight_1x04" H 9180 7410 60  0001 C CNN
-F 3 "" H 9180 7410 60  0000 C CNN
-	1    9180 7410
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8940 7260 8980 7260
 Wire Wire Line
@@ -1898,4 +1885,39 @@ F 3 "" H 5640 5340 60  0000 C CNN
 	1    5640 5340
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_02X04 P6
+U 1 1 5B33B441
+P 9230 7410
+F 0 "P6" H 9230 7660 50  0000 C CNN
+F 1 "CONN_02X04" H 9230 7160 50  0000 C CNN
+F 2 "fdsp_pinheader:Pin_Header_Straight_2x04" H 9230 6210 60  0001 C CNN
+F 3 "" H 9230 6210 60  0000 C CNN
+	1    9230 7410
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 5B33C668
+P 9525 7635
+F 0 "#PWR041" H 9525 7385 50  0001 C CNN
+F 1 "GND" H 9525 7485 50  0000 C CNN
+F 2 "" H 9525 7635 60  0000 C CNN
+F 3 "" H 9525 7635 60  0000 C CNN
+	1    9525 7635
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9525 7260 9525 7635
+Wire Wire Line
+	9525 7560 9480 7560
+Wire Wire Line
+	9480 7460 9525 7460
+Connection ~ 9525 7560
+Wire Wire Line
+	9480 7360 9525 7360
+Connection ~ 9525 7460
+Wire Wire Line
+	9480 7260 9525 7260
+Connection ~ 9525 7360
 $EndSCHEMATC
