@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/smd_aio.sch</source>
-    <date>Thursday, 05 July 2018 'pmt' 19:31:03</date>
+    <date>Thursday, 05 July 2018 'pmt' 19:34:35</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2576,29 +2576,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="fdsp_connector">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_connector.lib</uri>
-    </library>
-    <library logical="fdsp_mechanical">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_mechanical.lib</uri>
-    </library>
-    <library logical="fdsp_digital">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_digital.lib</uri>
-    </library>
     <library logical="fdsp_dsp">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_dsp.lib</uri>
-    </library>
-    <library logical="fdsp_pinhead">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_pinhead.lib</uri>
-    </library>
-    <library logical="symbols_CS8406-CZZ">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_SPDIF/CS8406-CZZ/KiCAD/KiCAD/symbols_CS8406-CZZ.lib</uri>
-    </library>
-    <library logical="fdsp_regulator">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_regulator.lib</uri>
-    </library>
-    <library logical="fdsp_device">
-      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_device.lib</uri>
     </library>
     <library logical="symbols-CS8422-CNZ">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_SPDIF/CS8422-CNZ/KiCAD/KiCAD/symbols-CS8422-CNZ.lib</uri>
@@ -2608,6 +2587,27 @@
     </library>
     <library logical="MyLibrary">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_AMPx2/MyLibrary.lib</uri>
+    </library>
+    <library logical="fdsp_device">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_device.lib</uri>
+    </library>
+    <library logical="fdsp_connector">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_connector.lib</uri>
+    </library>
+    <library logical="fdsp_digital">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_digital.lib</uri>
+    </library>
+    <library logical="fdsp_pinhead">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_pinhead.lib</uri>
+    </library>
+    <library logical="fdsp_mechanical">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_mechanical.lib</uri>
+    </library>
+    <library logical="fdsp_regulator">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/LIBRARY/Symbol/fdsp_regulator.lib</uri>
+    </library>
+    <library logical="symbols_CS8406-CZZ">
+      <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_SPDIF/CS8406-CZZ/KiCAD/KiCAD/symbols_CS8406-CZZ.lib</uri>
     </library>
     <library logical="smd_aio-lib">
       <uri>/Users/simonfriedrich/Documents/GitHub/freeDSP-CLASSIC-AiO/SOURCES/Library_clock/smd_aio-lib.lib</uri>
