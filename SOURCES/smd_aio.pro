@@ -1,4 +1,4 @@
-update=Sat 26 May 2018 11:12:06 PM CEST
+update=Thursday, 12 July 2018 'pmt' 18:34:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -52,3 +52,13 @@ LibName20=Library_smdb_new/lib/Symbol/fdsp_linear_new
 LibName21=Library_smdb_new/lib/Symbol/fdsp_oscillator_new
 LibName22=Library_smdb_new/lib/Symbol/fdsp_transistor_new
 LibName23=Library_power/LM2738XMY&slash_NOPB/KiCAD/KiCAD/LM2738XMY&slash_NOPB-symbols
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

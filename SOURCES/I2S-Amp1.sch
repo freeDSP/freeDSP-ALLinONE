@@ -28,12 +28,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "freeDSP-CLASSIC-AiO"
+Date "12.07.2018"
+Rev "V1.0"
+Comp "TUD"
+Comment1 "Friedrich, Hoffmann, Kaiser, Schindler"
+Comment2 "Hauptseminar Kommunikationsnetze"
 Comment3 ""
 Comment4 ""
 $EndDescr
