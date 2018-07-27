@@ -1788,7 +1788,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2810 2720 2810
 Wire Wire Line
-	2720 2310 2075 2310
+	2075 2310 2720 2310
 Wire Wire Line
 	1990 6210 1990 5960
 Wire Wire Line
@@ -1920,4 +1920,5 @@ Connection ~ 9525 7460
 Wire Wire Line
 	9480 7260 9525 7260
 Connection ~ 9525 7360
+Connection ~ 3520 1200
 $EndSCHEMATC
