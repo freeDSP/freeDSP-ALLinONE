@@ -28,8 +28,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title "freeDSP-CLASSIC-AiO"
-Date "12.07.2018"
+Title "freeDSP-AiO"
+Date "2018-08-09"
 Rev "V1.0"
 Comp "TUD"
 Comment1 "Friedrich, Hoffmann, Kaiser, Schindler"
