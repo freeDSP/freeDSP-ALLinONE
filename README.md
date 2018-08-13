@@ -1,10 +1,7 @@
-# freeDSP SMD-AiO
-
-[README.md eines verwandten Projekts](https://github.com/freeDSP/freeDSP-CLASSIC-SMD-B/blob/master/README.md)
-
+# freeDSP AiO
 BOARD STATUS: Work in progress
 
-Upgrade of the freeDSP CLASSIC SMD-B
+Upgrade of the [freeDSP Classic SMD-B](https://github.com/freeDSP/freeDSP-CLASSIC-SMD-B/blob/master/README.md)
 
 LICENCE: Creative Commons Attribution Share-Alike 4.0 license
 
@@ -14,8 +11,8 @@ http://freedsp.cc
 
 The freeDSP is an open-source digital signal processor family for the do-it-yourself community. The applications range from active loudspeaker concepts (digital crossovers, bass enhancement, ...) and room equalization over advanced musical effect processors to car audio signal processing. 
 
-The _freeDSP Classic-AiO_ is an all-in-one version of the original _freeDSP Classic SMD-B_ with a few improvements and changes.
-It features four amplified analog outputs as well as S/PDIF in- and output.
+The _freeDSP AiO_ is an all-in-one version of the original _freeDSP Classic SMD-B_ with a few improvements, upgrades and changes.
+It features four amplified analog outputs as well as S/PDIF in- and output (optical and RCA).
 This board has been designed using the Cross-Platform Open Source Tool [KiCad](http://kicad-pcb.org/).
 
 More informations kann be found on the [freeDSP website](http://freedsp.cc)
@@ -24,14 +21,11 @@ You can find a PDF version of the schematic in the SOURCES folder (LINK)
 
 ## Links
 
-#### FreeDSP Website
-[http://freedsp.cc/](http://freedsp.cc)
+[freeDSP Website](http://freedsp.cc)
 
-#### Documentation
-[Google Doc](https://docs.google.com/document/d/1258PKKEvrk1GpFIaAHhm8G6f0HHNBfSL8KVq2VGgUKc/edit?usp=sharing)
+[Documentation in Google Doc](https://docs.google.com/document/d/1258PKKEvrk1GpFIaAHhm8G6f0HHNBfSL8KVq2VGgUKc/edit?usp=sharing)
 
-#### FreeDSP Guidelines
-https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines
+[freeDSP Guidelines](https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines)
 
 
 
@@ -40,8 +34,8 @@ https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/wiki/freeDSP-Guidelines
 #### How to setup local repository
 - Change to your FreeDSP directory
 - Clone the repository (including submodule)  
- `git clone --recursive https://github.com/freeDSP/freeDSP-CLASSIC-AiO.git` 
-- Change to the newly created Classic-AiO directory
+ `git clone --recursive https://github.com/freeDSP/freeDSP-AiO.git` 
+- Change to the newly created AiO directory
 - Checkout a branch for the library submodule, if you want to modify it as well
   `git submodule foreach 'git checkout 'master''`
 - Open the project file in KiCad
