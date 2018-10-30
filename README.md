@@ -1,5 +1,5 @@
 # freeDSP ALLinONE
-BOARD STATUS: Work in progress
+BOARD STATUS: READY TO BE BUILT
 
 Upgrade of the [freeDSP Classic SMD-B](https://github.com/freeDSP/freeDSP-CLASSIC-SMD-B/blob/master/README.md)
 
