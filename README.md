@@ -11,7 +11,7 @@ http://freedsp.cc
 
 The freeDSP is an open-source digital signal processor family for the do-it-yourself community. The applications range from active loudspeaker concepts (digital crossovers, bass enhancement, ...) and room equalization over advanced musical effect processors to car audio signal processing. 
 
-The _freeDSP ALLinOne_ is an all-in-one version of the original _freeDSP Classic SMD-B_ with a few improvements, upgrades and changes.
+The _freeDSP ALLinONE_ is an all-in-one version of the original _freeDSP Classic SMD-B_ with a few improvements, upgrades and changes.
 It features four amplified analog outputs as well as S/PDIF in- and output (optical and RCA).
 This board has been designed using the Cross-Platform Open Source Tool [KiCad](http://kicad-pcb.org/).
 
