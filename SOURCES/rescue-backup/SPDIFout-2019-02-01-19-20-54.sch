@@ -1,6 +1,29 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
+LIBS:MyLibrary
+LIBS:Polarized_Cap
+LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
+LIBS:smd_aio-lib
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +38,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smd_aio-rescue:CS8406-CZZ U6
+L CS8406-CZZ U6
 U 1 1 5B0AF816
 P 2350 4800
 F 0 "U6" H 3650 5200 60  0000 C CNN
@@ -26,7 +49,7 @@ F 3 "" H 2350 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR090
+L GND #PWR090
 U 1 1 5B0AF8B6
 P 2250 7000
 F 0 "#PWR090" H 2250 6750 50  0001 C CNN
@@ -37,7 +60,7 @@ F 3 "" H 2250 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR091
+L +3V3 #PWR091
 U 1 1 5B0AF99E
 P 2050 6700
 F 0 "#PWR091" H 2050 6550 50  0001 C CNN
@@ -48,7 +71,7 @@ F 3 "" H 2050 6700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR092
+L +3V3 #PWR092
 U 1 1 5B0AFA1D
 P 1950 5000
 F 0 "#PWR092" H 1950 4850 50  0001 C CNN
@@ -59,7 +82,7 @@ F 3 "" H 1950 5000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR093
+L +3V3 #PWR093
 U 1 1 5B0AFA52
 P 1350 5300
 F 0 "#PWR093" H 1350 5150 50  0001 C CNN
@@ -70,7 +93,7 @@ F 3 "" H 1350 5300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C50
+L C C50
 U 1 1 5B0AFA5D
 P 1450 5450
 F 0 "C50" H 1475 5550 50  0000 L CNN
@@ -81,7 +104,7 @@ F 3 "" H 1450 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR094
+L GND #PWR094
 U 1 1 5B0AFB08
 P 1450 5700
 F 0 "#PWR094" H 1450 5450 50  0001 C CNN
@@ -102,7 +125,7 @@ MP11
 Text GLabel 1380 6500 0    60   Input ~ 0
 MCLK3
 $Comp
-L smd_aio-rescue:GND #PWR095
+L GND #PWR095
 U 1 1 5B0AFC8B
 P 5250 6550
 F 0 "#PWR095" H 5250 6300 50  0001 C CNN
@@ -115,7 +138,7 @@ $EndComp
 Text GLabel 5150 6100 2    60   Output ~ 0
 SPDIF_OUT_TOS
 $Comp
-L smd_aio-rescue:+3V3 #PWR096
+L +3V3 #PWR096
 U 1 1 5B0AFDE4
 P 6100 6250
 F 0 "#PWR096" H 6100 6100 50  0001 C CNN
@@ -126,7 +149,7 @@ F 3 "" H 6100 6250 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C53
+L C C53
 U 1 1 5B0AFDEA
 P 6100 6550
 F 0 "C53" H 6125 6650 50  0000 L CNN
@@ -137,7 +160,7 @@ F 3 "" H 6100 6550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR097
+L GND #PWR097
 U 1 1 5B0AFDF0
 P 6100 6800
 F 0 "#PWR097" H 6100 6550 50  0001 C CNN
@@ -148,7 +171,7 @@ F 3 "" H 6100 6800 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Transformer_1P_1S_DA101MC T1
+L Transformer_1P_1S_DA101MC T1
 U 1 1 5B179D9A
 P 4350 3150
 F 0 "T1" H 4350 3400 50  0000 C CNN
@@ -159,7 +182,7 @@ F 3 "" H 4350 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Transformer_1P_1S_DA101MC T2
+L Transformer_1P_1S_DA101MC T2
 U 1 1 5B179F77
 P 9450 3150
 F 0 "T2" H 9450 3400 50  0000 C CNN
@@ -170,7 +193,7 @@ F 3 "" H 9450 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C52
+L C C52
 U 1 1 5B17A0A6
 P 4950 2950
 F 0 "C52" H 4975 3050 50  0000 L CNN
@@ -181,7 +204,7 @@ F 3 "" H 4950 2950 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C54
+L C C54
 U 1 1 5B17A13D
 P 6900 2000
 F 0 "C54" H 6925 2100 50  0000 L CNN
@@ -192,7 +215,7 @@ F 3 "" H 6900 2000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C56
+L C C56
 U 1 1 5B17A329
 P 7500 2000
 F 0 "C56" H 7525 2100 50  0000 L CNN
@@ -203,7 +226,7 @@ F 3 "" H 7500 2000 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C51
+L C C51
 U 1 1 5B17A384
 P 3950 2400
 F 0 "C51" H 3975 2500 50  0000 L CNN
@@ -214,7 +237,7 @@ F 3 "" H 3950 2400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C57
+L C C57
 U 1 1 5B17A38A
 P 8800 2950
 F 0 "C57" H 8825 3050 50  0000 L CNN
@@ -225,7 +248,7 @@ F 3 "" H 8800 2950 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C59
+L C C59
 U 1 1 5B17A390
 P 10150 2950
 F 0 "C59" H 10175 3050 50  0000 L CNN
@@ -236,7 +259,7 @@ F 3 "" H 10150 2950 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R32
+L R R32
 U 1 1 5B17A6B2
 P 3950 3150
 F 0 "R32" V 4030 3150 50  0000 C CNN
@@ -247,7 +270,7 @@ F 3 "" H 3950 3150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R31
+L R R31
 U 1 1 5B17A720
 P 3950 2750
 F 0 "R31" V 4030 2750 50  0000 C CNN
@@ -258,7 +281,7 @@ F 3 "" H 3950 2750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R34
+L R R34
 U 1 1 5B17A774
 P 8650 2150
 F 0 "R34" V 8730 2150 50  0000 C CNN
@@ -269,7 +292,7 @@ F 3 "" H 8650 2150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R33
+L R R33
 U 1 1 5B17A77A
 P 8600 3200
 F 0 "R33" V 8680 3200 50  0000 C CNN
@@ -280,7 +303,7 @@ F 3 "" H 8600 3200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR098
+L GND #PWR098
 U 1 1 5B17AA36
 P 3950 3550
 F 0 "#PWR098" H 3950 3300 50  0001 C CNN
@@ -291,7 +314,7 @@ F 3 "" H 3950 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C58
+L C C58
 U 1 1 5B17AC4C
 P 9250 2350
 F 0 "C58" H 9275 2450 50  0000 L CNN
@@ -302,7 +325,7 @@ F 3 "" H 9250 2350 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR099
+L GND #PWR099
 U 1 1 5B17B399
 P 7200 2400
 F 0 "#PWR099" H 7200 2150 50  0001 C CNN
@@ -317,7 +340,7 @@ SPDIF_OUT_TOS
 Text GLabel 10400 2350 2    60   Output ~ 0
 SPDIF_IN_TOS
 $Comp
-L smd_aio-rescue:GND #PWR0100
+L GND #PWR0100
 U 1 1 5B17BE5B
 P 6050 2650
 F 0 "#PWR0100" H 6050 2400 50  0001 C CNN
@@ -328,7 +351,7 @@ F 3 "" H 6050 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR0101
+L GND #PWR0101
 U 1 1 5B17BE87
 P 10150 3350
 F 0 "#PWR0101" H 10150 3100 50  0001 C CNN
@@ -339,7 +362,7 @@ F 3 "" H 10150 3350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:FILTER FB1
+L FILTER FB1
 U 1 1 5B17C1E1
 P 5300 1850
 F 0 "FB1" H 5300 2000 50  0000 C CNN
@@ -350,7 +373,7 @@ F 3 "" H 5300 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR0102
+L +3V3 #PWR0102
 U 1 1 5B17C651
 P 4950 1600
 F 0 "#PWR0102" H 4950 1450 50  0001 C CNN
@@ -362,7 +385,7 @@ F 3 "" H 4950 1600 60  0000 C CNN
 $EndComp
 NoConn ~ -450 5300
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG0103
+L PWR_FLAG #FLG0103
 U 1 1 5B1F2C02
 P 8315 3435
 F 0 "#FLG0103" H 8315 3530 50  0001 C CNN
@@ -373,7 +396,7 @@ F 3 "" H 8315 3435 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG0104
+L PWR_FLAG #FLG0104
 U 1 1 5B1F337F
 P 5985 3425
 F 0 "#FLG0104" H 5985 3520 50  0001 C CNN
@@ -384,7 +407,7 @@ F 3 "" H 5985 3425 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG0105
+L PWR_FLAG #FLG0105
 U 1 1 5B1F3B4D
 P 8100 1770
 F 0 "#FLG0105" H 8100 1865 50  0001 C CNN
@@ -395,7 +418,7 @@ F 3 "" H 8100 1770 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:FCR684205R P12
+L FCR684205R P12
 U 1 1 5B20525A
 P 7900 2200
 F 0 "P12" H 7900 1600 60  0000 C CNN
@@ -406,7 +429,7 @@ F 3 "" H 7850 2200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:FCR684205T P11
+L FCR684205T P11
 U 1 1 5B2052D5
 P 6400 2200
 F 0 "P11" H 6450 1650 60  0000 C CNN
@@ -417,7 +440,7 @@ F 3 "" H 6450 2200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:RCA_01 J4
+L RCA_01 J4
 U 1 1 5B205387
 P 7900 3300
 F 0 "J4" H 7850 3200 60  0000 C CNN
@@ -428,7 +451,7 @@ F 3 "" H 7900 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:RCA_01 J3
+L RCA_01 J3
 U 1 1 5B2053FF
 P 6400 3300
 F 0 "J3" H 6350 3200 60  0000 C CNN
@@ -439,7 +462,7 @@ F 3 "" H 6400 3300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C55
+L C C55
 U 1 1 5B205970
 P 8350 2700
 F 0 "C55" H 8375 2800 50  0000 L CNN
@@ -450,7 +473,7 @@ F 3 "" H 8350 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR0106
+L GND #PWR0106
 U 1 1 5B205AC0
 P 8350 2900
 F 0 "#PWR0106" H 8350 2650 50  0001 C CNN
@@ -634,7 +657,7 @@ Connection ~ 7500 1850
 Wire Wire Line
 	4250 2500 6100 2500
 $Comp
-L smd_aio-rescue:TST P19
+L TST P19
 U 1 1 5B219145
 P 1500 6450
 F 0 "P19" H 1500 6750 50  0000 C BNN
@@ -658,7 +681,7 @@ Wire Wire Line
 	4950 6400 6100 6400
 Connection ~ 6100 6300
 $Comp
-L smd_aio-rescue:TST P27
+L TST P27
 U 1 1 5B23FEA9
 P 2020 5980
 F 0 "P27" H 2020 6280 50  0000 C BNN

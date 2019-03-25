@@ -1,29 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:fdsp_amplifier
-LIBS:fdsp_connector
-LIBS:fdsp_converter
-LIBS:fdsp_device
-LIBS:fdsp_digital
-LIBS:fdsp_dsp
-LIBS:fdsp_mechanical
-LIBS:fdsp_pinhead
-LIBS:fdsp_power
-LIBS:fdsp_regulator
-LIBS:fdsp_transistor
-LIBS:MyLibrary
-LIBS:Polarized_Cap
-LIBS:tas5760mdcar
-LIBS:symbols-CS8422-CNZ
-LIBS:symbols_CS8406-CZZ
-LIBS:smd_aio-lib
-LIBS:fdsp_device_new
-LIBS:fdsp_digital_new
-LIBS:fdsp_linear_new
-LIBS:fdsp_oscillator_new
-LIBS:fdsp_transistor_new
-LIBS:LM2738XMY&slash_NOPB-symbols
+EESchema Schematic File Version 4
 LIBS:smd_aio-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -38,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TAS5760MDCAR U9
+L smd_aio-rescue:TAS5760MDCAR U9
 U 1 1 5B067CFB
 P 5750 3050
 F 0 "U9" H 5750 4250 60  0000 C CNN
@@ -50,7 +27,7 @@ F 4 "TAS5760MDCA" H 5750 3050 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV2
+L smd_aio-rescue:POT RV2
 U 1 1 5B067D00
 P 5350 1050
 F 0 "RV2" H 5350 950 50  0000 C CNN
@@ -62,7 +39,7 @@ F 4 "M64Z104KB40" H 5350 1050 60  0001 C CNN "Mfr.Nr."
 	-1   0    0    1   
 $EndComp
 $Comp
-L Capacitor C77
+L smd_aio-rescue:Capacitor C77
 U 1 1 5B067CFC
 P 7050 1400
 F 0 "C77" H 7100 1500 50  0000 L CNN
@@ -74,7 +51,7 @@ F 4 "GRM188R71C105KE15D" H 7050 1400 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C75
+L smd_aio-rescue:Capacitor C75
 U 1 1 5B067CFD
 P 4800 1400
 F 0 "C75" H 4850 1500 50  0000 L CNN
@@ -86,7 +63,7 @@ F 4 "GRM188R71C105KE15D" H 4800 1400 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C74
+L smd_aio-rescue:Capacitor C74
 U 1 1 574C13B1
 P 4050 2100
 F 0 "C74" H 4100 2200 50  0000 L CNN
@@ -98,7 +75,7 @@ F 4 "GRM188R71C105KE15D" H 4050 2100 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C73
+L smd_aio-rescue:Capacitor C73
 U 1 1 574C13F1
 P 4050 1750
 F 0 "C73" H 4100 1850 50  0000 L CNN
@@ -110,7 +87,7 @@ F 4 "GRM188R71C105KE15D" H 4050 1750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C72
+L smd_aio-rescue:Capacitor C72
 U 1 1 574C1720
 P 3750 2750
 F 0 "C72" H 3800 2850 50  0000 L CNN
@@ -122,7 +99,7 @@ F 4 "GRM188R71C105KE15D" H 3750 2750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C83
+L smd_aio-rescue:Capacitor C83
 U 1 1 574C2572
 P 7600 1950
 F 0 "C83" H 7650 2050 50  0000 L CNN
@@ -134,7 +111,7 @@ F 4 "GRM31CR71H475KA12L" H 7600 1950 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C78
+L smd_aio-rescue:Capacitor C78
 U 1 1 5B067D03
 P 7050 1950
 F 0 "C78" H 7100 2050 50  0000 L CNN
@@ -146,7 +123,7 @@ F 4 "GRM188R71H104KA93D" H 7050 1950 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0115
+L smd_aio-rescue:GND #PWR0115
 U 1 1 574C389A
 P 4450 1150
 F 0 "#PWR0115" H 4450 900 50  0001 C CNN
@@ -157,7 +134,7 @@ F 3 "" H 4450 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0116
+L smd_aio-rescue:GND #PWR0116
 U 1 1 574C3B84
 P 6600 2000
 F 0 "#PWR0116" H 6600 1750 50  0001 C CNN
@@ -168,7 +145,7 @@ F 3 "" H 6600 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0117
+L smd_aio-rescue:GND #PWR0117
 U 1 1 574C3D2D
 P 7600 2100
 F 0 "#PWR0117" H 7600 1850 50  0001 C CNN
@@ -179,7 +156,7 @@ F 3 "" H 7600 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0118
+L smd_aio-rescue:GND #PWR0118
 U 1 1 574C411D
 P 7050 1500
 F 0 "#PWR0118" H 7050 1250 50  0001 C CNN
@@ -190,7 +167,7 @@ F 3 "" H 7050 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0119
+L smd_aio-rescue:GND #PWR0119
 U 1 1 574C436D
 P 3750 2850
 F 0 "#PWR0119" H 3750 2600 50  0001 C CNN
@@ -201,7 +178,7 @@ F 3 "" H 3750 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0120
+L smd_aio-rescue:GND #PWR0120
 U 1 1 574C66FC
 P 6600 2600
 F 0 "#PWR0120" H 6600 2350 50  0001 C CNN
@@ -212,7 +189,7 @@ F 3 "" H 6600 2600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0121
+L smd_aio-rescue:GND #PWR0121
 U 1 1 574C6724
 P 6600 3100
 F 0 "#PWR0121" H 6600 2850 50  0001 C CNN
@@ -223,7 +200,7 @@ F 3 "" H 6600 3100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitor C80
+L smd_aio-rescue:Capacitor C80
 U 1 1 574C7044
 P 7150 2400
 F 0 "C80" V 7200 2500 50  0000 L CNN
@@ -236,7 +213,7 @@ F 5 "X7R" V 7150 2400 60  0001 C CNN "Dielectric"
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C84
+L smd_aio-rescue:Capacitor C84
 U 1 1 5B067D0E
 P 7600 3550
 F 0 "C84" H 7650 3650 50  0000 L CNN
@@ -248,7 +225,7 @@ F 4 "GRM31CR71H475KA12L" H 7600 3550 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C79
+L smd_aio-rescue:Capacitor C79
 U 1 1 5B067D0F
 P 7050 3550
 F 0 "C79" H 7100 3650 50  0000 L CNN
@@ -260,7 +237,7 @@ F 4 "GRM188R71H104KA93D" H 7050 3550 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0122
+L smd_aio-rescue:GND #PWR0122
 U 1 1 574C7512
 P 7600 3700
 F 0 "#PWR0122" H 7600 3450 50  0001 C CNN
@@ -271,7 +248,7 @@ F 3 "" H 7600 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C76
+L smd_aio-rescue:Capacitor C76
 U 1 1 574C8400
 P 7000 2800
 F 0 "C76" V 7050 2900 50  0000 L CNN
@@ -284,7 +261,7 @@ F 5 "X7R" V 7000 2800 60  0001 C CNN "Dielectric"
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C82
+L smd_aio-rescue:Capacitor C82
 U 1 1 574C84A7
 P 7300 2900
 F 0 "C82" V 7350 3000 50  0000 L CNN
@@ -297,7 +274,7 @@ F 5 "X7R" V 7300 2900 60  0001 C CNN "Dielectric"
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C81
+L smd_aio-rescue:Capacitor C81
 U 1 1 574C8505
 P 7150 3300
 F 0 "C81" V 7200 3400 50  0000 L CNN
@@ -318,7 +295,7 @@ SPK_OUTB-
 Text Label 7900 3200 0    60   ~ 0
 SPK_OUTB+
 $Comp
-L Inductor L6
+L smd_aio-rescue:Inductor L6
 U 1 1 574CB247
 P 9100 2050
 F 0 "L6" H 9100 2150 50  0000 C CNN
@@ -330,7 +307,7 @@ F 4 "1D10A-100M" H 9100 2050 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Inductor L7
+L smd_aio-rescue:Inductor L7
 U 1 1 574CB60B
 P 9100 2550
 F 0 "L7" H 9100 2650 50  0000 C CNN
@@ -342,7 +319,7 @@ F 4 "1D10A-100M" H 9100 2550 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Inductor L8
+L smd_aio-rescue:Inductor L8
 U 1 1 574CB690
 P 9100 3150
 F 0 "L8" H 9100 3250 50  0000 C CNN
@@ -354,7 +331,7 @@ F 4 "1D10A-100M" H 9100 3150 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Inductor L9
+L smd_aio-rescue:Inductor L9
 U 1 1 574CB6F0
 P 9100 3650
 F 0 "L9" H 9100 3750 50  0000 C CNN
@@ -366,7 +343,7 @@ F 4 "1D10A-100M" H 9100 3650 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C85
+L smd_aio-rescue:Capacitor C85
 U 1 1 5B067D18
 P 9500 2250
 F 0 "C85" H 9550 2350 50  0000 L CNN
@@ -378,7 +355,7 @@ F 4 "GCM31CR71H684KA37L" H 9500 2250 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C86
+L smd_aio-rescue:Capacitor C86
 U 1 1 574CDE5F
 P 9500 2750
 F 0 "C86" H 9550 2850 50  0000 L CNN
@@ -390,7 +367,7 @@ F 4 "GCM31CR71H684KA37L" H 9500 2750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C87
+L smd_aio-rescue:Capacitor C87
 U 1 1 5B067D1A
 P 9500 3350
 F 0 "C87" H 9550 3450 50  0000 L CNN
@@ -402,7 +379,7 @@ F 4 "GCM31CR71H684KA37L" H 9500 3350 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C88
+L smd_aio-rescue:Capacitor C88
 U 1 1 574CE428
 P 9500 3850
 F 0 "C88" H 9550 3950 50  0000 L CNN
@@ -414,7 +391,7 @@ F 4 "GCM31CR71H684KA37L" H 9500 3850 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0123
+L smd_aio-rescue:GND #PWR0123
 U 1 1 574CFB07
 P 9500 2350
 F 0 "#PWR0123" H 9500 2100 50  0001 C CNN
@@ -425,7 +402,7 @@ F 3 "" H 9500 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0124
+L smd_aio-rescue:GND #PWR0124
 U 1 1 574CFB77
 P 9500 2850
 F 0 "#PWR0124" H 9500 2600 50  0001 C CNN
@@ -436,7 +413,7 @@ F 3 "" H 9500 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0125
+L smd_aio-rescue:GND #PWR0125
 U 1 1 5B067D1E
 P 9500 3450
 F 0 "#PWR0125" H 9500 3200 50  0001 C CNN
@@ -447,7 +424,7 @@ F 3 "" H 9500 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0126
+L smd_aio-rescue:GND #PWR0126
 U 1 1 5B067D1F
 P 9500 3950
 F 0 "#PWR0126" H 9500 3700 50  0001 C CNN
@@ -458,7 +435,7 @@ F 3 "" H 9500 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D9
+L smd_aio-rescue:LED D9
 U 1 1 574F98E7
 P 3600 1500
 F 0 "D9" H 3600 1600 50  0000 C CNN
@@ -470,7 +447,7 @@ F 4 "APT1608EC" H 3600 1500 60  0001 C CNN "Mfr.Nr."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0127
+L smd_aio-rescue:GND #PWR0127
 U 1 1 5750B753
 P 4900 3500
 F 0 "#PWR0127" H 4900 3250 50  0001 C CNN
@@ -481,7 +458,7 @@ F 3 "" H 4900 3500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0128
+L smd_aio-rescue:GND #PWR0128
 U 1 1 5B067D26
 P 4900 2800
 F 0 "#PWR0128" H 4900 2550 50  0001 C CNN
@@ -492,7 +469,7 @@ F 3 "" H 4900 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0129
+L smd_aio-rescue:GND #PWR0129
 U 1 1 5B067D27
 P 4900 2500
 F 0 "#PWR0129" H 4900 2250 50  0001 C CNN
@@ -503,7 +480,7 @@ F 3 "" H 4900 2500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Capacitor C69
+L smd_aio-rescue:Capacitor C69
 U 1 1 5B067D29
 P 1850 2300
 F 0 "C69" H 1900 2400 50  0000 L CNN
@@ -515,7 +492,7 @@ F 4 "GRM188R71C105KE15D" H 1850 2300 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitor C70
+L smd_aio-rescue:Capacitor C70
 U 1 1 5751BCA6
 P 1850 3150
 F 0 "C70" H 1900 3250 50  0000 L CNN
@@ -527,7 +504,7 @@ F 4 "GRM188R71C105KE15D" H 1850 3150 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0130
+L smd_aio-rescue:VCC #PWR0130
 U 1 1 5B067D2C
 P 8000 3400
 F 0 "#PWR0130" H 8000 3250 50  0001 C CNN
@@ -538,7 +515,7 @@ F 3 "" H 8000 3400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R37
+L smd_aio-rescue:R R37
 U 1 1 575205B0
 P 1850 2000
 F 0 "R37" V 1930 2000 50  0000 C CNN
@@ -550,7 +527,7 @@ F 4 "CRCW0603100KFKEA" V 1850 2000 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0131
+L smd_aio-rescue:GND #PWR0131
 U 1 1 5B067D2F
 P 1850 2400
 F 0 "#PWR0131" H 1850 2150 50  0001 C CNN
@@ -561,7 +538,7 @@ F 3 "" H 1850 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0132
+L smd_aio-rescue:GND #PWR0132
 U 1 1 57526305
 P 1850 3250
 F 0 "#PWR0132" H 1850 3000 50  0001 C CNN
@@ -572,7 +549,7 @@ F 3 "" H 1850 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SN74LVC14ADG4 U8
+L smd_aio-rescue:SN74LVC14ADG4 U8
 U 1 1 57512317
 P 2850 2900
 F 0 "U8" H 2750 2850 60  0000 C BNN
@@ -584,7 +561,7 @@ F 4 "SN74LVC14ADG4" H 2850 2900 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0133
+L smd_aio-rescue:GND #PWR0133
 U 1 1 57542367
 P 2500 3150
 F 0 "#PWR0133" H 2500 2900 50  0001 C CNN
@@ -595,7 +572,7 @@ F 3 "" H 2500 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0134
+L smd_aio-rescue:VCC #PWR0134
 U 1 1 57556275
 P 8000 1800
 F 0 "#PWR0134" H 8000 1650 50  0001 C CNN
@@ -606,7 +583,7 @@ F 3 "" H 8000 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR0135
+L smd_aio-rescue:GND #PWR0135
 U 1 1 5B067D2A
 P 3150 3150
 F 0 "#PWR0135" H 3150 2900 50  0001 C CNN
@@ -617,7 +594,7 @@ F 3 "" H 3150 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R39
+L smd_aio-rescue:R R39
 U 1 1 5B067D32
 P 3600 1850
 F 0 "R39" V 3680 1850 50  0000 C CNN
@@ -629,7 +606,7 @@ F 4 "CRCW0201120RJNED" V 3600 1850 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R38
+L smd_aio-rescue:R R38
 U 1 1 57531485
 P 1850 2850
 F 0 "R38" V 1930 2850 50  0000 C CNN
@@ -641,7 +618,7 @@ F 4 "CRCW0603100KFKEA" V 1850 2850 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P15
+L smd_aio-rescue:CONN_01X02 P15
 U 1 1 5B067D34
 P 10400 3400
 F 0 "P15" H 10400 3550 50  0000 C CNN
@@ -919,7 +896,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2600 3750 2600
 $Comp
-L Capacitor C71
+L smd_aio-rescue:Capacitor C71
 U 1 1 5B067D39
 P 3300 2750
 F 0 "C71" H 3350 2850 50  0000 L CNN
@@ -931,7 +908,7 @@ F 4 "GRM188R71H104KA93D" H 3300 2750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P14
+L smd_aio-rescue:CONN_01X02 P14
 U 1 1 57584668
 P 10400 2300
 F 0 "P14" H 10400 2450 50  0000 C CNN
@@ -943,7 +920,7 @@ F 4 "1935161" H 10400 2300 60  0001 C CNN "Mfr.Nr."
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR0136
+L smd_aio-rescue:GND #PWR0136
 U 1 1 575C07A8
 P 5750 4550
 F 0 "#PWR0136" H 5750 4300 50  0001 C CNN
@@ -964,7 +941,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3400 4350 3630
 $Comp
-L +3V3 #PWR0137
+L smd_aio-rescue:+3V3 #PWR0137
 U 1 1 5AFA2E39
 P 1850 1770
 F 0 "#PWR0137" H 1850 1620 50  0001 C CNN
@@ -975,7 +952,7 @@ F 3 "" H 1850 1770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR0138
+L smd_aio-rescue:+3V3 #PWR0138
 U 1 1 5AFA3723
 P 3600 1210
 F 0 "#PWR0138" H 3600 1060 50  0001 C CNN
@@ -988,7 +965,7 @@ $EndComp
 Wire Wire Line
 	3600 1210 3600 1300
 $Comp
-L +3V3 #PWR0139
+L smd_aio-rescue:+3V3 #PWR0139
 U 1 1 5B04DB98
 P 3350 2550
 F 0 "#PWR0139" H 3350 2400 50  0001 C CNN
@@ -999,7 +976,7 @@ F 3 "" H 3350 2550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR0140
+L smd_aio-rescue:+3V3 #PWR0140
 U 1 1 5B067D4D
 P 3750 2600
 F 0 "#PWR0140" H 3750 2450 50  0001 C CNN
@@ -1035,7 +1012,7 @@ NoConn ~ 3050 2950
 NoConn ~ 3050 2750
 NoConn ~ 3050 3150
 $Comp
-L TST P21
+L smd_aio-rescue:TST P21
 U 1 1 5B2185A9
 P 4000 3550
 F 0 "P21" H 4000 3850 50  0000 C BNN

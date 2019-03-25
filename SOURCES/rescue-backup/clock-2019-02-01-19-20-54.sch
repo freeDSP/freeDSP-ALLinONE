@@ -1,6 +1,29 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
+LIBS:MyLibrary
+LIBS:Polarized_Cap
+LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
+LIBS:smd_aio-lib
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +38,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smd_aio-rescue:Crystal_Oszillator X1
+L Crystal_Oszillator X1
 U 1 1 5B071476
 P 4540 3400
 F 0 "X1" H 4540 3800 60  0000 C CNN
@@ -26,7 +49,7 @@ F 3 "" H 4440 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:FILTER FB3
+L FILTER FB3
 U 1 1 5B0715ED
 P 3050 2560
 F 0 "FB3" H 3050 2710 50  0000 C CNN
@@ -37,7 +60,7 @@ F 3 "" H 3050 2560 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR0141
+L +3V3 #PWR0141
 U 1 1 5B071680
 P 3050 1930
 F 0 "#PWR0141" H 3050 1780 50  0001 C CNN
@@ -48,7 +71,7 @@ F 3 "" H 3050 1930 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C89
+L C C89
 U 1 1 5B0716DF
 P 3050 3270
 F 0 "C89" H 3075 3370 50  0000 L CNN
@@ -59,7 +82,7 @@ F 3 "" H 3050 3270 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR0142
+L GND #PWR0142
 U 1 1 5B071722
 P 3050 3850
 F 0 "#PWR0142" H 3050 3600 50  0001 C CNN
@@ -80,7 +103,7 @@ MCLK2
 Text GLabel 8160 3335 2    60   Output ~ 0
 MCLK5
 $Comp
-L smd_aio-rescue:C C90
+L C C90
 U 1 1 5B07311B
 P 6020 3580
 F 0 "C90" H 6045 3680 50  0000 L CNN
@@ -91,7 +114,7 @@ F 3 "" H 6020 3580 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR0143
+L GND #PWR0143
 U 1 1 5B0732C4
 P 6020 3870
 F 0 "#PWR0143" H 6020 3620 50  0001 C CNN
@@ -152,7 +175,7 @@ Wire Wire Line
 	6020 3430 6020 2940
 Connection ~ 6020 2940
 $Comp
-L smd_aio-rescue:R R45
+L R R45
 U 1 1 5B1890A3
 P 7910 3040
 F 0 "R45" V 7990 3040 50  0000 C CNN
@@ -167,7 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	8060 3040 8160 3040
 $Comp
-L smd_aio-rescue:R R40
+L R R40
 U 1 1 5B1F732A
 P 7665 2940
 F 0 "R40" V 7745 2940 50  0000 C CNN
@@ -182,7 +205,7 @@ Wire Wire Line
 Wire Wire Line
 	7815 2940 8160 2940
 $Comp
-L smd_aio-rescue:R R44
+L R R44
 U 1 1 5B1F742C
 P 7910 2840
 F 0 "R44" V 7990 2840 50  0000 C CNN
@@ -193,7 +216,7 @@ F 3 "" H 7910 2840 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R43
+L R R43
 U 1 1 5B1F7478
 P 7670 2740
 F 0 "R43" V 7750 2740 50  0000 C CNN
@@ -214,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	8060 2840 8160 2840
 $Comp
-L smd_aio-rescue:R R41
+L R R41
 U 1 1 5B1F76D9
 P 7665 3140
 F 0 "R41" V 7745 3140 50  0000 C CNN
@@ -229,7 +252,7 @@ Wire Wire Line
 Wire Wire Line
 	7815 3140 8160 3140
 $Comp
-L smd_aio-rescue:R R42
+L R R42
 U 1 1 5B1F7927
 P 7665 3340
 F 0 "R42" V 7745 3340 50  0000 C CNN
@@ -246,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	8160 3340 8160 3335
 $Comp
-L smd_aio-rescue:TST P22
+L TST P22
 U 1 1 5B219E4B
 P 5405 3550
 F 0 "P22" H 5405 3850 50  0000 C BNN
@@ -260,7 +283,7 @@ Wire Wire Line
 	5405 3550 5405 3650
 Connection ~ 5405 3650
 $Comp
-L smd_aio-rescue:IDT2309NZ U10
+L IDT2309NZ U10
 U 1 1 5B108D74
 P 6910 3040
 F 0 "U10" H 6710 3490 60  0000 C CNN
@@ -271,7 +294,7 @@ F 3 "" H 6910 2690 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:TST P30
+L TST P30
 U 1 1 5B23DE97
 P 7805 3485
 F 0 "P30" H 7805 3785 50  0000 C BNN
@@ -282,7 +305,7 @@ F 3 "" H 7805 3485 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:TST P29
+L TST P29
 U 1 1 5B23DFA7
 P 7705 3640
 F 0 "P29" H 7705 3940 50  0000 C BNN
@@ -293,7 +316,7 @@ F 3 "" H 7705 3640 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:TST P28
+L TST P28
 U 1 1 5B23E075
 P 7580 3775
 F 0 "P28" H 7580 4075 50  0000 C BNN

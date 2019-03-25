@@ -1,10 +1,33 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
+LIBS:MyLibrary
+LIBS:Polarized_Cap
+LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
+LIBS:smd_aio-lib
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 6 7
 Title "freeDSP-AiO"
 Date "2018-08-09"
 Rev "V1.0"
@@ -15,10 +38,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smd_aio-rescue:POT RV1
-U 1 1 574C1518
+L TAS5760MDCAR U9
+U 1 1 5B067CFB
+P 5750 3050
+F 0 "U9" H 5750 4250 60  0000 C CNN
+F 1 "TAS5760MDCAR" H 5750 4350 60  0000 C CNN
+F 2 "AMPx2 _footprints:HTSSOP-48" H 5650 2950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/405/tas5760m-480127.pdf" H 5750 3050 60  0001 C CNN
+F 4 "TAS5760MDCA" H 5750 3050 60  0001 C CNN "Mfr.Nr."
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV2
+U 1 1 5B067D00
 P 5350 1050
-F 0 "RV1" H 5350 950 50  0000 C CNN
+F 0 "RV2" H 5350 950 50  0000 C CNN
 F 1 "100k" H 5350 1050 50  0000 C CNN
 F 2 "AMPx2 _footprints:M64Z104KB40" H 5350 1050 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/64-239937.pdf" H 5350 1050 50  0001 C CNN
@@ -27,10 +62,10 @@ F 4 "M64Z104KB40" H 5350 1050 60  0001 C CNN "Mfr.Nr."
 	-1   0    0    1   
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C30
-U 1 1 574C11BE
+L Capacitor C77
+U 1 1 5B067CFC
 P 7050 1400
-F 0 "C30" H 7100 1500 50  0000 L CNN
+F 0 "C77" H 7100 1500 50  0000 L CNN
 F 1 "1u/16V" H 7100 1350 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 6750 1540 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6750 1540 50  0001 C CNN
@@ -39,10 +74,10 @@ F 4 "GRM188R71C105KE15D" H 7050 1400 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C28
-U 1 1 574C1348
+L Capacitor C75
+U 1 1 5B067CFD
 P 4800 1400
-F 0 "C28" H 4850 1500 50  0000 L CNN
+F 0 "C75" H 4850 1500 50  0000 L CNN
 F 1 "1u/16V" H 4850 1350 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 4500 1540 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 4500 1540 50  0001 C CNN
@@ -51,10 +86,10 @@ F 4 "GRM188R71C105KE15D" H 4800 1400 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C27
-U 1 1 5B067CFE
+L Capacitor C74
+U 1 1 574C13B1
 P 4050 2100
-F 0 "C27" H 4100 2200 50  0000 L CNN
+F 0 "C74" H 4100 2200 50  0000 L CNN
 F 1 "1u/16V" H 4100 2050 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 3750 2240 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 3750 2240 50  0001 C CNN
@@ -63,10 +98,10 @@ F 4 "GRM188R71C105KE15D" H 4050 2100 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C26
-U 1 1 5B067CFF
+L Capacitor C73
+U 1 1 574C13F1
 P 4050 1750
-F 0 "C26" H 4100 1850 50  0000 L CNN
+F 0 "C73" H 4100 1850 50  0000 L CNN
 F 1 "1u/16V" H 4100 1700 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 3750 1890 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 3750 1890 50  0001 C CNN
@@ -75,10 +110,10 @@ F 4 "GRM188R71C105KE15D" H 4050 1750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C25
-U 1 1 5B067D01
+L Capacitor C72
+U 1 1 574C1720
 P 3750 2750
-F 0 "C25" H 3800 2850 50  0000 L CNN
+F 0 "C72" H 3800 2850 50  0000 L CNN
 F 1 "1u/16V" H 3800 2700 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 3450 2890 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 3450 2890 50  0001 C CNN
@@ -87,10 +122,10 @@ F 4 "GRM188R71C105KE15D" H 3750 2750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C36
-U 1 1 5B067D02
+L Capacitor C83
+U 1 1 574C2572
 P 7600 1950
-F 0 "C36" H 7650 2050 50  0000 L CNN
+F 0 "C83" H 7650 2050 50  0000 L CNN
 F 1 "4u7/50V" H 7650 1900 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 7300 2090 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 7300 2090 50  0001 C CNN
@@ -99,10 +134,10 @@ F 4 "GRM31CR71H475KA12L" H 7600 1950 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C31
-U 1 1 574C26C6
+L Capacitor C78
+U 1 1 5B067D03
 P 7050 1950
-F 0 "C31" H 7100 2050 50  0000 L CNN
+F 0 "C78" H 7100 2050 50  0000 L CNN
 F 1 "0u1/50V" H 7100 1900 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 6750 2090 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6750 2090 50  0001 C CNN
@@ -111,10 +146,10 @@ F 4 "GRM188R71H104KA93D" H 7050 1950 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR042
-U 1 1 5B067D05
+L GND #PWR0115
+U 1 1 574C389A
 P 4450 1150
-F 0 "#PWR042" H 4450 900 50  0001 C CNN
+F 0 "#PWR0115" H 4450 900 50  0001 C CNN
 F 1 "GND" H 4450 1000 50  0000 C CNN
 F 2 "" H 4450 1150 50  0000 C CNN
 F 3 "" H 4450 1150 50  0000 C CNN
@@ -122,10 +157,10 @@ F 3 "" H 4450 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR043
-U 1 1 5B067D06
+L GND #PWR0116
+U 1 1 574C3B84
 P 6600 2000
-F 0 "#PWR043" H 6600 1750 50  0001 C CNN
+F 0 "#PWR0116" H 6600 1750 50  0001 C CNN
 F 1 "GND" H 6600 1850 50  0000 C CNN
 F 2 "" H 6600 2000 50  0000 C CNN
 F 3 "" H 6600 2000 50  0000 C CNN
@@ -133,10 +168,10 @@ F 3 "" H 6600 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR044
-U 1 1 5B067D07
+L GND #PWR0117
+U 1 1 574C3D2D
 P 7600 2100
-F 0 "#PWR044" H 7600 1850 50  0001 C CNN
+F 0 "#PWR0117" H 7600 1850 50  0001 C CNN
 F 1 "GND" H 7600 1950 50  0000 C CNN
 F 2 "" H 7600 2100 50  0000 C CNN
 F 3 "" H 7600 2100 50  0000 C CNN
@@ -144,10 +179,10 @@ F 3 "" H 7600 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR045
-U 1 1 5B067D09
+L GND #PWR0118
+U 1 1 574C411D
 P 7050 1500
-F 0 "#PWR045" H 7050 1250 50  0001 C CNN
+F 0 "#PWR0118" H 7050 1250 50  0001 C CNN
 F 1 "GND" H 7050 1350 50  0000 C CNN
 F 2 "" H 7050 1500 50  0000 C CNN
 F 3 "" H 7050 1500 50  0000 C CNN
@@ -155,10 +190,10 @@ F 3 "" H 7050 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR046
-U 1 1 5B067D0A
+L GND #PWR0119
+U 1 1 574C436D
 P 3750 2850
-F 0 "#PWR046" H 3750 2600 50  0001 C CNN
+F 0 "#PWR0119" H 3750 2600 50  0001 C CNN
 F 1 "GND" H 3750 2700 50  0000 C CNN
 F 2 "" H 3750 2850 50  0000 C CNN
 F 3 "" H 3750 2850 50  0000 C CNN
@@ -166,10 +201,10 @@ F 3 "" H 3750 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR047
-U 1 1 5B067D0B
+L GND #PWR0120
+U 1 1 574C66FC
 P 6600 2600
-F 0 "#PWR047" H 6600 2350 50  0001 C CNN
+F 0 "#PWR0120" H 6600 2350 50  0001 C CNN
 F 1 "GND" H 6600 2450 50  0000 C CNN
 F 2 "" H 6600 2600 50  0000 C CNN
 F 3 "" H 6600 2600 50  0000 C CNN
@@ -177,10 +212,10 @@ F 3 "" H 6600 2600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR048
-U 1 1 5B067D0C
+L GND #PWR0121
+U 1 1 574C6724
 P 6600 3100
-F 0 "#PWR048" H 6600 2850 50  0001 C CNN
+F 0 "#PWR0121" H 6600 2850 50  0001 C CNN
 F 1 "GND" H 6600 2950 50  0000 C CNN
 F 2 "" H 6600 3100 50  0000 C CNN
 F 3 "" H 6600 3100 50  0000 C CNN
@@ -188,10 +223,10 @@ F 3 "" H 6600 3100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C33
-U 1 1 5B067D0D
+L Capacitor C80
+U 1 1 574C7044
 P 7150 2400
-F 0 "C33" V 7200 2500 50  0000 L CNN
+F 0 "C80" V 7200 2500 50  0000 L CNN
 F 1 "0u22/25V" V 7200 2350 50  0000 R CNN
 F 2 "fdsp_capacitor:C_0805_HandSoldering" V 6850 2540 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6850 2540 50  0001 C CNN
@@ -201,10 +236,10 @@ F 5 "X7R" V 7150 2400 60  0001 C CNN "Dielectric"
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C37
-U 1 1 574C74FF
+L Capacitor C84
+U 1 1 5B067D0E
 P 7600 3550
-F 0 "C37" H 7650 3650 50  0000 L CNN
+F 0 "C84" H 7650 3650 50  0000 L CNN
 F 1 "4u7/50V" H 7650 3500 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 7300 3690 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 7300 3690 50  0001 C CNN
@@ -213,10 +248,10 @@ F 4 "GRM31CR71H475KA12L" H 7600 3550 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C32
-U 1 1 574C7506
+L Capacitor C79
+U 1 1 5B067D0F
 P 7050 3550
-F 0 "C32" H 7100 3650 50  0000 L CNN
+F 0 "C79" H 7100 3650 50  0000 L CNN
 F 1 "0u1/50V" H 7100 3500 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 6750 3690 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6750 3690 50  0001 C CNN
@@ -225,10 +260,10 @@ F 4 "GRM188R71H104KA93D" H 7050 3550 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR049
-U 1 1 5B067D10
+L GND #PWR0122
+U 1 1 574C7512
 P 7600 3700
-F 0 "#PWR049" H 7600 3450 50  0001 C CNN
+F 0 "#PWR0122" H 7600 3450 50  0001 C CNN
 F 1 "GND" H 7600 3550 50  0000 C CNN
 F 2 "" H 7600 3700 50  0000 C CNN
 F 3 "" H 7600 3700 50  0000 C CNN
@@ -236,10 +271,10 @@ F 3 "" H 7600 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C29
-U 1 1 5B067D11
+L Capacitor C76
+U 1 1 574C8400
 P 7000 2800
-F 0 "C29" V 7050 2900 50  0000 L CNN
+F 0 "C76" V 7050 2900 50  0000 L CNN
 F 1 "0u22/25V" V 7050 2750 50  0000 R CNN
 F 2 "fdsp_capacitor:C_0805_HandSoldering" V 6700 2940 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6700 2940 50  0001 C CNN
@@ -249,10 +284,10 @@ F 5 "X7R" V 7000 2800 60  0001 C CNN "Dielectric"
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C35
-U 1 1 5B067D12
+L Capacitor C82
+U 1 1 574C84A7
 P 7300 2900
-F 0 "C35" V 7350 3000 50  0000 L CNN
+F 0 "C82" V 7350 3000 50  0000 L CNN
 F 1 "0u22/25V" V 7350 2850 50  0000 R CNN
 F 2 "fdsp_capacitor:C_0805_HandSoldering" V 7000 3040 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 7000 3040 50  0001 C CNN
@@ -262,10 +297,10 @@ F 5 "X7R" V 7300 2900 60  0001 C CNN "Dielectric"
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C34
-U 1 1 5B067D13
+L Capacitor C81
+U 1 1 574C8505
 P 7150 3300
-F 0 "C34" V 7200 3400 50  0000 L CNN
+F 0 "C81" V 7200 3400 50  0000 L CNN
 F 1 "0u22/25V" V 7200 3250 50  0000 R CNN
 F 2 "fdsp_capacitor:C_0805_HandSoldering" V 6850 3440 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 6850 3440 50  0001 C CNN
@@ -283,10 +318,10 @@ SPK_OUTB-
 Text Label 7900 3200 0    60   ~ 0
 SPK_OUTB+
 $Comp
-L smd_aio-rescue:Inductor L1
-U 1 1 5B067D14
+L Inductor L6
+U 1 1 574CB247
 P 9100 2050
-F 0 "L1" H 9100 2150 50  0000 C CNN
+F 0 "L6" H 9100 2150 50  0000 C CNN
 F 1 "10u" H 9100 2000 50  0000 C CNN
 F 2 "AMPx2 _footprints:1D10ASeries" H 9100 2050 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/192/1D10A-8408.pdf" H 9100 2050 50  0001 C CNN
@@ -295,10 +330,10 @@ F 4 "1D10A-100M" H 9100 2050 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Inductor L2
-U 1 1 5B067D15
+L Inductor L7
+U 1 1 574CB60B
 P 9100 2550
-F 0 "L2" H 9100 2650 50  0000 C CNN
+F 0 "L7" H 9100 2650 50  0000 C CNN
 F 1 "10u" H 9100 2500 50  0000 C CNN
 F 2 "AMPx2 _footprints:1D10ASeries" H 9100 2550 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/192/1D10A-8408.pdf" H 9100 2550 50  0001 C CNN
@@ -307,10 +342,10 @@ F 4 "1D10A-100M" H 9100 2550 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Inductor L3
-U 1 1 5B067D16
+L Inductor L8
+U 1 1 574CB690
 P 9100 3150
-F 0 "L3" H 9100 3250 50  0000 C CNN
+F 0 "L8" H 9100 3250 50  0000 C CNN
 F 1 "10u" H 9100 3100 50  0000 C CNN
 F 2 "AMPx2 _footprints:1D10ASeries" H 9100 3150 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/192/1D10A-8408.pdf" H 9100 3150 50  0001 C CNN
@@ -319,10 +354,10 @@ F 4 "1D10A-100M" H 9100 3150 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Inductor L4
-U 1 1 5B067D17
+L Inductor L9
+U 1 1 574CB6F0
 P 9100 3650
-F 0 "L4" H 9100 3750 50  0000 C CNN
+F 0 "L9" H 9100 3750 50  0000 C CNN
 F 1 "10u" H 9100 3600 50  0000 C CNN
 F 2 "AMPx2 _footprints:1D10ASeries" H 9100 3650 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/192/1D10A-8408.pdf" H 9100 3650 50  0001 C CNN
@@ -331,10 +366,10 @@ F 4 "1D10A-100M" H 9100 3650 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C38
-U 1 1 574CDB05
+L Capacitor C85
+U 1 1 5B067D18
 P 9500 2250
-F 0 "C38" H 9550 2350 50  0000 L CNN
+F 0 "C85" H 9550 2350 50  0000 L CNN
 F 1 "0u68/50V" H 9550 2200 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 9200 2390 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c03e.pdf" V 9200 2390 50  0001 C CNN
@@ -343,10 +378,10 @@ F 4 "GCM31CR71H684KA37L" H 9500 2250 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C39
-U 1 1 5B067D19
+L Capacitor C86
+U 1 1 574CDE5F
 P 9500 2750
-F 0 "C39" H 9550 2850 50  0000 L CNN
+F 0 "C86" H 9550 2850 50  0000 L CNN
 F 1 "0u68/50V" H 9550 2700 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 9200 2890 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c03e.pdf" V 9200 2890 50  0001 C CNN
@@ -355,10 +390,10 @@ F 4 "GCM31CR71H684KA37L" H 9500 2750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C40
-U 1 1 574CDEBE
+L Capacitor C87
+U 1 1 5B067D1A
 P 9500 3350
-F 0 "C40" H 9550 3450 50  0000 L CNN
+F 0 "C87" H 9550 3450 50  0000 L CNN
 F 1 "0u68/50V" H 9550 3300 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 9200 3490 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c03e.pdf" V 9200 3490 50  0001 C CNN
@@ -367,10 +402,10 @@ F 4 "GCM31CR71H684KA37L" H 9500 3350 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C41
-U 1 1 5B067D1B
+L Capacitor C88
+U 1 1 574CE428
 P 9500 3850
-F 0 "C41" H 9550 3950 50  0000 L CNN
+F 0 "C88" H 9550 3950 50  0000 L CNN
 F 1 "0u68/50V" H 9550 3800 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 9200 3990 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c03e.pdf" V 9200 3990 50  0001 C CNN
@@ -379,10 +414,10 @@ F 4 "GCM31CR71H684KA37L" H 9500 3850 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR050
-U 1 1 5B067D1C
+L GND #PWR0123
+U 1 1 574CFB07
 P 9500 2350
-F 0 "#PWR050" H 9500 2100 50  0001 C CNN
+F 0 "#PWR0123" H 9500 2100 50  0001 C CNN
 F 1 "GND" H 9500 2200 50  0000 C CNN
 F 2 "" H 9500 2350 50  0000 C CNN
 F 3 "" H 9500 2350 50  0000 C CNN
@@ -390,10 +425,10 @@ F 3 "" H 9500 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR051
-U 1 1 5B067D1D
+L GND #PWR0124
+U 1 1 574CFB77
 P 9500 2850
-F 0 "#PWR051" H 9500 2600 50  0001 C CNN
+F 0 "#PWR0124" H 9500 2600 50  0001 C CNN
 F 1 "GND" H 9500 2700 50  0000 C CNN
 F 2 "" H 9500 2850 50  0000 C CNN
 F 3 "" H 9500 2850 50  0000 C CNN
@@ -401,10 +436,10 @@ F 3 "" H 9500 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR052
-U 1 1 574CFBC7
+L GND #PWR0125
+U 1 1 5B067D1E
 P 9500 3450
-F 0 "#PWR052" H 9500 3200 50  0001 C CNN
+F 0 "#PWR0125" H 9500 3200 50  0001 C CNN
 F 1 "GND" H 9500 3300 50  0000 C CNN
 F 2 "" H 9500 3450 50  0000 C CNN
 F 3 "" H 9500 3450 50  0000 C CNN
@@ -412,10 +447,10 @@ F 3 "" H 9500 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR053
-U 1 1 574CFC17
+L GND #PWR0126
+U 1 1 5B067D1F
 P 9500 3950
-F 0 "#PWR053" H 9500 3700 50  0001 C CNN
+F 0 "#PWR0126" H 9500 3700 50  0001 C CNN
 F 1 "GND" H 9500 3800 50  0000 C CNN
 F 2 "" H 9500 3950 50  0000 C CNN
 F 3 "" H 9500 3950 50  0000 C CNN
@@ -423,10 +458,10 @@ F 3 "" H 9500 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:LED D3
-U 1 1 5B067D24
+L LED D9
+U 1 1 574F98E7
 P 3600 1500
-F 0 "D3" H 3600 1600 50  0000 C CNN
+F 0 "D9" H 3600 1600 50  0000 C CNN
 F 1 "LED_RED" H 3600 1400 50  0000 C CNN
 F 2 "fdsp_resistor:R_1206_HandSoldering" H 3600 1500 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/216/APT1608EC-34957.pdf" H 3600 1500 50  0001 C CNN
@@ -435,10 +470,10 @@ F 4 "APT1608EC" H 3600 1500 60  0001 C CNN "Mfr.Nr."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR054
-U 1 1 5B067D25
+L GND #PWR0127
+U 1 1 5750B753
 P 4900 3500
-F 0 "#PWR054" H 4900 3250 50  0001 C CNN
+F 0 "#PWR0127" H 4900 3250 50  0001 C CNN
 F 1 "GND" H 4900 3350 50  0000 C CNN
 F 2 "" H 4900 3500 50  0000 C CNN
 F 3 "" H 4900 3500 50  0000 C CNN
@@ -446,10 +481,10 @@ F 3 "" H 4900 3500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR055
-U 1 1 5750B9C1
+L GND #PWR0128
+U 1 1 5B067D26
 P 4900 2800
-F 0 "#PWR055" H 4900 2550 50  0001 C CNN
+F 0 "#PWR0128" H 4900 2550 50  0001 C CNN
 F 1 "GND" H 4900 2650 50  0000 C CNN
 F 2 "" H 4900 2800 50  0000 C CNN
 F 3 "" H 4900 2800 50  0000 C CNN
@@ -457,10 +492,10 @@ F 3 "" H 4900 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR056
-U 1 1 5750BB5F
+L GND #PWR0129
+U 1 1 5B067D27
 P 4900 2500
-F 0 "#PWR056" H 4900 2250 50  0001 C CNN
+F 0 "#PWR0129" H 4900 2250 50  0001 C CNN
 F 1 "GND" H 4900 2350 50  0000 C CNN
 F 2 "" H 4900 2500 50  0000 C CNN
 F 3 "" H 4900 2500 50  0000 C CNN
@@ -468,10 +503,10 @@ F 3 "" H 4900 2500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C22
-U 1 1 5751357E
+L Capacitor C69
+U 1 1 5B067D29
 P 1850 2300
-F 0 "C22" H 1900 2400 50  0000 L CNN
+F 0 "C69" H 1900 2400 50  0000 L CNN
 F 1 "1u/16V" H 1900 2250 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 1550 2440 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 1550 2440 50  0001 C CNN
@@ -480,10 +515,10 @@ F 4 "GRM188R71C105KE15D" H 1850 2300 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:Capacitor C23
-U 1 1 5B067D2B
+L Capacitor C70
+U 1 1 5751BCA6
 P 1850 3150
-F 0 "C23" H 1900 3250 50  0000 L CNN
+F 0 "C70" H 1900 3250 50  0000 L CNN
 F 1 "1u/16V" H 1900 3100 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 1550 3290 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 1550 3290 50  0001 C CNN
@@ -492,10 +527,10 @@ F 4 "GRM188R71C105KE15D" H 1850 3150 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:VCC #PWR057
-U 1 1 5751DF6E
+L VCC #PWR0130
+U 1 1 5B067D2C
 P 8000 3400
-F 0 "#PWR057" H 8000 3250 50  0001 C CNN
+F 0 "#PWR0130" H 8000 3250 50  0001 C CNN
 F 1 "VCC" H 8000 3550 50  0000 C CNN
 F 2 "" H 8000 3400 50  0000 C CNN
 F 3 "" H 8000 3400 50  0000 C CNN
@@ -503,10 +538,10 @@ F 3 "" H 8000 3400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R22
-U 1 1 5B067D2E
+L R R37
+U 1 1 575205B0
 P 1850 2000
-F 0 "R22" V 1930 2000 50  0000 C CNN
+F 0 "R37" V 1930 2000 50  0000 C CNN
 F 1 "100k" V 1850 2000 50  0000 C CNN
 F 2 "fdsp_resistor:R_1206_HandSoldering" V 1780 2000 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdfhttp://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 1850 2000 50  0001 C CNN
@@ -515,10 +550,10 @@ F 4 "CRCW0603100KFKEA" V 1850 2000 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR058
-U 1 1 5752607B
+L GND #PWR0131
+U 1 1 5B067D2F
 P 1850 2400
-F 0 "#PWR058" H 1850 2150 50  0001 C CNN
+F 0 "#PWR0131" H 1850 2150 50  0001 C CNN
 F 1 "GND" H 1850 2250 50  0000 C CNN
 F 2 "" H 1850 2400 50  0000 C CNN
 F 3 "" H 1850 2400 50  0000 C CNN
@@ -526,10 +561,10 @@ F 3 "" H 1850 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR059
-U 1 1 5B067D30
+L GND #PWR0132
+U 1 1 57526305
 P 1850 3250
-F 0 "#PWR059" H 1850 3000 50  0001 C CNN
+F 0 "#PWR0132" H 1850 3000 50  0001 C CNN
 F 1 "GND" H 1850 3100 50  0000 C CNN
 F 2 "" H 1850 3250 50  0000 C CNN
 F 3 "" H 1850 3250 50  0000 C CNN
@@ -537,10 +572,10 @@ F 3 "" H 1850 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:SN74LVC14ADG4 U3
-U 1 1 5B067D28
+L SN74LVC14ADG4 U8
+U 1 1 57512317
 P 2850 2900
-F 0 "U3" H 2750 2850 60  0000 C BNN
+F 0 "U8" H 2750 2850 60  0000 C BNN
 F 1 "SN74LVC14ADG4" H 2750 3350 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2750 3350 60  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/405/sn74lvc14a-406290.pdf" H 2750 3350 60  0001 C CNN
@@ -549,10 +584,10 @@ F 4 "SN74LVC14ADG4" H 2850 2900 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR060
-U 1 1 5B067D35
+L GND #PWR0133
+U 1 1 57542367
 P 2500 3150
-F 0 "#PWR060" H 2500 2900 50  0001 C CNN
+F 0 "#PWR0133" H 2500 2900 50  0001 C CNN
 F 1 "GND" H 2500 3000 50  0000 C CNN
 F 2 "" H 2500 3150 50  0000 C CNN
 F 3 "" H 2500 3150 50  0000 C CNN
@@ -560,10 +595,10 @@ F 3 "" H 2500 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:VCC #PWR061
-U 1 1 5B067D37
+L VCC #PWR0134
+U 1 1 57556275
 P 8000 1800
-F 0 "#PWR061" H 8000 1650 50  0001 C CNN
+F 0 "#PWR0134" H 8000 1650 50  0001 C CNN
 F 1 "VCC" H 8000 1950 50  0000 C CNN
 F 2 "" H 8000 1800 50  0000 C CNN
 F 3 "" H 8000 1800 50  0000 C CNN
@@ -571,10 +606,10 @@ F 3 "" H 8000 1800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR062
-U 1 1 5751B8F1
+L GND #PWR0135
+U 1 1 5B067D2A
 P 3150 3150
-F 0 "#PWR062" H 3150 2900 50  0001 C CNN
+F 0 "#PWR0135" H 3150 2900 50  0001 C CNN
 F 1 "GND" H 3150 3000 50  0000 C CNN
 F 2 "" H 3150 3150 50  0000 C CNN
 F 3 "" H 3150 3150 50  0000 C CNN
@@ -582,10 +617,10 @@ F 3 "" H 3150 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R24
-U 1 1 5752F94B
+L R R39
+U 1 1 5B067D32
 P 3600 1850
-F 0 "R24" V 3680 1850 50  0000 C CNN
+F 0 "R39" V 3680 1850 50  0000 C CNN
 F 1 "120" V 3600 1850 50  0000 C CNN
 F 2 "fdsp_resistor:R_1206_HandSoldering" V 3530 1850 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/crcw0201e3-54960.pdf" H 3600 1850 50  0001 C CNN
@@ -594,10 +629,10 @@ F 4 "CRCW0201120RJNED" V 3600 1850 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R23
-U 1 1 5B067D33
+L R R38
+U 1 1 57531485
 P 1850 2850
-F 0 "R23" V 1930 2850 50  0000 C CNN
+F 0 "R38" V 1930 2850 50  0000 C CNN
 F 1 "100k" V 1850 2850 50  0000 C CNN
 F 2 "fdsp_resistor:R_1206_HandSoldering" V 1780 2850 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdfhttp://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 1850 2850 50  0001 C CNN
@@ -606,10 +641,10 @@ F 4 "CRCW0603100KFKEA" V 1850 2850 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_01X02 P10
-U 1 1 5753BEB1
+L CONN_01X02 P15
+U 1 1 5B067D34
 P 10400 3400
-F 0 "P10" H 10400 3550 50  0000 C CNN
+F 0 "P15" H 10400 3550 50  0000 C CNN
 F 1 "CONN_01X02" V 10500 3400 50  0000 C CNN
 F 2 "fdsp_connector:RIACON101-2" H 10400 3400 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/324/ItemDetail_1935161-922578.pdf" H 10400 3400 50  0001 C CNN
@@ -884,10 +919,10 @@ Wire Wire Line
 Wire Wire Line
 	4100 2600 3750 2600
 $Comp
-L smd_aio-rescue:Capacitor C24
-U 1 1 5757DE29
+L Capacitor C71
+U 1 1 5B067D39
 P 3300 2750
-F 0 "C24" H 3350 2850 50  0000 L CNN
+F 0 "C71" H 3350 2850 50  0000 L CNN
 F 1 "0u1/50V" H 3350 2700 50  0000 L CNN
 F 2 "fdsp_capacitor:C_1206_HandSoldering" V 3000 2890 50  0001 C CNN
 F 3 "http://www.murata.com/products/catalog/pdf/c02e.pdf" V 3000 2890 50  0001 C CNN
@@ -896,10 +931,10 @@ F 4 "GRM188R71H104KA93D" H 3300 2750 60  0001 C CNN "Mfr.Nr."
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_01X02 P9
-U 1 1 5B067D3A
+L CONN_01X02 P14
+U 1 1 57584668
 P 10400 2300
-F 0 "P9" H 10400 2450 50  0000 C CNN
+F 0 "P14" H 10400 2450 50  0000 C CNN
 F 1 "CONN_01X02" V 10500 2300 50  0000 C CNN
 F 2 "fdsp_connector:RIACON101-2" H 10400 2300 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/324/ItemDetail_1935161-922578.pdf" H 10400 2300 50  0001 C CNN
@@ -908,10 +943,10 @@ F 4 "1935161" H 10400 2300 60  0001 C CNN "Mfr.Nr."
 	-1   0    0    1   
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR063
-U 1 1 5B067D3C
+L GND #PWR0136
+U 1 1 575C07A8
 P 5750 4550
-F 0 "#PWR063" H 5750 4300 50  0001 C CNN
+F 0 "#PWR0136" H 5750 4300 50  0001 C CNN
 F 1 "GND" H 5750 4400 50  0000 C CNN
 F 2 "" H 5750 4550 50  0000 C CNN
 F 3 "" H 5750 4550 50  0000 C CNN
@@ -923,16 +958,16 @@ Wire Wire Line
 Wire Wire Line
 	4050 3100 4050 3630
 Wire Wire Line
-	4150 3200 4150 4110
+	4150 3200 4150 3630
 Wire Wire Line
-	4250 3300 4250 4555
+	4250 3300 4250 3630
 Wire Wire Line
-	4350 3400 4350 3765
+	4350 3400 4350 3630
 $Comp
-L smd_aio-rescue:+3V3 #PWR064
-U 1 1 5B067D4A
+L +3V3 #PWR0137
+U 1 1 5AFA2E39
 P 1850 1770
-F 0 "#PWR064" H 1850 1620 50  0001 C CNN
+F 0 "#PWR0137" H 1850 1620 50  0001 C CNN
 F 1 "+3V3" H 1850 1910 50  0000 C CNN
 F 2 "" H 1850 1770 60  0000 C CNN
 F 3 "" H 1850 1770 60  0000 C CNN
@@ -940,10 +975,10 @@ F 3 "" H 1850 1770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR065
-U 1 1 5B067D4B
+L +3V3 #PWR0138
+U 1 1 5AFA3723
 P 3600 1210
-F 0 "#PWR065" H 3600 1060 50  0001 C CNN
+F 0 "#PWR0138" H 3600 1060 50  0001 C CNN
 F 1 "+3V3" H 3600 1350 50  0000 C CNN
 F 2 "" H 3600 1210 60  0000 C CNN
 F 3 "" H 3600 1210 60  0000 C CNN
@@ -953,10 +988,10 @@ $EndComp
 Wire Wire Line
 	3600 1210 3600 1300
 $Comp
-L smd_aio-rescue:+3V3 #PWR066
-U 1 1 5B067D4E
+L +3V3 #PWR0139
+U 1 1 5B04DB98
 P 3350 2550
-F 0 "#PWR066" H 3350 2400 50  0001 C CNN
+F 0 "#PWR0139" H 3350 2400 50  0001 C CNN
 F 1 "+3V3" H 3350 2690 50  0000 C CNN
 F 2 "" H 3350 2550 60  0000 C CNN
 F 3 "" H 3350 2550 60  0000 C CNN
@@ -964,24 +999,31 @@ F 3 "" H 3350 2550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR067
-U 1 1 5B0433C1
+L +3V3 #PWR0140
+U 1 1 5B067D4D
 P 3750 2600
-F 0 "#PWR067" H 3750 2450 50  0001 C CNN
+F 0 "#PWR0140" H 3750 2450 50  0001 C CNN
 F 1 "+3V3" H 3750 2740 50  0000 C CNN
 F 2 "" H 3750 2600 60  0000 C CNN
 F 3 "" H 3750 2600 60  0000 C CNN
 	1    3750 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 3765 3    44   Input ~ 0
+Text GLabel 4350 3630 3    44   Input ~ 0
 MP10
-Text GLabel 4250 4555 3    44   Input ~ 0
-MP6
-Text GLabel 4150 4110 3    44   Input ~ 0
+Text GLabel 4250 3630 3    44   Input ~ 0
+MP7
+Text GLabel 4150 3630 3    44   Input ~ 0
 MP11
 Text GLabel 4050 3630 3    44   Input ~ 0
-MCLK4
+MCLK5
+NoConn ~ 6450 3600
+NoConn ~ 6450 3700
+NoConn ~ 6450 3800
+NoConn ~ 6450 3900
+NoConn ~ 6450 4000
+NoConn ~ 6450 4100
+NoConn ~ 6450 4200
 NoConn ~ 5050 3600
 NoConn ~ 5050 3700
 NoConn ~ 5050 3800
@@ -989,83 +1031,21 @@ NoConn ~ 5050 3900
 NoConn ~ 5050 4000
 NoConn ~ 5050 4100
 NoConn ~ 5050 4200
-NoConn ~ 6450 3700
-NoConn ~ 6450 3800
-NoConn ~ 6450 3900
-NoConn ~ 6450 4000
-NoConn ~ 6450 4100
-NoConn ~ 6450 4200
-NoConn ~ 3050 2750
 NoConn ~ 3050 2950
+NoConn ~ 3050 2750
 NoConn ~ 3050 3150
 $Comp
-L smd_aio-rescue:TAS5760MDCAR U4
-U 1 1 5B18AD92
-P 5750 3050
-F 0 "U4" H 5950 1750 60  0000 C TNN
-F 1 "TAS5760MDCAR" H 5750 4350 60  0000 C CNN
-F 2 "AMPx2 _footprints:HTSSOP-48" H 5850 2950 60  0001 C CNN
-F 3 "" H 5750 3050 60  0000 C CNN
-	1    5750 3050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6450 3600
-$Comp
-L smd_aio-rescue:TST P17
-U 1 1 5B216FDF
-P 4035 3520
-F 0 "P17" H 4035 3820 50  0000 C BNN
-F 1 "TST" H 4035 3770 50  0000 C CNN
-F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4035 3520 50  0001 C CNN
-F 3 "" H 4035 3520 50  0000 C CNN
-	1    4035 3520
+L TST P21
+U 1 1 5B2185A9
+P 4000 3550
+F 0 "P21" H 4000 3850 50  0000 C BNN
+F 1 "TST" H 4000 3800 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4000 3550 50  0001 C CNN
+F 3 "" H 4000 3550 50  0000 C CNN
+	1    4000 3550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4035 3520 4050 3520
-Connection ~ 4050 3520
-$Comp
-L smd_aio-rescue:TST P24
-U 1 1 5B23E70D
-P 4130 4010
-F 0 "P24" H 4130 4310 50  0000 C BNN
-F 1 "TST" H 4130 4260 50  0000 C CNN
-F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4130 4010 50  0001 C CNN
-F 3 "" H 4130 4010 50  0000 C CNN
-	1    4130 4010
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4130 4010 4150 4010
-Connection ~ 4150 4010
-$Comp
-L smd_aio-rescue:TST P25
-U 1 1 5B23EE58
-P 4215 4465
-F 0 "P25" H 4215 4765 50  0000 C BNN
-F 1 "TST" H 4215 4715 50  0000 C CNN
-F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4215 4465 50  0001 C CNN
-F 3 "" H 4215 4465 50  0000 C CNN
-	1    4215 4465
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4215 4465 4250 4465
-Wire Wire Line
-	4250 4465 4250 4460
-Connection ~ 4250 4460
-$Comp
-L smd_aio-rescue:TST P26
-U 1 1 5B23F295
-P 4395 3690
-F 0 "P26" H 4395 3990 50  0000 C BNN
-F 1 "TST" H 4395 3940 50  0000 C CNN
-F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 4395 3690 50  0001 C CNN
-F 3 "" H 4395 3690 50  0000 C CNN
-	1    4395 3690
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4395 3690 4350 3690
-Connection ~ 4350 3690
+	4000 3550 4050 3550
+Connection ~ 4050 3550
 $EndSCHEMATC

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# smd_aio-rescue_+12V
+# +12V
 #
-DEF smd_aio-rescue_+12V #PWR 0 0 Y Y 1 F P
+DEF +12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "smd_aio-rescue_+12V" 0 140 50 H V C CNN
+F1 "+12V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_+3V3
+# +3V3
 #
-DEF smd_aio-rescue_+3V3 #PWR 0 0 Y Y 1 F P
+DEF +3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "smd_aio-rescue_+3V3" 0 140 50 H V C CNN
+F1 "+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_+5V
+# +5V
 #
-DEF smd_aio-rescue_+5V #PWR 0 0 Y Y 1 F P
+DEF +5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "smd_aio-rescue_+5V" 0 140 50 H V C CNN
+F1 "+5V" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -46,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_0ZCJ0050AF2E
+# 0ZCJ0050AF2E
 #
-DEF smd_aio-rescue_0ZCJ0050AF2E F 0 40 Y Y 1 F N
+DEF 0ZCJ0050AF2E F 0 40 Y Y 1 F N
 F0 "F" -250 0 60 H V C CNN
-F1 "smd_aio-rescue_0ZCJ0050AF2E" -250 0 60 H V C CNN
+F1 "0ZCJ0050AF2E" -250 0 60 H V C CNN
 F2 "" -250 0 60 H I C CNN
 F3 "" -250 0 60 H I C CNN
 DRAW
@@ -62,11 +62,11 @@ X ~ 2 -700 -130 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_24AA256P
+# 24AA256P
 #
-DEF smd_aio-rescue_24AA256P U 0 30 Y Y 1 F N
+DEF 24AA256P U 0 30 Y Y 1 F N
 F0 "U" 150 350 60 H V C CNN
-F1 "smd_aio-rescue_24AA256P" 250 -250 60 H V C CNN
+F1 "24AA256P" 250 -250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -82,11 +82,11 @@ X WP 7 700 200 300 L 60 60 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_ADAU1701
+# ADAU1701
 #
-DEF smd_aio-rescue_ADAU1701 U 0 40 Y Y 1 F N
+DEF ADAU1701 U 0 40 Y Y 1 F N
 F0 "U" -1010 1120 40 H V C CNN
-F1 "smd_aio-rescue_ADAU1701" 920 -1130 40 H V C CNN
+F1 "ADAU1701" 920 -1130 40 H V C CNN
 F2 "TQFP48" 0 0 32 H V C CIN
 F3 "" 0 250 60 H V C CNN
 $FPLIST
@@ -145,11 +145,11 @@ X MP5 9 -1240 430 150 R 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_C
+# C
 #
-DEF smd_aio-rescue_C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "smd_aio-rescue_C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -167,11 +167,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CONN_01X02
+# CONN_01X02
 #
-DEF smd_aio-rescue_CONN_01X02 P 0 40 Y N 1 F N
+DEF CONN_01X02 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "smd_aio-rescue_CONN_01X02" 100 0 50 V V C CNN
+F1 "CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -189,11 +189,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CONN_01X03
+# CONN_01X03
 #
-DEF smd_aio-rescue_CONN_01X03 P 0 40 Y N 1 F N
+DEF CONN_01X03 P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "smd_aio-rescue_CONN_01X03" 100 0 50 V V C CNN
+F1 "CONN_01X03" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -213,11 +213,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CONN_01X04
+# CONN_01X04
 #
-DEF smd_aio-rescue_CONN_01X04 P 0 40 Y N 1 F N
+DEF CONN_01X04 P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "smd_aio-rescue_CONN_01X04" 100 0 50 V V C CNN
+F1 "CONN_01X04" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -239,11 +239,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CONN_01X06
+# CONN_01X06
 #
-DEF smd_aio-rescue_CONN_01X06 P 0 40 Y N 1 F N
+DEF CONN_01X06 P 0 40 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "smd_aio-rescue_CONN_01X06" 100 0 50 V V C CNN
+F1 "CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -269,11 +269,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CONN_02X04
+# CONN_02X04
 #
-DEF smd_aio-rescue_CONN_02X04 P 0 1 Y N 1 F N
+DEF CONN_02X04 P 0 1 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "smd_aio-rescue_CONN_02X04" 0 -250 50 H V C CNN
+F1 "CONN_02X04" 0 -250 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -303,11 +303,11 @@ X P8 8 250 -150 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CONN_02X05
+# CONN_02X05
 #
-DEF smd_aio-rescue_CONN_02X05 P 0 1 Y N 1 F N
+DEF CONN_02X05 P 0 1 Y N 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "smd_aio-rescue_CONN_02X05" 0 -300 50 H V C CNN
+F1 "CONN_02X05" 0 -300 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -341,11 +341,11 @@ X P9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CP
+# CP
 #
-DEF smd_aio-rescue_CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "smd_aio-rescue_CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -369,11 +369,11 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CS8406-CZZ
+# CS8406-CZZ
 #
-DEF smd_aio-rescue_CS8406-CZZ U 0 10 Y Y 1 F N
+DEF CS8406-CZZ U 0 10 Y Y 1 F N
 F0 "U" 1300 400 60 H V C CNN
-F1 "smd_aio-rescue_CS8406-CZZ" 1300 300 60 H V C CNN
+F1 "CS8406-CZZ" 1300 300 60 H V C CNN
 F2 "CIR-TSSOP-28" 1300 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -473,11 +473,11 @@ X *RST 9 0 -800 300 R 59 59 1 0 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_CS8422-CNZ
+# CS8422-CNZ
 #
-DEF smd_aio-rescue_CS8422-CNZ U 0 10 Y Y 1 F N
+DEF CS8422-CNZ U 0 10 Y Y 1 F N
 F0 "U" 1500 400 60 H V C CNN
-F1 "smd_aio-rescue_CS8422-CNZ" 1500 300 60 H V C CNN
+F1 "CS8422-CNZ" 1500 300 60 H V C CNN
 F2 "CIR-QFN-32_5X5" 1500 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -590,11 +590,11 @@ X NV/RERR 9 3000 -1800 300 L 59 59 1 0 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_Capacitor
+# Capacitor
 #
-DEF smd_aio-rescue_Capacitor C 0 0 N Y 1 F N
+DEF Capacitor C 0 0 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "smd_aio-rescue_Capacitor" 50 -50 50 H V L CNN
+F1 "Capacitor" 50 -50 50 H V L CNN
 F2 "" -300 140 50 V V C CNN
 F3 "" -300 140 50 V V C CNN
 DRAW
@@ -605,11 +605,11 @@ X ~ 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_Crystal_Oszillator
+# Crystal_Oszillator
 #
-DEF smd_aio-rescue_Crystal_Oszillator X 0 40 Y Y 1 F N
+DEF Crystal_Oszillator X 0 40 Y Y 1 F N
 F0 "X" 0 450 60 H V C CNN
-F1 "smd_aio-rescue_Crystal_Oszillator" 0 -450 60 H V C CNN
+F1 "Crystal_Oszillator" 0 -450 60 H V C CNN
 F2 "" -100 -100 60 H V C CNN
 F3 "" -100 -100 60 H V C CNN
 DRAW
@@ -626,11 +626,11 @@ X Vcc 4 550 250 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_D_Schottky
+# D_Schottky
 #
-DEF smd_aio-rescue_D_Schottky D 0 40 N N 1 F N
+DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "smd_aio-rescue_D_Schottky" 0 -100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -648,11 +648,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_FCR684205R
+# FCR684205R
 #
-DEF smd_aio-rescue_FCR684205R P 0 40 Y Y 1 F N
+DEF FCR684205R P 0 40 Y Y 1 F N
 F0 "P" 0 -600 60 H V C CNN
-F1 "smd_aio-rescue_FCR684205R" -50 0 60 H V C CNN
+F1 "FCR684205R" -50 0 60 H V C CNN
 F2 "" -50 0 60 H I C CNN
 F3 "" -50 0 60 H I C CNN
 DRAW
@@ -664,11 +664,11 @@ X Vcc 3 300 -150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_FCR684205T
+# FCR684205T
 #
-DEF smd_aio-rescue_FCR684205T P 0 40 Y Y 1 F N
+DEF FCR684205T P 0 40 Y Y 1 F N
 F0 "P" 50 -550 60 H V C CNN
-F1 "smd_aio-rescue_FCR684205T" 50 0 60 H V C CNN
+F1 "FCR684205T" 50 0 60 H V C CNN
 F2 "" 50 0 60 H I C CNN
 F3 "" 50 0 60 H I C CNN
 DRAW
@@ -680,11 +680,11 @@ X Vin 3 -300 -300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_FILTER
+# FILTER
 #
-DEF smd_aio-rescue_FILTER FB 0 40 Y N 1 F N
+DEF FILTER FB 0 40 Y N 1 F N
 F0 "FB" 0 150 50 H V C CNN
-F1 "smd_aio-rescue_FILTER" 0 -100 50 H V C CNN
+F1 "FILTER" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -699,11 +699,11 @@ X 2 2 350 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_GND
+# GND
 #
-DEF smd_aio-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "smd_aio-rescue_GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -712,11 +712,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_IDT2309NZ
+# IDT2309NZ
 #
-DEF smd_aio-rescue_IDT2309NZ U 0 40 Y Y 1 F N
+DEF IDT2309NZ U 0 40 Y Y 1 F N
 F0 "U" -200 450 60 H V C CNN
-F1 "smd_aio-rescue_IDT2309NZ" 50 -750 60 H V C CNN
+F1 "IDT2309NZ" 50 -750 60 H V C CNN
 F2 "" 0 -350 60 H I C CNN
 F3 "" 0 -350 60 H I C CNN
 DRAW
@@ -740,11 +740,11 @@ X GND 9 -450 -550 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_Inductor
+# Inductor
 #
-DEF smd_aio-rescue_Inductor L 0 0 N N 1 F N
+DEF Inductor L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "smd_aio-rescue_Inductor" 0 -50 50 H V C CNN
+F1 "Inductor" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -757,11 +757,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_LED
+# LED
 #
-DEF smd_aio-rescue_LED D 0 40 Y N 1 F N
+DEF LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "smd_aio-rescue_LED" 0 -100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -783,11 +783,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_LM284x
+# LM284x
 #
-DEF smd_aio-rescue_LM284x U 0 40 Y Y 1 F N
+DEF LM284x U 0 40 Y Y 1 F N
 F0 "U" 250 300 60 H V C CNN
-F1 "smd_aio-rescue_LM284x" -100 300 60 H V C CNN
+F1 "LM284x" -100 300 60 H V C CNN
 F2 "" 50 0 60 H V C CNN
 F3 "" 50 0 60 H V C CNN
 DRAW
@@ -801,11 +801,11 @@ X SW 6 500 0 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_NMOS_GSD
+# NMOS_GSD
 #
-DEF smd_aio-rescue_NMOS_GSD Q 0 0 Y N 1 F N
+DEF NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "smd_aio-rescue_NMOS_GSD" 600 -50 50 H V R CNN
+F1 "NMOS_GSD" 600 -50 50 H V R CNN
 F2 "" 200 100 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -827,11 +827,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_POT
+# POT
 #
-DEF smd_aio-rescue_POT RV 0 40 Y N 1 F N
+DEF POT RV 0 40 Y N 1 F N
 F0 "RV" 0 -100 50 H V C CNN
-F1 "smd_aio-rescue_POT" 0 0 50 H V C CNN
+F1 "POT" 0 0 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -843,11 +843,11 @@ X 3 3 250 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_PWR_FLAG
+# PWR_FLAG
 #
-DEF smd_aio-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 95 50 H I C CNN
-F1 "smd_aio-rescue_PWR_FLAG" 0 180 50 H V C CNN
+F1 "PWR_FLAG" 0 180 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -856,11 +856,11 @@ X pwr 1 0 0 0 U 20 20 0 0 w
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_Q_PNP_BCE
+# Q_PNP_BCE
 #
-DEF smd_aio-rescue_Q_PNP_BCE Q 0 0 Y N 1 F N
+DEF Q_PNP_BCE Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "smd_aio-rescue_Q_PNP_BCE" 600 -50 50 H V R CNN
+F1 "Q_PNP_BCE" 600 -50 50 H V R CNN
 F2 "" 200 100 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -875,11 +875,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_R
+# R
 #
-DEF smd_aio-rescue_R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "smd_aio-rescue_R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -893,11 +893,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_RCA_01
+# RCA_01
 #
-DEF smd_aio-rescue_RCA_01 J 0 40 Y N 1 F N
+DEF RCA_01 J 0 40 Y N 1 F N
 F0 "J" -50 -100 60 H V C CNN
-F1 "smd_aio-rescue_RCA_01" -50 200 60 H V C CNN
+F1 "RCA_01" -50 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -913,11 +913,11 @@ X GND 2 300 -50 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_SMAJ28A
+# SMAJ28A
 #
-DEF smd_aio-rescue_SMAJ28A D 0 40 Y Y 1 F N
+DEF SMAJ28A D 0 40 Y Y 1 F N
 F0 "D" 0 0 60 H V C CNN
-F1 "smd_aio-rescue_SMAJ28A" 0 -260 60 H V C CNN
+F1 "SMAJ28A" 0 -260 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -930,11 +930,11 @@ X ~ 2 -290 -130 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_SN74LVC14ADG4
+# SN74LVC14ADG4
 #
-DEF smd_aio-rescue_SN74LVC14ADG4 U 0 40 Y Y 1 F N
+DEF SN74LVC14ADG4 U 0 40 Y Y 1 F N
 F0 "U" -50 -350 60 H V C CNN
-F1 "smd_aio-rescue_SN74LVC14ADG4" -100 450 60 H V C CNN
+F1 "SN74LVC14ADG4" -100 450 60 H V C CNN
 F2 "" -100 450 60 H V C CNN
 F3 "" -100 450 60 H V C CNN
 DRAW
@@ -956,11 +956,11 @@ X 4A 9 200 -150 80 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_STDCONN
+# STDCONN
 #
-DEF smd_aio-rescue_STDCONN P 0 1 Y Y 1 F N
+DEF STDCONN P 0 1 Y Y 1 F N
 F0 "P" 0 450 50 H V C CNN
-F1 "smd_aio-rescue_STDCONN" 0 -450 50 H V C CNN
+F1 "STDCONN" 0 -450 50 H V C CNN
 F2 "" 0 -1200 60 H V C CNN
 F3 "" 0 -1200 60 H V C CNN
 $FPLIST
@@ -1006,11 +1006,11 @@ X LRCLK 9 -300 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_SW_PUSH
+# SW_PUSH
 #
-DEF smd_aio-rescue_SW_PUSH SW 0 40 N N 1 F N
+DEF SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "smd_aio-rescue_SW_PUSH" 0 -80 50 H V C CNN
+F1 "SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1021,11 +1021,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_TAS5760MDCAR
+# TAS5760MDCAR
 #
-DEF smd_aio-rescue_TAS5760MDCAR U 0 40 Y Y 1 F N
+DEF TAS5760MDCAR U 0 40 Y Y 1 F N
 F0 "U" 200 -1300 60 H V C TNN
-F1 "smd_aio-rescue_TAS5760MDCAR" 0 1300 60 H V C CNN
+F1 "TAS5760MDCAR" 0 1300 60 H V C CNN
 F2 "" 100 -100 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1083,11 +1083,11 @@ X DVDD 9 -700 350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_TST
+# TST
 #
-DEF smd_aio-rescue_TST P 0 40 N N 1 F N
+DEF TST P 0 40 N N 1 F N
 F0 "P" 0 300 50 H V C BNN
-F1 "smd_aio-rescue_TST" 0 250 50 H V C CNN
+F1 "TST" 0 250 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -1096,11 +1096,11 @@ X ~ 1 0 0 100 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_Transformer_1P_1S_DA101MC
+# Transformer_1P_1S_DA101MC
 #
-DEF smd_aio-rescue_Transformer_1P_1S_DA101MC T 0 40 Y N 1 F N
+DEF Transformer_1P_1S_DA101MC T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
-F1 "smd_aio-rescue_Transformer_1P_1S_DA101MC" 0 -300 50 H V C CNN
+F1 "Transformer_1P_1S_DA101MC" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1133,11 +1133,11 @@ X PM 6 400 200 300 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_VCC
+# VCC
 #
-DEF smd_aio-rescue_VCC #PWR 0 0 Y Y 1 F P
+DEF VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "smd_aio-rescue_VCC" 0 150 50 H V C CNN
+F1 "VCC" 0 150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -1147,11 +1147,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# smd_aio-rescue_VIN
+# VIN
 #
-DEF smd_aio-rescue_VIN #PWR 0 0 Y Y 1 F P
+DEF VIN #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "smd_aio-rescue_VIN" 0 140 50 H V C CNN
+F1 "VIN" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW

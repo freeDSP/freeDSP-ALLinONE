@@ -1,0 +1,8 @@
+0 ICSigma100In1 O_C158_A0_P1_out Link5 O_C158_A0_P2_out Link4 O_C158_A0_P3_out Link3 O_C158_A0_P4_out Link2
+1 stereomux1940ns2 I_C225_A0_P3_in Link5 I_C225_A0_P4_in Link4 I_C225_A0_P5_in Link3 I_C225_A0_P6_in Link2 O_C225_A0_P1_out Link9 O_C225_A0_P2_out Link8
+2 CrossoverFilter3WayAlgSP1 I_C2_A0_P1_in Link8 O_C2_A0_P3_out Link10
+3 SWGain1940DBAlg1 I_C181_A0_P1_in Link9 I_C181_A0_P3_in Link10 I_C181_A0_P5_in Link9 I_C181_A0_P7_in Link10 O_C181_A0_P2_out Link7 O_C181_A0_P4_out Link6 O_C181_A0_P6_out Link0 O_C181_A0_P8_out Link1
+4 ICSigma100Out1 I_C197_A0_P1_in Link0
+5 ICSigma100Out4 I_C223_A0_P1_in Link1
+6 ICSigma100Out3 I_C221_A0_P1_in Link6
+7 ICSigma100Out2 I_C0_A0_P1_in Link7

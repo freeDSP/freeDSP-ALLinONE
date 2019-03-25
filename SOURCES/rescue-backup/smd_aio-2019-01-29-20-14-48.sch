@@ -1,6 +1,29 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
+LIBS:MyLibrary
+LIBS:Polarized_Cap
+LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
+LIBS:smd_aio-lib
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +38,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smd_aio-rescue:ADAU1701 U1
+L ADAU1701 U1
 U 1 1 5AF566F0
 P 3960 3240
 F 0 "U1" H 2950 4360 40  0000 C CNN
@@ -26,7 +49,7 @@ F 3 "" H 3960 3490 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR01
+L GND #PWR01
 U 1 1 5AF5849C
 P 3810 4540
 F 0 "#PWR01" H 3810 4290 50  0001 C CNN
@@ -37,7 +60,7 @@ F 3 "" H 3810 4540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR02
+L +3V3 #PWR02
 U 1 1 5AF5861A
 P 2260 4300
 F 0 "#PWR02" H 2260 4150 50  0001 C CNN
@@ -48,7 +71,7 @@ F 3 "" H 2260 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:SW_PUSH SW1
+L SW_PUSH SW1
 U 1 1 5AF588C4
 P 1120 4110
 F 0 "SW1" H 1270 4220 50  0000 C CNN
@@ -59,7 +82,7 @@ F 3 "" H 1120 4110 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R1
+L R R1
 U 1 1 5AF5896A
 P 1440 3750
 F 0 "R1" V 1520 3750 50  0000 C CNN
@@ -70,7 +93,7 @@ F 3 "" H 1440 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR03
+L +3V3 #PWR03
 U 1 1 5AF58CA3
 P 1440 3400
 F 0 "#PWR03" H 1440 3250 50  0001 C CNN
@@ -81,7 +104,7 @@ F 3 "" H 1440 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C1
+L C C1
 U 1 1 5AF5894F
 P 1440 4400
 F 0 "C1" H 1465 4500 50  0000 L CNN
@@ -92,7 +115,7 @@ F 3 "" H 1440 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR04
+L GND #PWR04
 U 1 1 5AF5917F
 P 1110 4590
 F 0 "#PWR04" H 1110 4340 50  0001 C CNN
@@ -107,7 +130,7 @@ BRD_RST
 Text Notes 880  5010 0    99   ~ 20
 Reset-Switch
 $Comp
-L smd_aio-rescue:C C4
+L C C4
 U 1 1 5AF5E0B9
 P 3240 1760
 F 0 "C4" H 3265 1860 50  0000 L CNN
@@ -118,7 +141,7 @@ F 3 "" H 3240 1760 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C3
+L C C3
 U 1 1 5AF5E174
 P 3240 1470
 F 0 "C3" H 3265 1570 50  0000 L CNN
@@ -129,7 +152,7 @@ F 3 "" H 3240 1470 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:CP C2
+L CP C2
 U 1 1 5AF5E40D
 P 3240 1200
 F 0 "C2" H 3265 1300 50  0000 L CNN
@@ -140,7 +163,7 @@ F 3 "" H 3240 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:Q_PNP_BCE Q5
+L Q_PNP_BCE Q5
 U 1 1 5AF5E48C
 P 3840 1300
 F 0 "Q5" H 4040 1350 50  0000 L CNN
@@ -151,7 +174,7 @@ F 3 "" H 3840 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG05
+L PWR_FLAG #FLG05
 U 1 1 5AF5E54D
 P 3520 1050
 F 0 "#FLG05" H 3520 1125 50  0001 C CNN
@@ -162,7 +185,7 @@ F 3 "" H 3520 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R6
+L R R6
 U 1 1 5AF5E631
 P 4080 1700
 F 0 "R6" V 4160 1700 50  0000 C CNN
@@ -173,7 +196,7 @@ F 3 "" H 4080 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CP C5
+L CP C5
 U 1 1 5AF5E6A0
 P 4560 1300
 F 0 "C5" H 4585 1400 50  0000 L CNN
@@ -184,7 +207,7 @@ F 3 "" H 4560 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C6
+L C C6
 U 1 1 5AF5E703
 P 4570 1570
 F 0 "C6" H 4595 1670 50  0000 L CNN
@@ -197,7 +220,7 @@ $EndComp
 Text Notes 4340 1250 3    63   ~ 0
 <1% tolerance
 $Comp
-L smd_aio-rescue:GND #PWR06
+L GND #PWR06
 U 1 1 5AF5EBA0
 P 2890 1860
 F 0 "#PWR06" H 2890 1610 50  0001 C CNN
@@ -208,7 +231,7 @@ F 3 "" H 2890 1860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR07
+L GND #PWR07
 U 1 1 5AF5F3FC
 P 4720 1750
 F 0 "#PWR07" H 4720 1500 50  0001 C CNN
@@ -219,7 +242,7 @@ F 3 "" H 4720 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR08
+L +3V3 #PWR08
 U 1 1 5AF5F524
 P 4080 1010
 F 0 "#PWR08" H 4080 860 50  0001 C CNN
@@ -230,7 +253,7 @@ F 3 "" H 4080 1010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C8
+L C C8
 U 1 1 5AF5F9EF
 P 5240 1420
 F 0 "C8" H 5265 1520 50  0000 L CNN
@@ -241,7 +264,7 @@ F 3 "" H 5240 1420 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C9
+L C C9
 U 1 1 5AF5FA66
 P 5240 1660
 F 0 "C9" H 5265 1760 50  0000 L CNN
@@ -252,7 +275,7 @@ F 3 "" H 5240 1660 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C10
+L C C10
 U 1 1 5AF5FAF2
 P 5240 1900
 F 0 "C10" H 5265 2000 50  0000 L CNN
@@ -263,7 +286,7 @@ F 3 "" H 5240 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:CP C7
+L CP C7
 U 1 1 5AF5FB7C
 P 5240 1140
 F 0 "C7" H 5265 1240 50  0000 L CNN
@@ -274,7 +297,7 @@ F 3 "" H 5240 1140 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR09
+L +3V3 #PWR09
 U 1 1 5AF5FC64
 P 5010 1030
 F 0 "#PWR09" H 5010 880 50  0001 C CNN
@@ -285,7 +308,7 @@ F 3 "" H 5010 1030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR010
+L GND #PWR010
 U 1 1 5AF60393
 P 5470 2010
 F 0 "#PWR010" H 5470 1760 50  0001 C CNN
@@ -296,7 +319,7 @@ F 3 "" H 5470 2010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR011
+L GND #PWR011
 U 1 1 5AF61085
 P 5300 2320
 F 0 "#PWR011" H 5300 2070 50  0001 C CNN
@@ -310,7 +333,7 @@ NoConn ~ 5200 2420
 Text GLabel 5300 2520 2    99   Input ~ 0
 MCLK0
 $Comp
-L smd_aio-rescue:+3V3 #PWR012
+L +3V3 #PWR012
 U 1 1 5AF61622
 P 7360 1920
 F 0 "#PWR012" H 7360 1770 50  0001 C CNN
@@ -321,7 +344,7 @@ F 3 "" H 7360 1920 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R10
+L R R10
 U 1 1 5AF61654
 P 7360 2200
 F 0 "R10" V 7440 2200 50  0000 C CNN
@@ -332,7 +355,7 @@ F 3 "" H 7360 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C18
+L C C18
 U 1 1 5AF616C9
 P 6980 2620
 F 0 "C18" H 7005 2720 50  0000 L CNN
@@ -343,7 +366,7 @@ F 3 "" H 6980 2620 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C19
+L C C19
 U 1 1 5AF61742
 P 7360 2620
 F 0 "C19" H 7385 2720 50  0000 L CNN
@@ -354,7 +377,7 @@ F 3 "" H 7360 2620 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C16
+L C C16
 U 1 1 5AF6284E
 P 6490 3120
 F 0 "C16" H 6515 3220 50  0000 L CNN
@@ -365,7 +388,7 @@ F 3 "" H 6490 3120 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CP C13
+L CP C13
 U 1 1 5AF628EF
 P 6190 3120
 F 0 "C13" H 6215 3220 50  0000 L CNN
@@ -376,7 +399,7 @@ F 3 "" H 6190 3120 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR013
+L +3V3 #PWR013
 U 1 1 5AF62B91
 P 5630 3100
 F 0 "#PWR013" H 5630 2950 50  0001 C CNN
@@ -387,7 +410,7 @@ F 3 "" H 5630 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR014
+L GND #PWR014
 U 1 1 5AF62DEB
 P 6330 3400
 F 0 "#PWR014" H 6330 3150 50  0001 C CNN
@@ -406,7 +429,7 @@ VOUT1
 Text GLabel 5300 3570 2    51   Output ~ 0
 VOUT0
 $Comp
-L smd_aio-rescue:C C11
+L C C11
 U 1 1 5AF643A3
 P 5660 4030
 F 0 "C11" H 5685 4130 50  0000 L CNN
@@ -417,7 +440,7 @@ F 3 "" H 5660 4030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C12
+L C C12
 U 1 1 5AF6488A
 P 5990 4030
 F 0 "C12" H 6015 4130 50  0000 L CNN
@@ -428,7 +451,7 @@ F 3 "" H 5990 4030 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C15
+L C C15
 U 1 1 5AF65154
 P 6460 3890
 F 0 "C15" H 6485 3990 50  0000 L CNN
@@ -439,7 +462,7 @@ F 3 "" H 6460 3890 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C17
+L C C17
 U 1 1 5AF65217
 P 6790 3890
 F 0 "C17" H 6815 3990 50  0000 L CNN
@@ -450,7 +473,7 @@ F 3 "" H 6790 3890 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR015
+L GND #PWR015
 U 1 1 5AF65EEC
 P 5830 4270
 F 0 "#PWR015" H 5830 4020 50  0001 C CNN
@@ -461,7 +484,7 @@ F 3 "" H 5830 4270 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR016
+L GND #PWR016
 U 1 1 5AF6610B
 P 6620 4140
 F 0 "#PWR016" H 6620 3890 50  0001 C CNN
@@ -476,7 +499,7 @@ ADC0
 Text GLabel 5270 4070 2    55   Input ~ 0
 ADC1
 $Comp
-L smd_aio-rescue:R R8
+L R R8
 U 1 1 5AF66F49
 P 5290 4370
 F 0 "R8" V 5370 4370 50  0000 C CNN
@@ -487,7 +510,7 @@ F 3 "" H 5290 4370 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR017
+L GND #PWR017
 U 1 1 5AF67123
 P 5290 4570
 F 0 "#PWR017" H 5290 4320 50  0001 C CNN
@@ -507,7 +530,7 @@ Text GLabel 2660 3960 0    52   BiDi ~ 0
 SCL
 NoConn ~ 2720 3660
 $Comp
-L smd_aio-rescue:GND #PWR018
+L GND #PWR018
 U 1 1 5AF99B44
 P 2330 3620
 F 0 "#PWR018" H 2330 3370 50  0001 C CNN
@@ -538,7 +561,7 @@ MP1
 Text GLabel 2075 2310 0    52   Input ~ 0
 MP0
 $Comp
-L smd_aio-rescue:NMOS_GSD Q1
+L NMOS_GSD Q1
 U 1 1 5AF9C40D
 P 1990 6410
 F 0 "Q1" H 2290 6460 50  0000 R CNN
@@ -549,7 +572,7 @@ F 3 "" H 1990 6410 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:NMOS_GSD Q2
+L NMOS_GSD Q2
 U 1 1 5AF9C80E
 P 2000 7320
 F 0 "Q2" H 2300 7370 50  0000 R CNN
@@ -560,7 +583,7 @@ F 3 "" H 2000 7320 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:NMOS_GSD Q3
+L NMOS_GSD Q3
 U 1 1 5AF9C91F
 P 2000 8210
 F 0 "Q3" H 2300 8260 50  0000 R CNN
@@ -571,7 +594,7 @@ F 3 "" H 2000 8210 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:NMOS_GSD Q4
+L NMOS_GSD Q4
 U 1 1 5AF9CA27
 P 2000 8990
 F 0 "Q4" H 2300 9040 50  0000 R CNN
@@ -590,7 +613,7 @@ WP
 Text GLabel 1580 9090 0    52   BiDi ~ 0
 BRD_RST
 $Comp
-L smd_aio-rescue:R R4
+L R R4
 U 1 1 5AFA0812
 P 2430 6280
 F 0 "R4" V 2510 6280 50  0000 C CNN
@@ -601,7 +624,7 @@ F 3 "" H 2430 6280 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+5V #PWR019
+L +5V #PWR019
 U 1 1 5AFA0895
 P 2430 5770
 F 0 "#PWR019" H 2430 5620 50  0001 C CNN
@@ -612,7 +635,7 @@ F 3 "" H 2430 5770 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_01X06 P1
+L CONN_01X06 P1
 U 1 1 5AFA08E5
 P 3540 6660
 F 0 "P1" H 3540 7010 50  0000 C CNN
@@ -623,7 +646,7 @@ F 3 "" H 3540 6660 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+5V #PWR020
+L +5V #PWR020
 U 1 1 5AFA0A46
 P 2910 6070
 F 0 "#PWR020" H 2910 5920 50  0001 C CNN
@@ -634,7 +657,7 @@ F 3 "" H 2910 6070 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:D_Schottky D1
+L D_Schottky D1
 U 1 1 5AFA0A91
 P 3160 6260
 F 0 "D1" H 3160 6360 50  0000 C CNN
@@ -645,7 +668,7 @@ F 3 "" H 3160 6260 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG021
+L PWR_FLAG #FLG021
 U 1 1 5AFA0B78
 P 2730 6370
 F 0 "#FLG021" H 2730 6445 50  0001 C CNN
@@ -656,7 +679,7 @@ F 3 "" H 2730 6370 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R5
+L R R5
 U 1 1 5AFA0DF6
 P 2440 7170
 F 0 "R5" V 2520 7170 50  0000 C CNN
@@ -667,7 +690,7 @@ F 3 "" H 2440 7170 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R2
+L R R2
 U 1 1 5AFA118C
 P 2420 8060
 F 0 "R2" V 2500 8060 50  0000 C CNN
@@ -678,7 +701,7 @@ F 3 "" H 2420 8060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R3
+L R R3
 U 1 1 5AFA13F4
 P 2420 8840
 F 0 "R3" V 2500 8840 50  0000 C CNN
@@ -689,7 +712,7 @@ F 3 "" H 2420 8840 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR022
+L GND #PWR022
 U 1 1 5AFA2060
 P 3200 7010
 F 0 "#PWR022" H 3200 6760 50  0001 C CNN
@@ -700,7 +723,7 @@ F 3 "" H 3200 7010 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:VIN #PWR023
+L VIN #PWR023
 U 1 1 5AFA2A53
 P 3160 5900
 F 0 "#PWR023" H 3160 5750 50  0001 C CNN
@@ -711,7 +734,7 @@ F 3 "" H 3160 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+5V #PWR024
+L +5V #PWR024
 U 1 1 5AFA5CA8
 P 2440 6840
 F 0 "#PWR024" H 2440 6690 50  0001 C CNN
@@ -722,7 +745,7 @@ F 3 "" H 2440 6840 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+5V #PWR025
+L +5V #PWR025
 U 1 1 5AFA89A6
 P 2420 7760
 F 0 "#PWR025" H 2420 7610 50  0001 C CNN
@@ -733,7 +756,7 @@ F 3 "" H 2420 7760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+5V #PWR026
+L +5V #PWR026
 U 1 1 5AFAE0E4
 P 2420 8540
 F 0 "#PWR026" H 2420 8390 50  0001 C CNN
@@ -746,7 +769,7 @@ $EndComp
 Text Notes 1670 5470 0    99   ~ 20
 Arduino Programming
 $Comp
-L smd_aio-rescue:CONN_02X05 P4
+L CONN_02X05 P4
 U 1 1 5AFB2C81
 P 5160 5780
 F 0 "P4" H 5160 6080 50  0000 C CNN
@@ -763,7 +786,7 @@ SCL
 Text GLabel 5640 5780 2    52   Output ~ 0
 BRD_RST
 $Comp
-L smd_aio-rescue:D_Schottky D2
+L D_Schottky D2
 U 1 1 5AFB9AC0
 P 5640 5530
 F 0 "D2" H 5640 5630 50  0000 C CNN
@@ -774,7 +797,7 @@ F 3 "" H 5640 5530 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG027
+L PWR_FLAG #FLG027
 U 1 1 5AFBA6DC
 P 5970 5680
 F 0 "#FLG027" H 5970 5755 50  0001 C CNN
@@ -790,7 +813,7 @@ NoConn ~ 4910 5880
 NoConn ~ 4910 5980
 NoConn ~ 5410 5880
 $Comp
-L smd_aio-rescue:GND #PWR028
+L GND #PWR028
 U 1 1 5AFBC6FE
 P 5550 6040
 F 0 "#PWR028" H 5550 5790 50  0001 C CNN
@@ -803,7 +826,7 @@ $EndComp
 Text Notes 4590 5140 0    114  ~ 23
 USBi Connector
 $Comp
-L smd_aio-rescue:CONN_01X03 P3
+L CONN_01X03 P3
 U 1 1 5AFBEB41
 P 4560 7340
 F 0 "P3" H 4560 7540 50  0000 C CNN
@@ -814,7 +837,7 @@ F 3 "" H 4560 7340 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR029
+L +3V3 #PWR029
 U 1 1 5AFBECCA
 P 4940 6600
 F 0 "#PWR029" H 4940 6450 50  0001 C CNN
@@ -825,7 +848,7 @@ F 3 "" H 4940 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R7
+L R R7
 U 1 1 5AFBED2A
 P 4940 6890
 F 0 "R7" V 5020 6890 50  0000 C CNN
@@ -838,7 +861,7 @@ $EndComp
 Text GLabel 5130 7240 2    52   Input ~ 0
 WP
 $Comp
-L smd_aio-rescue:+3V3 #PWR030
+L +3V3 #PWR030
 U 1 1 5AFC270D
 P 5920 7020
 F 0 "#PWR030" H 5920 6870 50  0001 C CNN
@@ -849,7 +872,7 @@ F 3 "" H 5920 7020 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C14
+L C C14
 U 1 1 5AFC3209
 P 6270 7060
 F 0 "C14" H 6295 7160 50  0000 L CNN
@@ -860,7 +883,7 @@ F 3 "" H 6270 7060 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R9
+L R R9
 U 1 1 5AFC7165
 P 6950 7480
 F 0 "R9" V 7030 7480 50  0000 C CNN
@@ -875,7 +898,7 @@ SCL
 Text GLabel 7660 7740 2    52   Input ~ 0
 SDA
 $Comp
-L smd_aio-rescue:+3V3 #PWR031
+L +3V3 #PWR031
 U 1 1 5AFCAFA7
 P 6950 7200
 F 0 "#PWR031" H 6950 7050 50  0001 C CNN
@@ -886,7 +909,7 @@ F 3 "" H 6950 7200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R11
+L R R11
 U 1 1 5AFCD09C
 P 7520 7490
 F 0 "R11" V 7600 7490 50  0000 C CNN
@@ -897,7 +920,7 @@ F 3 "" H 7520 7490 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR032
+L GND #PWR032
 U 1 1 5AFCEE3F
 P 5920 8120
 F 0 "#PWR032" H 5920 7870 50  0001 C CNN
@@ -908,7 +931,7 @@ F 3 "" H 5920 8120 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:24AA256P U2
+L 24AA256P U2
 U 1 1 5AFC1452
 P 5920 7640
 F 0 "U2" H 6070 7990 60  0000 C CNN
@@ -919,7 +942,7 @@ F 3 "" H 5920 7640 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3370 4540 3520 4540
+	3370 4540 4380 4540
 Wire Wire Line
 	3370 4470 3370 4540
 Wire Wire Line
@@ -940,9 +963,9 @@ Wire Wire Line
 Wire Wire Line
 	2720 4300 2720 4210
 Wire Wire Line
-	1440 3900 1440 4110
+	1440 3900 1440 4250
 Wire Wire Line
-	1420 4110 1440 4110
+	1420 4110 2720 4110
 Connection ~ 1440 4110
 Wire Wire Line
 	1440 3400 1440 3600
@@ -951,7 +974,7 @@ Wire Wire Line
 Wire Wire Line
 	740  4110 740  4550
 Wire Wire Line
-	740  4550 1110 4550
+	740  4550 1440 4550
 Wire Wire Line
 	1110 4550 1110 4590
 Connection ~ 1110 4550
@@ -961,17 +984,19 @@ Connection ~ 1840 4110
 Wire Wire Line
 	3090 1200 2890 1200
 Wire Wire Line
-	2890 1200 2890 1470
+	2890 1200 2890 1860
 Wire Wire Line
 	3090 1470 2890 1470
 Connection ~ 2890 1470
 Wire Wire Line
 	3090 1760 2890 1760
+Wire Wire Line
+	2890 1760 2890 1750
 Connection ~ 2890 1750
 Wire Wire Line
-	3390 1200 3520 1200
+	3390 1200 3640 1200
 Wire Wire Line
-	3520 1050 3520 1200
+	3520 1050 3520 2010
 Wire Wire Line
 	3420 2000 3520 2000
 Wire Wire Line
@@ -980,14 +1005,14 @@ Connection ~ 3520 2000
 Wire Wire Line
 	3610 2010 3610 1860
 Wire Wire Line
-	3610 1860 3840 1860
+	3610 1860 4080 1860
 Wire Wire Line
 	4080 1860 4080 1850
 Wire Wire Line
 	3840 1860 3840 1500
 Connection ~ 3840 1860
 Wire Wire Line
-	4410 1100 4410 1300
+	4410 1100 4410 1940
 Wire Wire Line
 	4410 1570 4420 1570
 Connection ~ 4410 1300
@@ -995,18 +1020,18 @@ Wire Wire Line
 	4710 1300 4720 1300
 Connection ~ 4720 1570
 Wire Wire Line
-	4720 1300 4720 1570
+	4720 1300 4720 1750
 Wire Wire Line
 	4410 1940 3920 1940
 Wire Wire Line
 	3920 1940 3920 2010
 Connection ~ 4410 1570
 Wire Wire Line
-	5010 2010 5010 1900
+	5010 2010 5010 1030
 Wire Wire Line
 	5010 1140 5090 1140
 Wire Wire Line
-	4430 2010 4520 2010
+	4430 2010 5010 2010
 Connection ~ 5010 1140
 Connection ~ 4620 2010
 Connection ~ 4520 2010
@@ -1022,7 +1047,7 @@ Connection ~ 5010 1900
 Wire Wire Line
 	5390 1140 5470 1140
 Wire Wire Line
-	5470 1140 5470 1420
+	5470 1140 5470 2010
 Wire Wire Line
 	5390 1900 5470 1900
 Connection ~ 5470 1900
@@ -1035,9 +1060,9 @@ Connection ~ 5470 1420
 Wire Wire Line
 	5200 2320 5300 2320
 Wire Wire Line
-	5200 2520 5250 2520
+	5200 2520 5300 2520
 Wire Wire Line
-	7360 1920 7360 2030
+	7360 1920 7360 2050
 Wire Wire Line
 	7360 2350 7360 2470
 Wire Wire Line
@@ -1046,21 +1071,21 @@ Wire Wire Line
 	6980 2030 7360 2030
 Connection ~ 7360 2030
 Wire Wire Line
-	5200 2820 6980 2820
+	5200 2820 7360 2820
 Wire Wire Line
 	7360 2820 7360 2770
 Wire Wire Line
 	6980 2770 6980 2820
 Connection ~ 6980 2820
 Wire Wire Line
-	5200 2920 6190 2920
+	5200 2920 6490 2920
 Wire Wire Line
 	6490 2920 6490 2970
 Wire Wire Line
 	6190 2920 6190 2970
 Connection ~ 6190 2920
 Wire Wire Line
-	5200 3120 5330 3120
+	5200 3120 5630 3120
 Wire Wire Line
 	5630 3120 5630 3100
 Wire Wire Line
@@ -1071,7 +1096,7 @@ Connection ~ 5330 3120
 Wire Wire Line
 	6190 3270 6190 3340
 Wire Wire Line
-	6190 3340 6330 3340
+	6190 3340 6490 3340
 Wire Wire Line
 	6490 3340 6490 3270
 Wire Wire Line
@@ -1086,14 +1111,14 @@ Wire Wire Line
 Wire Wire Line
 	5200 3570 5300 3570
 Wire Wire Line
-	5200 3820 5660 3820
+	5200 3820 5990 3820
 Wire Wire Line
 	5660 3820 5660 3880
 Wire Wire Line
 	5990 3820 5990 3880
 Connection ~ 5660 3820
 Wire Wire Line
-	5200 3720 6460 3720
+	5200 3720 6790 3720
 Wire Wire Line
 	6460 3720 6460 3740
 Wire Wire Line
@@ -1102,7 +1127,7 @@ Connection ~ 6460 3720
 Wire Wire Line
 	5660 4180 5660 4220
 Wire Wire Line
-	5660 4220 5830 4220
+	5660 4220 5990 4220
 Wire Wire Line
 	5990 4220 5990 4180
 Wire Wire Line
@@ -1111,7 +1136,7 @@ Connection ~ 5830 4220
 Wire Wire Line
 	6460 4040 6460 4090
 Wire Wire Line
-	6460 4090 6620 4090
+	6460 4090 6790 4090
 Wire Wire Line
 	6790 4090 6790 4040
 Wire Wire Line
@@ -1160,7 +1185,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 6910 3200 7010
 Wire Wire Line
-	2730 6410 2910 6410
+	2730 6410 3340 6410
 Wire Wire Line
 	3160 5900 3160 6110
 Wire Wire Line
@@ -1170,10 +1195,10 @@ Wire Wire Line
 	2730 6370 2730 6410
 Connection ~ 2910 6410
 Wire Wire Line
-	2430 5770 2430 5960
+	2430 5770 2430 6130
 Connection ~ 2430 5960
 Wire Wire Line
-	2190 6510 2430 6510
+	2190 6510 3340 6510
 Wire Wire Line
 	1620 6510 1790 6510
 Wire Wire Line
@@ -1184,12 +1209,12 @@ Wire Wire Line
 Wire Wire Line
 	2660 7420 2660 6610
 Wire Wire Line
-	2200 7420 2440 7420
+	2200 7420 2660 7420
 Wire Wire Line
 	2440 7320 2440 7420
 Connection ~ 2440 7420
 Wire Wire Line
-	2440 6840 2440 6910
+	2440 6840 2440 7020
 Wire Wire Line
 	2000 7120 2000 6910
 Wire Wire Line
@@ -1200,7 +1225,7 @@ Wire Wire Line
 Wire Wire Line
 	1570 8310 1800 8310
 Wire Wire Line
-	2200 8310 2420 8310
+	2200 8310 2750 8310
 Connection ~ 2420 8310
 Wire Wire Line
 	2000 8010 2000 7830
@@ -1210,15 +1235,15 @@ Connection ~ 2420 7830
 Wire Wire Line
 	2420 8310 2420 8210
 Wire Wire Line
-	2420 7760 2420 7830
+	2420 7760 2420 7910
 Wire Wire Line
 	2750 8310 2750 6710
 Wire Wire Line
 	2750 6710 3340 6710
 Wire Wire Line
-	2200 9090 2420 9090
+	2200 9090 2850 9090
 Wire Wire Line
-	2420 8540 2420 8590
+	2420 8540 2420 8690
 Wire Wire Line
 	2000 8790 2000 8590
 Wire Wire Line
@@ -1234,7 +1259,7 @@ Wire Wire Line
 	2850 6810 2850 9090
 Connection ~ 2420 9090
 Wire Wire Line
-	5410 5680 5640 5680
+	5410 5680 5970 5680
 Connection ~ 5640 5680
 Wire Wire Line
 	4730 5580 4910 5580
@@ -1249,7 +1274,7 @@ Wire Wire Line
 Wire Wire Line
 	5640 5340 5640 5380
 Wire Wire Line
-	4760 7240 4940 7240
+	4760 7240 5130 7240
 Wire Wire Line
 	4940 7040 4940 7240
 Connection ~ 4940 7240
@@ -1259,9 +1284,9 @@ Wire Wire Line
 	6950 7640 6950 7630
 Connection ~ 6950 7640
 Wire Wire Line
-	6950 7200 6950 7240
+	6950 7200 6950 7330
 Wire Wire Line
-	6620 7740 7520 7740
+	6620 7740 7660 7740
 Wire Wire Line
 	7520 7740 7520 7640
 Connection ~ 7520 7740
@@ -1271,7 +1296,7 @@ Wire Wire Line
 	7520 7240 7520 7340
 Connection ~ 6950 7240
 Wire Wire Line
-	5920 8040 5920 8060
+	5920 8040 5920 8120
 Wire Wire Line
 	4760 7340 5460 7340
 Wire Wire Line
@@ -1281,14 +1306,14 @@ Wire Wire Line
 Wire Wire Line
 	6620 6740 6620 7440
 Wire Wire Line
-	5920 7020 5920 7060
+	5920 7020 5920 7140
 Wire Wire Line
 	6120 7060 5920 7060
 Connection ~ 5920 7060
 Wire Wire Line
-	4760 7440 5070 7440
+	4760 7440 5220 7440
 Wire Wire Line
-	5070 7440 5070 7540
+	5070 7440 5070 8060
 Wire Wire Line
 	5070 7540 5220 7540
 Connection ~ 5070 7440
@@ -1300,11 +1325,11 @@ Wire Wire Line
 Connection ~ 5920 8060
 Connection ~ 5070 7640
 Wire Wire Line
-	6620 7640 6950 7640
+	6620 7640 7100 7640
 Text Notes 5660 6660 0    114  ~ 23
 EEPROM
 $Comp
-L smd_aio-rescue:GND #PWR033
+L GND #PWR033
 U 1 1 5AFD5561
 P 6530 7100
 F 0 "#PWR033" H 6530 6850 50  0001 C CNN
@@ -1355,7 +1380,7 @@ F0 "Clock" 60
 F1 "clock.sch" 60
 $EndSheet
 $Comp
-L smd_aio-rescue:STDCONN P5
+L STDCONN P5
 U 1 1 5B045843
 P 8110 5630
 F 0 "P5" H 8110 6080 50  0000 C CNN
@@ -1394,7 +1419,7 @@ MCLK1
 Wire Wire Line
 	7700 5980 7810 5980
 $Comp
-L smd_aio-rescue:GND #PWR034
+L GND #PWR034
 U 1 1 5B04AA28
 P 8410 6090
 F 0 "#PWR034" H 8410 5840 50  0001 C CNN
@@ -1409,7 +1434,7 @@ Wire Wire Line
 Wire Wire Line
 	7590 5280 7810 5280
 Wire Wire Line
-	8410 5280 8410 5380
+	8410 5280 8410 6090
 Connection ~ 8410 5380
 Connection ~ 8410 5480
 Connection ~ 8410 5580
@@ -1438,7 +1463,7 @@ Wire Wire Line
 Wire Wire Line
 	8940 7560 8980 7560
 $Comp
-L smd_aio-rescue:RCA_01 J1
+L RCA_01 J1
 U 1 1 5B05A031
 P 10370 6510
 F 0 "J1" H 10320 6410 60  0000 C CNN
@@ -1449,7 +1474,7 @@ F 3 "" H 10370 6510 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CP C20
+L CP C20
 U 1 1 5B0604C0
 P 11180 6410
 F 0 "C20" H 11205 6510 50  0000 L CNN
@@ -1460,7 +1485,7 @@ F 3 "" H 11180 6410 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R12
+L R R12
 U 1 1 5B0605AD
 P 10870 6660
 F 0 "R12" V 10950 6660 50  0000 C CNN
@@ -1471,7 +1496,7 @@ F 3 "" H 10870 6660 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR035
+L GND #PWR035
 U 1 1 5B0606C0
 P 10670 7000
 F 0 "#PWR035" H 10670 6750 50  0001 C CNN
@@ -1482,7 +1507,7 @@ F 3 "" H 10670 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_02X04 P7
+L CONN_02X04 P7
 U 1 1 5B060734
 P 11760 6560
 F 0 "P7" H 11760 6810 50  0000 C CNN
@@ -1493,7 +1518,7 @@ F 3 "" H 11760 5360 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R14
+L R R14
 U 1 1 5B060E0D
 P 12430 6410
 F 0 "R14" V 12350 6530 50  0000 C CNN
@@ -1506,9 +1531,9 @@ $EndComp
 Text GLabel 13000 7010 2    55   Output ~ 0
 ADC0
 Wire Wire Line
-	10670 6410 10870 6410
+	10670 6410 11030 6410
 Wire Wire Line
-	10670 6560 10670 6940
+	10670 6560 10670 7000
 Wire Wire Line
 	10870 6510 10870 6410
 Connection ~ 10870 6410
@@ -1518,9 +1543,9 @@ Wire Wire Line
 	10870 6940 10670 6940
 Connection ~ 10670 6940
 Wire Wire Line
-	11330 6410 11420 6410
+	11330 6410 11510 6410
 Wire Wire Line
-	11420 6410 11420 6510
+	11420 6410 11420 6710
 Wire Wire Line
 	11420 6510 11510 6510
 Connection ~ 11420 6410
@@ -1531,7 +1556,7 @@ Wire Wire Line
 	11420 6710 11510 6710
 Connection ~ 11420 6610
 $Comp
-L smd_aio-rescue:R R18
+L R R18
 U 1 1 5B0660AB
 P 12730 6510
 F 0 "R18" V 12770 6670 42  0000 C CNN
@@ -1542,7 +1567,7 @@ F 3 "" H 12730 6510 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R15
+L R R15
 U 1 1 5B0661A6
 P 12430 6610
 F 0 "R15" V 12480 6430 50  0000 C CNN
@@ -1553,7 +1578,7 @@ F 3 "" H 12430 6610 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R19
+L R R19
 U 1 1 5B06628A
 P 12730 6710
 F 0 "R19" V 12810 6710 50  0000 C CNN
@@ -1574,7 +1599,7 @@ Wire Wire Line
 Wire Wire Line
 	12580 6410 12970 6410
 Wire Wire Line
-	12970 6410 12970 6510
+	12970 6410 12970 7010
 Wire Wire Line
 	12970 7010 13000 7010
 Wire Wire Line
@@ -1587,7 +1612,7 @@ Wire Wire Line
 	12880 6710 12970 6710
 Connection ~ 12970 6710
 $Comp
-L smd_aio-rescue:RCA_01 J2
+L RCA_01 J2
 U 1 1 5B06B2FD
 P 10410 7920
 F 0 "J2" H 10360 7820 60  0000 C CNN
@@ -1598,7 +1623,7 @@ F 3 "" H 10410 7920 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CP C21
+L CP C21
 U 1 1 5B06B303
 P 11220 7820
 F 0 "C21" H 11245 7920 50  0000 L CNN
@@ -1609,7 +1634,7 @@ F 3 "" H 11220 7820 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R13
+L R R13
 U 1 1 5B06B309
 P 10910 8070
 F 0 "R13" V 10990 8070 50  0000 C CNN
@@ -1620,7 +1645,7 @@ F 3 "" H 10910 8070 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR036
+L GND #PWR036
 U 1 1 5B06B30F
 P 10710 8410
 F 0 "#PWR036" H 10710 8160 50  0001 C CNN
@@ -1631,7 +1656,7 @@ F 3 "" H 10710 8410 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_02X04 P8
+L CONN_02X04 P8
 U 1 1 5B06B315
 P 11800 7970
 F 0 "P8" H 11800 8220 50  0000 C CNN
@@ -1642,7 +1667,7 @@ F 3 "" H 11800 6770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R16
+L R R16
 U 1 1 5B06B31B
 P 12470 7820
 F 0 "R16" V 12390 7940 50  0000 C CNN
@@ -1655,9 +1680,9 @@ $EndComp
 Text GLabel 13040 8420 2    55   Output ~ 0
 ADC1
 Wire Wire Line
-	10710 7820 10910 7820
+	10710 7820 11070 7820
 Wire Wire Line
-	10710 7970 10710 8350
+	10710 7970 10710 8410
 Wire Wire Line
 	10910 7920 10910 7820
 Connection ~ 10910 7820
@@ -1667,9 +1692,9 @@ Wire Wire Line
 	10910 8350 10710 8350
 Connection ~ 10710 8350
 Wire Wire Line
-	11370 7820 11460 7820
+	11370 7820 11550 7820
 Wire Wire Line
-	11460 7820 11460 7920
+	11460 7820 11460 8120
 Wire Wire Line
 	11460 7920 11550 7920
 Connection ~ 11460 7820
@@ -1680,7 +1705,7 @@ Wire Wire Line
 	11460 8120 11550 8120
 Connection ~ 11460 8020
 $Comp
-L smd_aio-rescue:R R20
+L R R20
 U 1 1 5B06B331
 P 12770 7920
 F 0 "R20" V 12820 8090 50  0000 C CNN
@@ -1691,7 +1716,7 @@ F 3 "" H 12770 7920 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R17
+L R R17
 U 1 1 5B06B337
 P 12470 8020
 F 0 "R17" V 12510 7840 50  0000 C CNN
@@ -1702,7 +1727,7 @@ F 3 "" H 12470 8020 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R21
+L R R21
 U 1 1 5B06B33D
 P 12770 8120
 F 0 "R21" V 12850 8120 50  0000 C CNN
@@ -1723,7 +1748,7 @@ Wire Wire Line
 Wire Wire Line
 	12620 7820 13010 7820
 Wire Wire Line
-	13010 7820 13010 7920
+	13010 7820 13010 8420
 Wire Wire Line
 	13010 8420 13040 8420
 Wire Wire Line
@@ -1752,7 +1777,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2810 2720 2810
 Wire Wire Line
-	2075 2310 2170 2310
+	2075 2310 2720 2310
 Wire Wire Line
 	1990 6210 1990 5960
 Wire Wire Line
@@ -1766,7 +1791,7 @@ Wire Wire Line
 	3390 1760 3520 1760
 Connection ~ 3520 1760
 Wire Wire Line
-	4080 1010 4080 1100
+	4080 1010 4080 1550
 Wire Wire Line
 	4040 1200 4080 1200
 Connection ~ 4080 1200
@@ -1774,7 +1799,7 @@ Wire Wire Line
 	4080 1100 4410 1100
 Connection ~ 4080 1100
 $Comp
-L smd_aio-rescue:CONN_01X04 P2
+L CONN_01X04 P2
 U 1 1 5B1EB9BC
 P 4180 8690
 F 0 "P2" H 4180 8940 50  0000 C CNN
@@ -1785,7 +1810,7 @@ F 3 "" H 4180 8690 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR037
+L +3V3 #PWR037
 U 1 1 5B1ED1B0
 P 3980 8540
 F 0 "#PWR037" H 3980 8390 50  0001 C CNN
@@ -1796,7 +1821,7 @@ F 3 "" H 3980 8540 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR038
+L GND #PWR038
 U 1 1 5B1ED240
 P 3645 8655
 F 0 "#PWR038" H 3645 8405 50  0001 C CNN
@@ -1811,7 +1836,7 @@ Wire Wire Line
 Wire Wire Line
 	3645 8640 3980 8640
 $Comp
-L smd_aio-rescue:TST P16
+L TST P16
 U 1 1 5B217DC8
 P 5250 2525
 F 0 "P16" H 5250 2825 50  0000 C BNN
@@ -1825,7 +1850,7 @@ Wire Wire Line
 	5250 2525 5250 2520
 Connection ~ 5250 2520
 $Comp
-L smd_aio-rescue:TST P23
+L TST P23
 U 1 1 5B240D5A
 P 2170 2270
 F 0 "P23" H 2170 2570 50  0000 C BNN
@@ -1839,7 +1864,7 @@ Wire Wire Line
 	2170 2270 2170 2310
 Connection ~ 2170 2310
 $Comp
-L smd_aio-rescue:VCC #PWR039
+L VCC #PWR039
 U 1 1 5B2D3C23
 P 5640 5340
 F 0 "#PWR039" H 5640 5190 50  0001 C CNN
@@ -1850,7 +1875,7 @@ F 3 "" H 5640 5340 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_02X04 P6
+L CONN_02X04 P6
 U 1 1 5B33B441
 P 9230 7410
 F 0 "P6" H 9230 7660 50  0000 C CNN
@@ -1861,7 +1886,7 @@ F 3 "" H 9230 6210 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:GND #PWR040
+L GND #PWR040
 U 1 1 5B33C668
 P 9525 7635
 F 0 "#PWR040" H 9525 7385 50  0001 C CNN
@@ -1872,7 +1897,7 @@ F 3 "" H 9525 7635 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9525 7260 9525 7360
+	9525 7260 9525 7635
 Wire Wire Line
 	9525 7560 9480 7560
 Wire Wire Line
@@ -1886,7 +1911,7 @@ Wire Wire Line
 Connection ~ 9525 7360
 Connection ~ 3520 1200
 $Comp
-L smd_aio-rescue:VIN #PWR041
+L VIN #PWR041
 U 1 1 5B71C41E
 P 7590 5210
 F 0 "#PWR041" H 7590 5060 50  0001 C CNN
@@ -1896,178 +1921,4 @@ F 3 "" H 7590 5210 60  0000 C CNN
 	1    7590 5210
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3520 4540 3670 4540
-Wire Wire Line
-	3810 4540 4010 4540
-Wire Wire Line
-	3670 4540 3810 4540
-Wire Wire Line
-	4010 4540 4160 4540
-Wire Wire Line
-	4160 4540 4380 4540
-Wire Wire Line
-	1440 4110 1440 4250
-Wire Wire Line
-	1440 4110 1840 4110
-Wire Wire Line
-	1110 4550 1440 4550
-Wire Wire Line
-	1840 4110 2720 4110
-Wire Wire Line
-	3520 2000 3520 2010
-Wire Wire Line
-	3840 1860 4080 1860
-Wire Wire Line
-	4410 1300 4410 1570
-Wire Wire Line
-	4720 1570 4720 1750
-Wire Wire Line
-	4410 1570 4410 1940
-Wire Wire Line
-	5010 1140 5010 1030
-Wire Wire Line
-	4620 2010 5010 2010
-Wire Wire Line
-	4520 2010 4620 2010
-Wire Wire Line
-	5010 1420 5010 1140
-Wire Wire Line
-	5010 1660 5010 1420
-Wire Wire Line
-	5010 1900 5010 1660
-Wire Wire Line
-	5470 1900 5470 2010
-Wire Wire Line
-	5470 1660 5470 1900
-Wire Wire Line
-	5470 1420 5470 1660
-Wire Wire Line
-	7360 2030 7360 2050
-Wire Wire Line
-	6980 2820 7360 2820
-Wire Wire Line
-	6190 2920 6490 2920
-Wire Wire Line
-	5330 3120 5630 3120
-Wire Wire Line
-	6330 3340 6490 3340
-Wire Wire Line
-	5660 3820 5990 3820
-Wire Wire Line
-	6460 3720 6790 3720
-Wire Wire Line
-	5830 4220 5990 4220
-Wire Wire Line
-	6620 4090 6790 4090
-Wire Wire Line
-	3160 6410 3340 6410
-Wire Wire Line
-	2910 6410 3160 6410
-Wire Wire Line
-	2430 5960 2430 6130
-Wire Wire Line
-	2430 6510 3340 6510
-Wire Wire Line
-	2440 7420 2660 7420
-Wire Wire Line
-	2440 6910 2440 7020
-Wire Wire Line
-	2420 8310 2750 8310
-Wire Wire Line
-	2420 7830 2420 7910
-Wire Wire Line
-	2420 8590 2420 8690
-Wire Wire Line
-	2420 9090 2850 9090
-Wire Wire Line
-	5640 5680 5970 5680
-Wire Wire Line
-	4940 7240 5130 7240
-Wire Wire Line
-	6950 7640 7100 7640
-Wire Wire Line
-	7520 7740 7660 7740
-Wire Wire Line
-	6950 7240 6950 7330
-Wire Wire Line
-	5920 7060 5920 7140
-Wire Wire Line
-	5070 7440 5220 7440
-Wire Wire Line
-	5070 7540 5070 7640
-Wire Wire Line
-	5920 8060 5920 8120
-Wire Wire Line
-	5070 7640 5070 8060
-Wire Wire Line
-	8410 5380 8410 5480
-Wire Wire Line
-	8410 5480 8410 5580
-Wire Wire Line
-	8410 5580 8410 5680
-Wire Wire Line
-	8410 5680 8410 5780
-Wire Wire Line
-	8410 5780 8410 5880
-Wire Wire Line
-	8410 5880 8410 5980
-Wire Wire Line
-	8410 5980 8410 6090
-Wire Wire Line
-	10870 6410 11030 6410
-Wire Wire Line
-	10670 6940 10670 7000
-Wire Wire Line
-	11420 6410 11510 6410
-Wire Wire Line
-	11420 6510 11420 6610
-Wire Wire Line
-	11420 6610 11420 6710
-Wire Wire Line
-	12970 6510 12970 6610
-Wire Wire Line
-	12970 6610 12970 6710
-Wire Wire Line
-	12970 6710 12970 7010
-Wire Wire Line
-	10910 7820 11070 7820
-Wire Wire Line
-	10710 8350 10710 8410
-Wire Wire Line
-	11460 7820 11550 7820
-Wire Wire Line
-	11460 7920 11460 8020
-Wire Wire Line
-	11460 8020 11460 8120
-Wire Wire Line
-	13010 7920 13010 8020
-Wire Wire Line
-	13010 8020 13010 8120
-Wire Wire Line
-	13010 8120 13010 8420
-Wire Wire Line
-	3520 1470 3520 1760
-Wire Wire Line
-	3520 1760 3520 2000
-Wire Wire Line
-	4080 1200 4080 1550
-Wire Wire Line
-	4080 1100 4080 1200
-Wire Wire Line
-	5250 2520 5300 2520
-Wire Wire Line
-	2170 2310 2720 2310
-Wire Wire Line
-	9525 7560 9525 7635
-Wire Wire Line
-	9525 7460 9525 7560
-Wire Wire Line
-	9525 7360 9525 7460
-Wire Wire Line
-	3520 1200 3640 1200
-Wire Wire Line
-	3520 1200 3520 1470
-Wire Wire Line
-	2890 1470 2890 1860
 $EndSCHEMATC

@@ -1,6 +1,29 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
+LIBS:MyLibrary
+LIBS:Polarized_Cap
+LIBS:tas5760mdcar
+LIBS:symbols-CS8422-CNZ
+LIBS:symbols_CS8406-CZZ
+LIBS:smd_aio-lib
+LIBS:fdsp_device_new
+LIBS:fdsp_digital_new
+LIBS:fdsp_linear_new
+LIBS:fdsp_oscillator_new
+LIBS:fdsp_transistor_new
+LIBS:LM2738XMY&slash_NOPB-symbols
 LIBS:smd_aio-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +38,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smd_aio-rescue:LM284x U7
+L LM284x U7
 U 1 1 5B11E9CE
 P 6280 3220
 F 0 "U7" H 6530 3520 60  0000 C CNN
@@ -26,7 +49,7 @@ F 3 "" H 6330 3220 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_01X02 P13
+L CONN_01X02 P13
 U 1 1 5B11EBC4
 P 790 3120
 F 0 "P13" H 790 3270 50  0000 C CNN
@@ -37,7 +60,7 @@ F 3 "" H 790 3120 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L smd_aio-rescue:D_Schottky D6
+L D_Schottky D6
 U 1 1 5B11EBF7
 P 1450 3070
 F 0 "D6" H 1450 3170 50  0000 C CNN
@@ -48,7 +71,7 @@ F 3 "" H 1450 3070 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L smd_aio-rescue:0ZCJ0050AF2E F1
+L 0ZCJ0050AF2E F1
 U 1 1 5B11EE09
 P 2390 2940
 F 0 "F1" H 2160 2700 60  0000 C CNN
@@ -59,7 +82,7 @@ F 3 "" H 2140 2940 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:SMAJ28A D7
+L SMAJ28A D7
 U 1 1 5B11F195
 P 2940 3480
 F 0 "D7" H 2940 3480 60  0000 C CNN
@@ -70,7 +93,7 @@ F 3 "" H 2940 3480 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C60
+L C C60
 U 1 1 5B11F65D
 P 3300 3350
 F 0 "C60" H 3325 3450 50  0000 L CNN
@@ -81,7 +104,7 @@ F 3 "" H 3300 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C61
+L C C61
 U 1 1 5B11F680
 P 3620 3350
 F 0 "C61" H 3645 3450 50  0000 L CNN
@@ -92,7 +115,7 @@ F 3 "" H 3620 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:FILTER FB2
+L FILTER FB2
 U 1 1 5B11FC48
 P 4240 3070
 F 0 "FB2" H 4240 3220 50  0000 C CNN
@@ -103,7 +126,7 @@ F 3 "" H 4240 3070 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CP C62
+L CP C62
 U 1 1 5B11FF36
 P 4900 3340
 F 0 "C62" H 4925 3440 50  0000 L CNN
@@ -114,7 +137,7 @@ F 3 "" H 4900 3340 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C63
+L C C63
 U 1 1 5B120064
 P 5250 3350
 F 0 "C63" H 5275 3450 50  0000 L CNN
@@ -125,7 +148,7 @@ F 3 "" H 5250 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C64
+L C C64
 U 1 1 5B1200BB
 P 5520 3350
 F 0 "C64" H 5545 3450 50  0000 L CNN
@@ -136,7 +159,7 @@ F 3 "" H 5520 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C65
+L C C65
 U 1 1 5B122D9A
 P 7160 3070
 F 0 "C65" H 7185 3170 50  0000 L CNN
@@ -147,7 +170,7 @@ F 3 "" H 7160 3070 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R35
+L R R35
 U 1 1 5B12302F
 P 7040 3610
 F 0 "R35" V 7120 3610 50  0000 C CNN
@@ -158,7 +181,7 @@ F 3 "" H 7040 3610 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:D_Schottky D8
+L D_Schottky D8
 U 1 1 5B12322B
 P 7480 3610
 F 0 "D8" H 7480 3710 50  0000 C CNN
@@ -169,7 +192,7 @@ F 3 "" H 7480 3610 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:Inductor L5
+L Inductor L5
 U 1 1 5B123304
 P 8050 3070
 F 0 "L5" H 8050 3170 50  0000 C CNN
@@ -180,7 +203,7 @@ F 3 "" H 8050 3070 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:R R36
+L R R36
 U 1 1 5B123449
 P 8060 3370
 F 0 "R36" V 8140 3370 50  0000 C CNN
@@ -191,7 +214,7 @@ F 3 "" H 8060 3370 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L smd_aio-rescue:C C66
+L C C66
 U 1 1 5B12369C
 P 8620 3320
 F 0 "C66" H 8645 3420 50  0000 L CNN
@@ -202,7 +225,7 @@ F 3 "" H 8620 3320 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C67
+L C C67
 U 1 1 5B12374C
 P 8930 3320
 F 0 "C67" H 8955 3420 50  0000 L CNN
@@ -213,7 +236,7 @@ F 3 "" H 8930 3320 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:C C68
+L C C68
 U 1 1 5B1237E0
 P 9270 3320
 F 0 "C68" H 9295 3420 50  0000 L CNN
@@ -224,7 +247,7 @@ F 3 "" H 9270 3320 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+3V3 #PWR0107
+L +3V3 #PWR0107
 U 1 1 5B12407E
 P 8930 3030
 F 0 "#PWR0107" H 8930 2880 50  0001 C CNN
@@ -326,7 +349,7 @@ Wire Wire Line
 	8930 3470 8930 3830
 Connection ~ 8930 3830
 $Comp
-L smd_aio-rescue:GND #PWR0108
+L GND #PWR0108
 U 1 1 5B1264D3
 P 7480 3970
 F 0 "#PWR0108" H 7480 3720 50  0001 C CNN
@@ -343,7 +366,7 @@ Wire Wire Line
 	7040 3760 7040 3830
 Connection ~ 7040 3830
 $Comp
-L smd_aio-rescue:VCC #PWR0109
+L VCC #PWR0109
 U 1 1 5B1283A5
 P 4900 3010
 F 0 "#PWR0109" H 4900 2860 50  0001 C CNN
@@ -354,7 +377,7 @@ F 3 "" H 4900 3010 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG0110
+L PWR_FLAG #FLG0110
 U 1 1 5B12846A
 P 5250 3020
 F 0 "#FLG0110" H 5250 3115 50  0001 C CNN
@@ -365,7 +388,7 @@ F 3 "" H 5250 3020 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:+12V #PWR0111
+L +12V #PWR0111
 U 1 1 5B12FB51
 P 1030 3040
 F 0 "#PWR0111" H 1030 2890 50  0001 C CNN
@@ -376,7 +399,7 @@ F 3 "" H 1030 3040 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG0112
+L PWR_FLAG #FLG0112
 U 1 1 5B12FD62
 P 1210 2940
 F 0 "#FLG0112" H 1210 3035 50  0001 C CNN
@@ -395,7 +418,7 @@ Connection ~ 1210 3070
 Wire Wire Line
 	1600 3070 1690 3070
 $Comp
-L smd_aio-rescue:VIN #PWR0113
+L VIN #PWR0113
 U 1 1 5B130AA6
 P 3620 3010
 F 0 "#PWR0113" H 3620 2860 50  0001 C CNN
@@ -406,7 +429,7 @@ F 3 "" H 3620 3010 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:PWR_FLAG #FLG0114
+L PWR_FLAG #FLG0114
 U 1 1 5B130AE0
 P 3300 2990
 F 0 "#FLG0114" H 3300 3085 50  0001 C CNN
@@ -420,7 +443,7 @@ Wire Wire Line
 	2810 3190 2810 3070
 Connection ~ 2810 3070
 $Comp
-L smd_aio-rescue:LED D10
+L LED D10
 U 1 1 5B207F31
 P 9635 3620
 F 0 "D10" H 9635 3720 50  0000 C CNN
@@ -431,7 +454,7 @@ F 3 "" H 9635 3620 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd_aio-rescue:R R46
+L R R46
 U 1 1 5B2080CB
 P 9635 3235
 F 0 "R46" V 9715 3235 50  0000 C CNN
@@ -450,7 +473,7 @@ Connection ~ 9270 3830
 Wire Wire Line
 	9635 3385 9635 3420
 $Comp
-L smd_aio-rescue:TST P20
+L TST P20
 U 1 1 5B2196E9
 P 9270 2980
 F 0 "P20" H 9270 3280 50  0000 C BNN
