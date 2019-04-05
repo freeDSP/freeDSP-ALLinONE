@@ -235,17 +235,17 @@ F 3 "" H 8930 3030 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	990  3070 1300 3070
+	990  3070 1030 3070
 Wire Wire Line
-	2640 3070 3890 3070
+	2640 3070 2810 3070
 Wire Wire Line
-	4590 3070 5780 3070
+	4590 3070 4900 3070
 Wire Wire Line
 	990  3170 1080 3170
 Wire Wire Line
 	1080 3170 1080 3830
 Wire Wire Line
-	1080 3830 9635 3830
+	1080 3830 2810 3830
 Wire Wire Line
 	2810 3760 2810 3830
 Connection ~ 2810 3830
@@ -253,25 +253,25 @@ Wire Wire Line
 	3300 3500 3300 3830
 Connection ~ 3300 3830
 Wire Wire Line
-	3300 2990 3300 3200
+	3300 2990 3300 3070
 Connection ~ 3300 3070
 Wire Wire Line
 	3620 3500 3620 3830
 Connection ~ 3620 3830
 Wire Wire Line
-	3620 3010 3620 3200
+	3620 3010 3620 3070
 Connection ~ 3620 3070
 Wire Wire Line
 	4900 3490 4900 3830
 Connection ~ 4900 3830
 Wire Wire Line
-	4900 3010 4900 3190
+	4900 3010 4900 3070
 Connection ~ 4900 3070
 Wire Wire Line
 	5250 3500 5250 3830
 Connection ~ 5250 3830
 Wire Wire Line
-	5250 3020 5250 3200
+	5250 3020 5250 3070
 Connection ~ 5250 3070
 Wire Wire Line
 	5520 3500 5520 3830
@@ -292,18 +292,18 @@ Connection ~ 5710 3070
 Wire Wire Line
 	6780 3220 7480 3220
 Wire Wire Line
-	7480 3070 7480 3460
+	7480 3070 7480 3220
 Connection ~ 7480 3070
 Wire Wire Line
-	7310 3070 7800 3070
+	7310 3070 7480 3070
 Connection ~ 7480 3220
 Wire Wire Line
-	6780 3370 7910 3370
+	6780 3370 7040 3370
 Wire Wire Line
 	7040 3460 7040 3370
 Connection ~ 7040 3370
 Wire Wire Line
-	8300 3070 9635 3070
+	8300 3070 8350 3070
 Wire Wire Line
 	8210 3370 8350 3370
 Wire Wire Line
@@ -313,10 +313,10 @@ Wire Wire Line
 	8620 3170 8620 3070
 Connection ~ 8620 3070
 Wire Wire Line
-	8930 3030 8930 3170
+	8930 3030 8930 3070
 Connection ~ 8930 3070
 Wire Wire Line
-	9270 2980 9270 3170
+	9270 2980 9270 3070
 Wire Wire Line
 	9270 3830 9270 3470
 Wire Wire Line
@@ -337,7 +337,7 @@ F 3 "" H 7480 3970 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7480 3760 7480 3970
+	7480 3760 7480 3830
 Connection ~ 7480 3830
 Wire Wire Line
 	7040 3760 7040 3830
@@ -460,4 +460,74 @@ F 3 "" H 9270 2980 50  0000 C CNN
 	1    9270 2980
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2810 3830 3300 3830
+Wire Wire Line
+	3300 3830 3620 3830
+Wire Wire Line
+	3300 3070 3620 3070
+Wire Wire Line
+	3300 3070 3300 3200
+Wire Wire Line
+	3620 3830 4900 3830
+Wire Wire Line
+	3620 3070 3620 3200
+Wire Wire Line
+	3620 3070 3890 3070
+Wire Wire Line
+	4900 3830 5250 3830
+Wire Wire Line
+	4900 3070 5250 3070
+Wire Wire Line
+	4900 3070 4900 3190
+Wire Wire Line
+	5250 3830 5520 3830
+Wire Wire Line
+	5250 3070 5250 3200
+Wire Wire Line
+	5250 3070 5520 3070
+Wire Wire Line
+	5520 3830 5780 3830
+Wire Wire Line
+	5520 3070 5710 3070
+Wire Wire Line
+	5780 3830 7040 3830
+Wire Wire Line
+	5710 3070 5780 3070
+Wire Wire Line
+	7480 3070 7800 3070
+Wire Wire Line
+	7480 3220 7480 3460
+Wire Wire Line
+	7040 3370 7910 3370
+Wire Wire Line
+	8350 3070 8620 3070
+Wire Wire Line
+	8620 3070 8930 3070
+Wire Wire Line
+	8930 3070 8930 3170
+Wire Wire Line
+	8930 3070 9270 3070
+Wire Wire Line
+	8620 3830 8930 3830
+Wire Wire Line
+	8930 3830 9270 3830
+Wire Wire Line
+	7480 3830 7480 3970
+Wire Wire Line
+	7480 3830 8620 3830
+Wire Wire Line
+	7040 3830 7480 3830
+Wire Wire Line
+	1030 3070 1210 3070
+Wire Wire Line
+	1210 3070 1300 3070
+Wire Wire Line
+	2810 3070 3300 3070
+Wire Wire Line
+	9270 3070 9270 3170
+Wire Wire Line
+	9270 3070 9635 3070
+Wire Wire Line
+	9270 3830 9635 3830
 $EndSCHEMATC

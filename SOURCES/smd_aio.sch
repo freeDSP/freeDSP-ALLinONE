@@ -967,7 +967,6 @@ Wire Wire Line
 Connection ~ 2890 1470
 Wire Wire Line
 	3090 1760 2890 1760
-Connection ~ 2890 1750
 Wire Wire Line
 	3390 1200 3520 1200
 Wire Wire Line
@@ -1365,10 +1364,8 @@ F 3 "" H 8110 4430 60  0000 C CNN
 	1    8110 5630
 	1    0    0    -1  
 $EndComp
-Text GLabel 7700 5580 0    52   Input ~ 0
+Text GLabel 7075 5475 2    52   Input ~ 0
 MP11
-Text GLabel 7700 5680 0    52   Input ~ 0
-MP10
 Text GLabel 7690 5380 0    52   Input ~ 0
 MP1
 Text GLabel 7690 5480 0    52   Input ~ 0
@@ -1381,10 +1378,6 @@ Wire Wire Line
 	7690 5380 7810 5380
 Wire Wire Line
 	7690 5480 7810 5480
-Wire Wire Line
-	7700 5580 7810 5580
-Wire Wire Line
-	7700 5680 7810 5680
 Wire Wire Line
 	7700 5780 7810 5780
 Wire Wire Line
@@ -2070,4 +2063,46 @@ Wire Wire Line
 	3520 1200 3520 1470
 Wire Wire Line
 	2890 1470 2890 1860
+Text GLabel 6575 5475 0    60   Input ~ 0
+MP5
+Text GLabel 6585 5975 0    60   Input ~ 0
+MP4
+Text GLabel 7085 5975 2    52   Input ~ 0
+MP10
+Wire Wire Line
+	6825 5325 7405 5325
+Wire Wire Line
+	7405 5325 7405 5580
+Wire Wire Line
+	7405 5580 7810 5580
+$Comp
+L freeDSP_Device:JUMPER3 JP1
+U 1 1 5CD585FD
+P 6825 5475
+F 0 "JP1" H 6825 5621 50  0000 C CNN
+F 1 "JUMPER3" H 6825 5712 50  0000 C CNN
+F 2 "freeDSP_Pinheader:Pin_Header_Straight_1x03" H 6825 5475 60  0001 C CNN
+F 3 "" H 6825 5475 60  0000 C CNN
+	1    6825 5475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6825 5325 6825 5375
+$Comp
+L freeDSP_Device:JUMPER3 JP2
+U 1 1 5CD748D3
+P 6835 5975
+F 0 "JP2" H 6835 6121 50  0000 C CNN
+F 1 "JUMPER3" H 6835 6212 50  0000 C CNN
+F 2 "freeDSP_Pinheader:Pin_Header_Straight_1x03" H 6835 5975 60  0001 C CNN
+F 3 "" H 6835 5975 60  0000 C CNN
+	1    6835 5975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6835 5875 7405 5875
+Wire Wire Line
+	7405 5875 7405 5680
+Wire Wire Line
+	7405 5680 7810 5680
 $EndSCHEMATC
