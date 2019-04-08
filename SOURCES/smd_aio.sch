@@ -1475,17 +1475,6 @@ F 3 "" H 10670 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd_aio-rescue:CONN_02X04 P7
-U 1 1 5B060734
-P 11760 6560
-F 0 "P7" H 11760 6810 50  0000 C CNN
-F 1 "CONN_02X04" H 11760 6310 50  0000 C CNN
-F 2 "fdsp_pinheader:Pin_Header_Straight_2x04" H 11760 5360 60  0001 C CNN
-F 3 "" H 11760 5360 60  0000 C CNN
-	1    11760 6560
-	1    0    0    -1  
-$EndComp
-$Comp
 L smd_aio-rescue:R R14
 U 1 1 5B060E0D
 P 12430 6410
@@ -1520,20 +1509,6 @@ Connection ~ 11420 6410
 Wire Wire Line
 	11420 6610 11510 6610
 Connection ~ 11420 6510
-Wire Wire Line
-	11420 6710 11510 6710
-Connection ~ 11420 6610
-$Comp
-L smd_aio-rescue:R R18
-U 1 1 5B0660AB
-P 12730 6510
-F 0 "R18" V 12770 6670 42  0000 C CNN
-F 1 "8k 1%" V 12730 6510 50  0000 C CNN
-F 2 "fdsp_resistor:R_1206_HandSoldering" H 12660 6510 30  0001 C CNN
-F 3 "" H 12730 6510 30  0000 C CNN
-	1    12730 6510
-	0    1    1    0   
-$EndComp
 $Comp
 L smd_aio-rescue:R R15
 U 1 1 5B0661A6
@@ -1548,12 +1523,12 @@ $EndComp
 $Comp
 L smd_aio-rescue:R R19
 U 1 1 5B06628A
-P 12730 6710
-F 0 "R19" V 12810 6710 50  0000 C CNN
-F 1 "10k6 1%" V 12730 6710 50  0000 C CNN
-F 2 "fdsp_resistor:R_1206_HandSoldering" V 12660 6710 30  0001 C CNN
-F 3 "" H 12730 6710 30  0000 C CNN
-	1    12730 6710
+P 12730 6510
+F 0 "R19" V 12810 6510 50  0000 C CNN
+F 1 "10k6 1%" V 12730 6510 50  0000 C CNN
+F 2 "fdsp_resistor:R_1206_HandSoldering" V 12660 6510 30  0001 C CNN
+F 3 "" H 12730 6510 30  0000 C CNN
+	1    12730 6510
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1562,8 +1537,6 @@ Wire Wire Line
 	12010 6510 12580 6510
 Wire Wire Line
 	12010 6610 12280 6610
-Wire Wire Line
-	12010 6710 12580 6710
 Wire Wire Line
 	12580 6410 12970 6410
 Wire Wire Line
@@ -1576,9 +1549,6 @@ Connection ~ 12970 6510
 Wire Wire Line
 	12580 6610 12970 6610
 Connection ~ 12970 6610
-Wire Wire Line
-	12880 6710 12970 6710
-Connection ~ 12970 6710
 $Comp
 L smd_aio-rescue:RCA_01 J2
 U 1 1 5B06B2FD
@@ -1623,28 +1593,6 @@ F 3 "" H 10710 8410 60  0000 C CNN
 	1    10710 8410
 	1    0    0    -1  
 $EndComp
-$Comp
-L smd_aio-rescue:CONN_02X04 P8
-U 1 1 5B06B315
-P 11800 7970
-F 0 "P8" H 11800 8220 50  0000 C CNN
-F 1 "CONN_02X04" H 11800 7720 50  0000 C CNN
-F 2 "fdsp_pinheader:Pin_Header_Straight_2x04" H 11800 6770 60  0001 C CNN
-F 3 "" H 11800 6770 60  0000 C CNN
-	1    11800 7970
-	1    0    0    -1  
-$EndComp
-$Comp
-L smd_aio-rescue:R R16
-U 1 1 5B06B31B
-P 12470 7820
-F 0 "R16" V 12390 7940 50  0000 C CNN
-F 1 "7k 1%" V 12470 7820 50  0000 C CNN
-F 2 "fdsp_resistor:R_1206_HandSoldering" V 12400 7820 30  0001 C CNN
-F 3 "" H 12470 7820 30  0000 C CNN
-	1    12470 7820
-	0    1    1    0   
-$EndComp
 Text GLabel 13040 8420 2    55   Output ~ 0
 ADC1
 Wire Wire Line
@@ -1659,75 +1607,24 @@ Wire Wire Line
 Wire Wire Line
 	10910 8350 10710 8350
 Connection ~ 10710 8350
-Wire Wire Line
-	11370 7820 11460 7820
-Wire Wire Line
-	11460 7820 11460 7920
-Wire Wire Line
-	11460 7920 11550 7920
-Connection ~ 11460 7820
-Wire Wire Line
-	11460 8020 11550 8020
-Connection ~ 11460 7920
-Wire Wire Line
-	11460 8120 11550 8120
-Connection ~ 11460 8020
-$Comp
-L smd_aio-rescue:R R20
-U 1 1 5B06B331
-P 12770 7920
-F 0 "R20" V 12820 8090 50  0000 C CNN
-F 1 "8k 1%" V 12770 7920 50  0000 C CNN
-F 2 "fdsp_resistor:R_1206_HandSoldering" H 12700 7920 30  0001 C CNN
-F 3 "" H 12770 7920 30  0000 C CNN
-	1    12770 7920
-	0    1    1    0   
-$EndComp
-$Comp
-L smd_aio-rescue:R R17
-U 1 1 5B06B337
-P 12470 8020
-F 0 "R17" V 12510 7840 50  0000 C CNN
-F 1 "18k 1%" V 12470 8020 50  0000 C CNN
-F 2 "fdsp_resistor:R_1206_HandSoldering" V 12400 8020 30  0001 C CNN
-F 3 "" H 12470 8020 30  0000 C CNN
-	1    12470 8020
-	0    1    1    0   
-$EndComp
 $Comp
 L smd_aio-rescue:R R21
 U 1 1 5B06B33D
-P 12770 8120
-F 0 "R21" V 12850 8120 50  0000 C CNN
-F 1 "10k6 1%" V 12770 8120 50  0000 C CNN
-F 2 "fdsp_resistor:R_1206_HandSoldering" V 12700 8120 30  0001 C CNN
-F 3 "" H 12770 8120 30  0000 C CNN
-	1    12770 8120
+P 12740 7920
+F 0 "R21" V 12820 7920 50  0000 C CNN
+F 1 "10k6 1%" V 12740 7920 50  0000 C CNN
+F 2 "fdsp_resistor:R_1206_HandSoldering" V 12670 7920 30  0001 C CNN
+F 3 "" H 12740 7920 30  0000 C CNN
+	1    12740 7920
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12050 7820 12320 7820
-Wire Wire Line
-	12050 7920 12620 7920
-Wire Wire Line
-	12050 8020 12320 8020
-Wire Wire Line
-	12050 8120 12620 8120
-Wire Wire Line
 	12620 7820 13010 7820
-Wire Wire Line
-	13010 7820 13010 7920
 Wire Wire Line
 	13010 8420 13040 8420
 Wire Wire Line
-	12920 7920 13010 7920
-Connection ~ 13010 7920
-Wire Wire Line
 	12620 8020 13010 8020
 Connection ~ 13010 8020
-Wire Wire Line
-	12920 8120 13010 8120
-Connection ~ 13010 8120
 Text Notes 10280 5990 0    76   ~ 15
 Input
 Text GLabel 3980 8740 0    52   BiDi ~ 0
@@ -2016,29 +1913,11 @@ Wire Wire Line
 Wire Wire Line
 	11420 6510 11420 6610
 Wire Wire Line
-	11420 6610 11420 6710
-Wire Wire Line
 	12970 6510 12970 6610
-Wire Wire Line
-	12970 6610 12970 6710
-Wire Wire Line
-	12970 6710 12970 7010
 Wire Wire Line
 	10910 7820 11070 7820
 Wire Wire Line
 	10710 8350 10710 8410
-Wire Wire Line
-	11460 7820 11550 7820
-Wire Wire Line
-	11460 7920 11460 8020
-Wire Wire Line
-	11460 8020 11460 8120
-Wire Wire Line
-	13010 7920 13010 8020
-Wire Wire Line
-	13010 8020 13010 8120
-Wire Wire Line
-	13010 8120 13010 8420
 Wire Wire Line
 	3520 1470 3520 1760
 Wire Wire Line
@@ -2105,4 +1984,79 @@ Wire Wire Line
 	7405 5875 7405 5680
 Wire Wire Line
 	7405 5680 7810 5680
+$Comp
+L smd_aio-rescue:R R17
+U 1 1 5B06B337
+P 12470 8020
+F 0 "R17" V 12510 7840 50  0000 C CNN
+F 1 "18k 1%" V 12470 8020 50  0000 C CNN
+F 2 "fdsp_resistor:R_1206_HandSoldering" V 12400 8020 30  0001 C CNN
+F 3 "" H 12470 8020 30  0000 C CNN
+	1    12470 8020
+	0    1    1    0   
+$EndComp
+$Comp
+L smd_aio-rescue:R R16
+U 1 1 5B06B31B
+P 12470 7820
+F 0 "R16" V 12390 7940 50  0000 C CNN
+F 1 "7k 1%" V 12470 7820 50  0000 C CNN
+F 2 "fdsp_resistor:R_1206_HandSoldering" V 12400 7820 30  0001 C CNN
+F 3 "" H 12470 7820 30  0000 C CNN
+	1    12470 7820
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13010 8020 13010 8420
+Wire Wire Line
+	13010 7820 13010 7920
+Wire Wire Line
+	12890 7920 13010 7920
+Connection ~ 13010 7920
+Wire Wire Line
+	13010 7920 13010 8020
+$Comp
+L freeDSP_Pinhead:CONN_02X03 P8
+U 1 1 5CC3CFEA
+P 11810 7920
+F 0 "P8" H 11810 8235 50  0000 C CNN
+F 1 "CONN_02X03" H 11810 8144 50  0000 C CNN
+F 2 "freeDSP_Pinheader:Pin_Header_Straight_2x03" H 11810 8151 60  0001 C CNN
+F 3 "" H 11810 6720 60  0000 C CNN
+	1    11810 7920
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12060 7820 12320 7820
+Wire Wire Line
+	12060 7920 12590 7920
+Wire Wire Line
+	12060 8020 12320 8020
+Wire Wire Line
+	11370 7820 11460 7820
+Wire Wire Line
+	11560 7920 11460 7920
+Wire Wire Line
+	11460 7920 11460 7820
+Connection ~ 11460 7820
+Wire Wire Line
+	11460 7820 11560 7820
+Wire Wire Line
+	11460 7920 11460 8020
+Wire Wire Line
+	11460 8020 11560 8020
+Connection ~ 11460 7920
+Wire Wire Line
+	12970 6610 12970 7010
+$Comp
+L freeDSP_Pinhead:CONN_02X03 P7
+U 1 1 5CD5EFC4
+P 11760 6510
+F 0 "P7" H 11760 6825 50  0000 C CNN
+F 1 "CONN_02X03" H 11760 6734 50  0000 C CNN
+F 2 "freeDSP_Pinheader:Pin_Header_Straight_2x03" H 11760 6741 60  0001 C CNN
+F 3 "" H 11760 5310 60  0000 C CNN
+	1    11760 6510
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
