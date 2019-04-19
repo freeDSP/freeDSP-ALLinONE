@@ -7,11 +7,11 @@ encoding utf-8
 Sheet 4 7
 Title "freeDSP-AiO"
 Date "2018-08-09"
-Rev "V1.0"
+Rev "V1.1"
 Comp "TUD"
 Comment1 "Friedrich, Hoffmann, Kaiser, Schindler"
 Comment2 "Hauptseminar Kommunikationsnetze"
-Comment3 ""
+Comment3 "Revision by Funk"
 Comment4 ""
 $EndDescr
 $Comp

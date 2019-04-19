@@ -7,11 +7,11 @@ encoding utf-8
 Sheet 2 7
 Title "freeDSP-AiO"
 Date "2018-08-09"
-Rev "V1.0"
+Rev "V1.1"
 Comp "TUD"
 Comment1 "Friedrich, Hoffmann, Kaiser, Schindler"
 Comment2 "Hauptseminar Kommunikationsnetze"
-Comment3 ""
+Comment3 "Revision by Funk"
 Comment4 ""
 $EndDescr
 $Comp
@@ -1049,7 +1049,6 @@ F 3 "" H 4215 4465 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4215 4465 4250 4465
-Connection ~ 4250 4460
 $Comp
 L smd_aio-rescue:TST P26
 U 1 1 5B23F295
